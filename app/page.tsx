@@ -43,7 +43,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="bg-red-600 px-8 py-4 rounded-xl font-bold hover:bg-red-700 transition"
         >
-          Buy Tickets
+          Billetterie
         </a>
       </section>
 {/* EVENT */}
@@ -79,10 +79,14 @@ export default function Home() {
     Achetez Vos Billets
   </a>
   
+  <h2 className="text-3xl font-bold mb-6">
+    Calendrier 2026
+  </h2>
+
     {/* Calendar Image */}
   <div className="mt-12">
     <img
-      src="/Images/calendrier-2026.png"  // adjust extension if needed
+      src="/Images/calendrier-2026.png"
       alt="TUW 2026 Event Calendar"
       className="mx-auto rounded-2xl shadow-xl w-full max-w-3xl object-contain"
     />
