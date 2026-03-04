@@ -20,10 +20,10 @@ export default function Home() {
           THETFORD ULTIMATE WRESTLING
         </h1>
         <p className="text-gray-300 mb-8">
-          Québec’s premier independent wrestling promotion.
+          LA PASSION, L'IMPLICATION, LE DÉPASSEMENT
         </p>
         <a
-          href="https://lepointdevente.com/tickets/tuwultimaterevolution2026"
+          href="https://lepointdevente.com/tickets/TUW"
           target="_blank"
           className="bg-red-600 px-8 py-4 rounded-xl font-bold hover:bg-red-700 transition"
         >
@@ -55,12 +55,33 @@ export default function Home() {
           </h2>
           <div className="grid md:grid-cols-3 gap-8 text-center">
             {[
-              "Buxx",
-              "Tony Icon",
+              "Audrey Moreau",
+              "Bryan Gingras",
+              "Buxx Belmar",
+              "Carloss Gonzalez",
+              "Dani Leo",
+              "DGenerate",
               "Dreya Mitchell",
-              "Leah Sparks",
+              "Francis",
+              "Franky The Mobster",
+              "Fred Romeo",
+              "Ghyslain",
+              "Heavy Rox",
+              "Jake 'La Paix' Madison",
               "Jonny Rush",
-              "Shane Pinto",
+              "Kristara",
+              "Leah Sparks",
+              "Marko Estrada",
+              "Minus",
+              "Mister Brown",
+              "Mr. VIP Mitch Thompson",
+              "Muundo",
+              "Pezz",
+              "SeXXXy Eddy",
+              "Tony Icon",
+              "Tyler Nox",
+              "Yan Lambino",
+              "Ziggy McGoth",
             ].map((name) => (
               <div
                 key={name}
@@ -77,7 +98,7 @@ export default function Home() {
       {/* CONTACT */}
       <section id="contact" className="py-20 text-center px-6">
         <h2 className="text-3xl font-bold mb-6">Contact TUW</h2>
-        <p>Email: thetfordultimatewrestling@gmail.com</p>
+        <p>Email: luttetuw@gmail.com</p>
       </section>
 
     </div>
