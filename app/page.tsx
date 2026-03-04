@@ -31,22 +31,39 @@ export default function Home() {
         </a>
       </section>
 
-      {/* EVENT */}
-      <section id="events" className="py-20 max-w-4xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold mb-6">Ultimate Revolution III</h2>
-        <p className="mb-2">April 25, 2026 – 7:00 PM</p>
-        <p className="text-gray-400 mb-6">
-          Centre Récréatif de Robertsonville
-        </p>
-        <a
-          href="https://lepointdevente.com/tickets/tuwultimaterevolution2026"
-          target="_blank"
-          className="bg-white text-black px-6 py-3 rounded-xl font-semibold"
-        >
-          Get Your Seats
-        </a>
-      </section>
+{/* EVENT */}
+<section
+  id="events"
+  className="py-20 max-w-4xl mx-auto px-6 text-center"
+>
+  {/* Event Image */}
+  <div className="mb-8">
+    <img
+      src="/images/Banner_Ultimate_Revolution_2026.png"
+      alt="Ultimate Revolution III Event Poster"
+      className="mx-auto rounded-2xl shadow-2xl w-full max-w-2xl object-cover"
+    />
+  </div>
 
+  <h2 className="text-3xl font-bold mb-6">
+    Ultimate Revolution III
+  </h2>
+
+  <p className="mb-2">April 25, 2026 – 7:00 PM</p>
+
+  <p className="text-gray-400 mb-6">
+    Centre Récréatif de Robertsonville
+  </p>
+
+  <a
+    href="https://lepointdevente.com/tickets/tuwultimaterevolution2026"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-white text-black px-6 py-3 rounded-xl font-semibold inline-block hover:scale-105 transition-transform"
+  >
+    Get Your Seats
+  </a>
+</section>
 {/* ROSTER */}
 <section id="roster" className="py-20 bg-zinc-950 px-6">
   <div className="max-w-6xl mx-auto">
