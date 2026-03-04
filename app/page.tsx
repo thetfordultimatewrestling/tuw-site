@@ -23,7 +23,7 @@ export default function Home() {
           LA PASSION, L'IMPLICATION, LE DÉPASSEMENT
         </p>
         <a
-          href="https://lepointdevente.com/tickets/tuw"
+          href="https://lepointdevente.com/tuw"
           target="_blank"
           className="bg-red-600 px-8 py-4 rounded-xl font-bold hover:bg-red-700 transition"
         >
@@ -90,7 +90,7 @@ export default function Home() {
         >
           {name === "Marko Estrada" ? (
             <img
-              src="public/images/marko-estrada.png"
+              src="images/marko-estrada.png"
               alt="Marko Estrada"
               className="rounded-xl w-full object-contain"
             />
