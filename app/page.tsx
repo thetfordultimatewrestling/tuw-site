@@ -4,8 +4,15 @@ export default function Home() {
       
       {/* NAVBAR */}
       <nav className="fixed top-0 w-full bg-black border-b border-zinc-800 z-50">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between">
-          <h1 className="font-bold text-xl">TUW</h1>
+        <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+          
+          {/* TUW Logo */}
+          <img
+            src="/Images/tuw-logo.png" // change to your logo path
+            alt="TUW Logo"
+            className="h-10 w-auto"
+          />
+
           <div className="space-x-6 hidden md:block">
             <a href="#events">Events</a>
             <a href="#roster">Roster</a>
@@ -16,21 +23,29 @@ export default function Home() {
 
       {/* HERO */}
       <section className="pt-32 pb-24 text-center bg-gradient-to-b from-red-900 to-black">
-        <h1 className="text-5xl font-extrabold mb-6">
-          THETFORD ULTIMATE WRESTLING
-        </h1>
+        
+        {/* Hero Logo Instead of Text */}
+        <div className="mb-8">
+          <img
+            src="/Images/tuw-logo.png" // same logo file
+            alt="Thetford Ultimate Wrestling"
+            className="mx-auto w-full max-w-3xl object-contain"
+          />
+        </div>
+
         <p className="text-gray-300 mb-8">
           LA PASSION, L'IMPLICATION, LE DÉPASSEMENT
         </p>
+
         <a
           href="https://lepointdevente.com/tuw"
           target="_blank"
+          rel="noopener noreferrer"
           className="bg-red-600 px-8 py-4 rounded-xl font-bold hover:bg-red-700 transition"
         >
           Buy Tickets
         </a>
       </section>
-
 {/* EVENT */}
 <section
   id="events"
