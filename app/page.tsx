@@ -54,7 +54,7 @@ export default function Home() {
   {/* Event Image */}
   <div className="mb-8">
     <img
-      src="/images/Banner_Ultimate_Revolution_2026.png"
+      src="/Images/Banner_Ultimate_Revolution_2026.png"
       alt="Ultimate Revolution III Event Poster"
       className="mx-auto rounded-2xl shadow-2xl w-full max-w-2xl object-cover"
     />
@@ -88,56 +88,49 @@ export default function Home() {
 
     <div className="grid md:grid-cols-3 gap-8 text-center">
       {[
-        "Audrey Moreau",
-        "Bryan Gingras",
-        "Buxx Belmar",
-        "Carloss Gonzalez",
-        "Dani Leo",
-        "DGenerate",
-        "Dreya Mitchell",
-        "Francis",
-        "Franky The Mobster",
-        "Fred Romeo",
-        "Ghyslain",
-        "Heavy Rox",
-        "Jake 'La Paix' Madison",
-        "Jonny Rush",
-        "Kristara",
-        "Leah Sparks",
-        "Marko Estrada",
-        "Minus",
-        "Mister Brown",
-        "Mr. VIP Mitch Thompson",
-        "Muundo",
-        "Pezz",
-        "SeXXXy Eddy",
-        "Tony Icon",
-        "Tyler Nox",
-        "Yan Lambino",
-        "Ziggy McGoth",
-      ].map((name) => (
+        { name: "Audrey Moreau", image: "/Images/roster/audrey-moreau.png" },
+        { name: "Bryan Gingras", image: "/Images/roster/bryan-gingras.png" },
+        { name: "Buxx Belmar", image: "/Images/roster/buxx-belmar.png" },
+        { name: "Carloss Gonzalez", image: "/Images/roster/carloss-gonzalez.png" },
+        { name: "Dani Leo", image: "/Images/roster/dani-leo.png" },
+        { name: "DGenerate", image: "/Images/roster/dgenerate.png" },
+        { name: "Dreya Mitchell", image: "/Images/roster/dreya-mitchell.png" },
+        { name: "Francis", image: "/Images/roster/francis.png" },
+        { name: "Franky The Mobster", image: "/Images/roster/franky-the-mobster.png" },
+        { name: "Fred Romeo", image: "/Images/roster/fred-romeo.png" },
+        { name: "Ghyslain", image: "/Images/roster/ghyslain.png" },
+        { name: "Heavy Rox", image: "/Images/roster/heavy-rox.png" },
+        { name: "Jake 'La Paix' Madison", image: "/Images/roster/jake-madison.png" },
+        { name: "Jonny Rush", image: "/Images/roster/jonny-rush.png" },
+        { name: "Kristara", image: "/Images/roster/kristara.png" },
+        { name: "Leah Sparks", image: "/Images/roster/leah-sparks.png" },
+        { name: "Marko Estrada", image: "/Images/roster/marko-estrada.png" },
+        { name: "Minus", image: "/Images/roster/minus.png" },
+        { name: "Mister Brown", image: "/Images/roster/mister-brown.png" },
+        { name: "Mr. VIP Mitch Thompson", Image: "/images/roster/mitch-thompson.png" },
+        { name: "Muundo", image: "/Images/roster/muundo.png" },
+        { name: "Pezz", image: "/Images/roster/pezz.png" },
+        { name: "SeXXXy Eddy", image: "/Images/roster/sexxxy-eddy.png" },
+        { name: "Tony Icon", image: "/Images/roster/tony-icon.png" },
+        { name: "Tyler Nox", image: "/Images/roster/tyler-nox.png" },
+        { name: "Yan Lambino", image: "/Images/roster/yan-lambino.png" },
+        { name: "Ziggy McGoth", image: "/Images/roster/ziggy-mcgoth.png" },
+      ].map((wrestler) => (
         <div
-          key={name}
-          className="bg-zinc-900 p-8 rounded-2xl shadow-xl"
+          key={wrestler.name}
+          className="bg-zinc-900 p-6 rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300"
         >
-          {name === "Marko Estrada" ? (
-            <img
-              src="Images/marko-estrada.png"
-              alt="Marko Estrada"
-              className="rounded-xl w-full object-contain"
-            />
-          ) : (
-            <>
-              <div className="h-40 bg-red-800 rounded-xl mb-4"></div>
-              <h3 className="text-xl font-bold">{name}</h3>
-            </>
-          )}
+          <img
+            src={wrestler.image}
+            alt={wrestler.name}
+            className="rounded-xl w-full h-64 object-contain mb-4"
+          />
+          <h3 className="text-xl font-bold">{wrestler.name}</h3>
         </div>
       ))}
     </div>
   </div>
-</section>
-      {/* CONTACT */}
+</section>      {/* CONTACT */}
       <section id="contact" className="py-20 text-center px-6">
         <h2 className="text-3xl font-bold mb-6">Contact TUW</h2>
         <p>Email: luttetuw@gmail.com</p>
