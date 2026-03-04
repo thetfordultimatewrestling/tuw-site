@@ -8,14 +8,13 @@ export default function Home() {
           
           {/* TUW Logo */}
           <img
-            src="/Images/tuw-logo.png"
+            src="/Images/tuw-logo.png" // change to your logo path
             alt="TUW Logo"
             className="h-10 w-auto"
           />
 
           <div className="space-x-6 hidden md:block">
-            <a href="#spectacles">Spectacles</a>
-            <a href="#calendrier">Calendrier</a>
+            <a href="#events">Events</a>
             <a href="#roster">Roster</a>
             <a href="#contact">Contact</a>
           </div>
@@ -47,13 +46,12 @@ export default function Home() {
           Billetterie
         </a>
       </section>
-      
-{/* SPECTACLES */}
+{/* EVENT */}
 <section
-  id="spectacles"
+  id="events"
   className="py-20 max-w-4xl mx-auto px-6 text-center"
 >
-  {/* Spectacles Image */}
+  {/* Event Image */}
   <div className="mb-8">
     <img
       src="/Images/Banner_Ultimate_Revolution_2026.png"
@@ -70,7 +68,6 @@ export default function Home() {
 
   <p className="text-gray-400 mb-6">
     Centre Récréatif de Robertsonville
-    5885 Avenue du Collège, Thetford Mines, QC
   </p>
 
   <a
@@ -81,17 +78,8 @@ export default function Home() {
   >
     Achetez Vos Billets
   </a>
-      </section>
-    />
-  </div>
-</section>
-
-{/* CALENDRIER */}
-<section
-  id="calendrier"
-  className="py-20 max-w-4xl mx-auto px-6 text-center"
->
-  {/* Calendrier Image */}
+  
+    {/* Calendar Image */}
   <div className="mt-12">
     <img
       src="/Images/calendrier-2026.png"
@@ -100,7 +88,6 @@ export default function Home() {
     />
   </div>
 </section>
-
 {/* ROSTER */}
 <section id="roster" className="py-20 bg-zinc-950 px-6">
   <div className="max-w-6xl mx-auto">
