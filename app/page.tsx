@@ -76,8 +76,17 @@ export default function Home() {
     rel="noopener noreferrer"
     className="bg-white text-black px-6 py-3 rounded-xl font-semibold inline-block hover:scale-105 transition-transform"
   >
-    Get Your Seats
+    Achetez Vos Billets
   </a>
+  
+    {/* Calendar Image */}
+  <div className="mt-12">
+    <img
+      src="/Images/calendrier-2026.png"  // adjust extension if needed
+      alt="TUW 2026 Event Calendar"
+      className="mx-auto rounded-2xl shadow-xl w-full max-w-3xl object-contain"
+    />
+  </div>
 </section>
 {/* ROSTER */}
 <section id="roster" className="py-20 bg-zinc-950 px-6">
@@ -107,7 +116,7 @@ export default function Home() {
         { name: "Marko Estrada", image: "/Images/marko-estrada.png" },
         { name: "Minus", image: "/Images/minus.png" },
         { name: "Mister Brown", image: "/Images/mister-brown.png" },
-        { name: "Mr. VIP Mitch Thompson", Image: "/images/mitch-thompson.png" },
+        { name: "Mr. VIP Mitch Thompson", Image: "/Images/mitch-thompson.png" },
         { name: "Muundo", image: "/Images/muundo.png" },
         { name: "Pezz", image: "/Images/pezz.png" },
         { name: "SeXXXy Eddy", image: "/Images/sexxxy-eddy.png" },
