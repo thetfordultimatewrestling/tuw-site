@@ -47,54 +47,64 @@ export default function Home() {
         </a>
       </section>
 
-      {/* ROSTER */}
-      <section id="roster" className="py-20 bg-zinc-950 px-6">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-10">
-            Featured Talent
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8 text-center">
-            {[
-              "Audrey Moreau",
-              "Bryan Gingras",
-              "Buxx Belmar",
-              "Carloss Gonzalez",
-              "Dani Leo",
-              "DGenerate",
-              "Dreya Mitchell",
-              "Francis",
-              "Franky The Mobster",
-              "Fred Romeo",
-              "Ghyslain",
-              "Heavy Rox",
-              "Jake 'La Paix' Madison",
-              "Jonny Rush",
-              "Kristara",
-              "Leah Sparks",
-              "Marko Estrada",
-              "Minus",
-              "Mister Brown",
-              "Mr. VIP Mitch Thompson",
-              "Muundo",
-              "Pezz",
-              "SeXXXy Eddy",
-              "Tony Icon",
-              "Tyler Nox",
-              "Yan Lambino",
-              "Ziggy McGoth",
-            ].map((name) => (
-              <div
-                key={name}
-                className="bg-zinc-900 p-8 rounded-2xl shadow-xl"
-              >
-                <div className="h-40 bg-red-800 rounded-xl mb-4"></div>
-                <h3 className="text-xl font-bold">{name}</h3>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+{/* ROSTER */}
+<section id="roster" className="py-20 bg-zinc-950 px-6">
+  <div className="max-w-6xl mx-auto">
+    <h2 className="text-3xl font-bold text-center mb-10">
+      Featured Talent
+    </h2>
 
+    <div className="grid md:grid-cols-3 gap-8 text-center">
+      {[
+        "Audrey Moreau",
+        "Bryan Gingras",
+        "Buxx Belmar",
+        "Carloss Gonzalez",
+        "Dani Leo",
+        "DGenerate",
+        "Dreya Mitchell",
+        "Francis",
+        "Franky The Mobster",
+        "Fred Romeo",
+        "Ghyslain",
+        "Heavy Rox",
+        "Jake 'La Paix' Madison",
+        "Jonny Rush",
+        "Kristara",
+        "Leah Sparks",
+        "Marko Estrada",
+        "Minus",
+        "Mister Brown",
+        "Mr. VIP Mitch Thompson",
+        "Muundo",
+        "Pezz",
+        "SeXXXy Eddy",
+        "Tony Icon",
+        "Tyler Nox",
+        "Yan Lambino",
+        "Ziggy McGoth",
+      ].map((name) => (
+        <div
+          key={name}
+          className="bg-zinc-900 p-8 rounded-2xl shadow-xl"
+        >
+          {name === "Marko Estrada" ? (
+            <img
+              src="/images/marko-estrada.png"
+              alt="Marko Estrada"
+              className="rounded-xl w-full object-contain"
+            />
+          ) : (
+            <>
+              <div className="h-40 bg-red-800 rounded-xl mb-4"></div>
+              <h3 className="text-xl font-bold">{name}</h3>
+            </>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
       {/* CONTACT */}
       <section id="contact" className="py-20 text-center px-6">
         <h2 className="text-3xl font-bold mb-6">Contact TUW</h2>
