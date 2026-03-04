@@ -90,7 +90,7 @@ export default function Home() {
         >
           {name === "Marko Estrada" ? (
             <img
-              src="images/marko-estrada.png"
+              src="Images/marko-estrada.png"
               alt="Marko Estrada"
               className="rounded-xl w-full object-contain"
             />
