@@ -149,7 +149,9 @@ export default function Home() {
                 />
                 <div className="text-center md:text-left">
                   <h3 className="text-2xl font-bold mb-2">Champion TUW</h3>
-                  <p className="text-gray-400">Champions depuis bla bla bla.</p>
+                  <p className="text-gray-400">Marko Estrada, ancien des Invincibles avec Franky The Mobster, a trahi son partenaire en s’alliant secrètement à Tony Icon pour devenir champion de la TUW. Après avoir
+                  sécurisé sa chance au titre contre Buxx Belmar, il a remporté l’or, expulsé Tony et Scott Matrix, puis dissous le Icon Club. Il dirige maintenant La Classe Supérieure avec Dreya Mitchell, DGenerate 
+                  et Mitch Thompson. Un clan qui possède tous les titres de la compagnie.</p>
                 </div>
               </div>
 
@@ -162,20 +164,24 @@ export default function Home() {
                 />
                 <div className="text-center md:text-left">
                   <h3 className="text-2xl font-bold mb-2">Champions par Équipe TUW</h3>
-                  <p className="text-gray-400">Champions depuis bla bla bla.</p>
+                  <p className="text-gray-400">À Feast N’ Best 3, Marko Estrada a trahi son partenaire Franky The Mobster en plein combat contre Mitch Thompson et DGenerate, alors membres du Icon Club. Après deux splash
+                  dévastateurs sur Franky, Marko a quitté le ring, laissant FTM inconscient. Mitch et DGenerate en ont profité pour devenir champions par équipe de la TUW.
+                  Aujourd’hui, le Icon Club n’est plus — et Mitch ainsi que DGenerate font désormais partie de La Classe Supérieure aux côtés de Marko Estrada et Dreya Mitchell.</p>
                 </div>
               </div>
 
               {/* Championne Ultimate Wrestling Division */}
               <div className="flex flex-col md:flex-row items-center backdrop-blur-xl bg-zinc-900/60 border border-zinc-800 rounded-3xl p-6 shadow-xl">
                 <img
-                  src="/Images/dreya-championne.png"
+                  src="/Images/dreya-mitchell.png"
                   alt="Championne Ultimate Wrestling Division"
                   className="w-40 h-40 object-cover rounded-2xl mb-6 md:mb-0 md:mr-8"
                 />
                 <div className="text-center md:text-left">
                   <h3 className="text-2xl font-bold mb-2">Championne Ultimate Wrestling Divison</h3>
-                  <p className="text-gray-400">Champions depuis bla bla bla.</p>
+                  <p className="text-gray-400">Le 22 mars 2025 à March Madness IX, Dreya Mitchell est devenue championne de la TUW en battant par surprise Carloss Gonzalez dans le combat le plus court de l’histoire de la TUW. 
+                  Après avoir gagné son contrat à Original Kickoff face à Kacey Diamond et Kristara, elle a manipulé la situation pour frapper au moment parfait. Invaincue depuis novembre 2024, elle détient toujours le titre
+                  et la plus longue séquence de victoires de la compagnie. Elle fait partie du club de Marko Estrada, La Classe Supérieure aux côtés de Mitch Thompson et DGenerate.</p>
                 </div>
               </div>
 
@@ -203,7 +209,7 @@ export default function Home() {
                 { name: "Jonny Rush", image: "/Images/jonny-rush.png" },
                 { name: "Kristara", image: "/Images/kristara.png" },
                 { name: "Leah Sparks", image: "/Images/leah-sparks.png" },
-                { name: "Marko Estrada", image: "/Images/marko-estrada.png" },
+                { name: "Marko Estrada", image: "/Images/marko-champion.png" },
                 { name: "Minus", image: "/Images/minus.png" },
                 { name: "Mister Brown", image: "/Images/mister-brown.png" },
                 { name: "Mr. VIP Mitch Thompson", image: "/Images/mitch-thompson.png" },
