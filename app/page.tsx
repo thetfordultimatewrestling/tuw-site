@@ -141,11 +141,11 @@ export default function Home() {
             <div className="space-y-8 mb-20">
 
               {/* Champion TUW */}
-              <div className="flex flex-col md:flex-row items-center backdrop-blur-xl bg-zinc-900/60 border border-zinc-800 rounded-3xl p-6 shadow-xl">
+              <div className="flex flex-col md:flex-row items-center backdrop-blur-xl bg-zinc-900/100 border border-zinc-800 rounded-3xl p-6 shadow-xl">
                 <img
                   src="/Images/marko-champion.png"
                   alt="Champion TUW"
-                  className="w-40 h-40 object-cover rounded-2xl mb-6 md:mb-0 md:mr-8"
+                  className="w-70 h-70 object-cover rounded-2xl mb-6 md:mb-0 md:mr-8"
                 />
                 <div className="text-center md:text-left">
                   <h3 className="text-2xl font-bold mb-2">Champion TUW</h3>
@@ -156,26 +156,26 @@ export default function Home() {
               </div>
 
               {/* Champions par Équipe TUW */}
-              <div className="flex flex-col md:flex-row items-center backdrop-blur-xl bg-zinc-900/60 border border-zinc-800 rounded-3xl p-6 shadow-xl">
+              <div className="flex flex-col md:flex-row items-center backdrop-blur-xl bg-zinc-900/100 border border-zinc-800 rounded-3xl p-6 shadow-xl">
                 <img
                   src="/Images/classe-sup-champion.png"
                   alt="Champions par Équipe TUW"
-                  className="w-40 h-40 object-cover rounded-2xl mb-6 md:mb-0 md:mr-8"
+                  className="w-70 h-70 object-cover rounded-2xl mb-6 md:mb-0 md:mr-8"
                 />
                 <div className="text-center md:text-left">
                   <h3 className="text-2xl font-bold mb-2">Champions par Équipe TUW</h3>
                   <p className="text-gray-400">À Feast N’ Best 3, Marko Estrada a trahi son partenaire Franky The Mobster en plein combat contre Mitch Thompson et DGenerate, alors membres du Icon Club. Après deux splash
                   dévastateurs sur Franky, Marko a quitté le ring, laissant FTM inconscient. Mitch et DGenerate en ont profité pour devenir champions par équipe de la TUW.
-                  Aujourd’hui, le Icon Club n’est plus — et Mitch ainsi que DGenerate font désormais partie de La Classe Supérieure aux côtés de Marko Estrada et Dreya Mitchell.</p>
+                  Aujourd’hui, le Icon Club n’est plus, et Mitch ainsi que DGenerate font désormais partie de La Classe Supérieure aux côtés de Marko Estrada et Dreya Mitchell.</p>
                 </div>
               </div>
 
               {/* Championne Ultimate Wrestling Division */}
-              <div className="flex flex-col md:flex-row items-center backdrop-blur-xl bg-zinc-900/60 border border-zinc-800 rounded-3xl p-6 shadow-xl">
+              <div className="flex flex-col md:flex-row items-center backdrop-blur-xl bg-zinc-900/100 border border-zinc-800 rounded-3xl p-6 shadow-xl">
                 <img
                   src="/Images/dreya-mitchell.png"
                   alt="Championne Ultimate Wrestling Division"
-                  className="w-40 h-40 object-cover rounded-2xl mb-6 md:mb-0 md:mr-8"
+                  className="w-70 h-70 object-cover rounded-2xl mb-6 md:mb-0 md:mr-8"
                 />
                 <div className="text-center md:text-left">
                   <h3 className="text-2xl font-bold mb-2">Championne Ultimate Wrestling Divison</h3>
