@@ -133,10 +133,59 @@ export default function Home() {
 
         {/* ROSTER */}
         <section id="roster" className="py-24 px-6">
-          <div className="max-w-7xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-14 tracking-wide">Featured Talent</h2>
+          <div className="max-w-7xl mx-auto">
 
-            <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-8">
+            {/* Champions Subsection */}
+            <h2 className="text-4xl font-bold text-center mb-12 tracking-wide">Champions</h2>
+
+            <div className="space-y-8 mb-20">
+
+              {/* Champion TUW */}
+              <div className="flex flex-col md:flex-row items-center backdrop-blur-xl bg-zinc-900/60 border border-zinc-800 rounded-3xl p-6 shadow-xl">
+                <img
+                  src="/Images/marko-champion.png"
+                  alt="Champion TUW"
+                  className="w-40 h-40 object-cover rounded-2xl mb-6 md:mb-0 md:mr-8"
+                />
+                <div className="text-center md:text-left">
+                  <h3 className="text-2xl font-bold mb-2">Champion TUW</h3>
+                  <p className="text-gray-400">Champions depuis bla bla bla.</p>
+                </div>
+              </div>
+
+              {/* Champions par Équipe TUW */}
+              <div className="flex flex-col md:flex-row items-center backdrop-blur-xl bg-zinc-900/60 border border-zinc-800 rounded-3xl p-6 shadow-xl">
+                <img
+                  src="/Images/classe-sup-champion.png"
+                  alt="Champions par Équipe TUW"
+                  className="w-40 h-40 object-cover rounded-2xl mb-6 md:mb-0 md:mr-8"
+                />
+                <div className="text-center md:text-left">
+                  <h3 className="text-2xl font-bold mb-2">Champions par Équipe TUW</h3>
+                  <p className="text-gray-400">Champions depuis bla bla bla.</p>
+                </div>
+              </div>
+
+              {/* Championne Ultimate Wrestling Division */}
+              <div className="flex flex-col md:flex-row items-center backdrop-blur-xl bg-zinc-900/60 border border-zinc-800 rounded-3xl p-6 shadow-xl">
+                <img
+                  src="/Images/dreya-championne.png"
+                  alt="Championne Ultimate Wrestling Division"
+                  className="w-40 h-40 object-cover rounded-2xl mb-6 md:mb-0 md:mr-8"
+                />
+                <div className="text-center md:text-left">
+                  <h3 className="text-2xl font-bold mb-2">Championne Ultimate Wrestling Divison</h3>
+                  <p className="text-gray-400">Champions depuis bla bla bla.</p>
+                </div>
+              </div>
+
+            </div>
+
+            {/* Roster Title */}
+            <h2 className="text-4xl font-bold text-center mb-14 tracking-wide">Roster</h2>
+
+            {/* Roster Grid */}
+            <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-8 text-center">
               {[
                 { name: "Audrey Moreau", image: "/Images/audrey-moreau.png" },
                 { name: "Bryan Gingras", image: "/Images/bryan-gingras.png" },
