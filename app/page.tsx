@@ -144,7 +144,7 @@ export default function Home() {
             <div className="space-y-8 mb-20">
 
               {/* Champion TUW */}
-              <div className="flex flex-col md:flex-row items-center backdrop-blur-xl bg-zinc-900/100 border border-zinc-800 rounded-1xl p-6 shadow-xl">
+              <div className="flex flex-col md:flex-row items-center backdrop-blur-xl bg-zinc-900/90 border border-zinc-800 rounded-3xl p-6 shadow-xl">
                 <img
                   src="/Images/marko-champion.png"
                   alt="Champion TUW"
@@ -159,7 +159,7 @@ export default function Home() {
               </div>
 
               {/* Champions par Équipe TUW */}
-              <div className="flex flex-col md:flex-row items-center backdrop-blur-xl bg-zinc-900/100 border border-zinc-800 rounded-1xl p-6 shadow-xl">
+              <div className="flex flex-col md:flex-row items-center backdrop-blur-xl bg-zinc-900/90 border border-zinc-800 rounded-3xl p-6 shadow-xl">
                 <img
                   src="/Images/classe-sup-champion.png"
                   alt="Champions par Équipe TUW"
@@ -174,11 +174,11 @@ export default function Home() {
               </div>
 
               {/* Championne Ultimate Wrestling Division */}
-              <div className="flex flex-col md:flex-row items-center backdrop-blur-xl bg-zinc-900/100 border border-zinc-800 rounded-1xl p-6 shadow-xl">
+              <div className="flex flex-col md:flex-row items-center backdrop-blur-xl bg-zinc-900/90 border border-zinc-800 rounded-3xl p-6 shadow-xl">
                 <img
                   src="/Images/dreya-mitchell.png"
                   alt="Championne Ultimate Wrestling Division"
-                  className="w-85 h-85 object-cover rounded-2xl mb-6 md:mb-0 md:mr-8"
+                  className="w-85 h-85 object-cover mb-6 md:mb-0 md:mr-8"
                 />
                 <div className="text-center md:text-left">
                   <h3 className="text-2xl font-bold mb-2">Championne Ultimate Wrestling Divison</h3>
