@@ -1,191 +1,177 @@
 export default function Home() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="relative min-h-screen text-white overflow-x-hidden">
 
-      {/* NAVBAR */}
-      <nav className="fixed top-0 w-full bg-black border-b border-zinc-800 z-50">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      {/* ================= FIXED BACKGROUND ================= */}
+      <div
+        className="fixed inset-0 -z-20"
+        style={{
+          backgroundImage: "url('/Images/website-background.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat"
+        }}
+      />
 
-          {/* TUW Logo */}
-          <img
-            src="/Images/tuw-logo.png"
-            alt="TUW Logo"
-            className="h-14 w-auto"
-          />
+      {/* Dark overlay for readability */}
+      <div className="fixed inset-0 bg-black/70 -z-10" />
 
-          {/* Navigation Links */}
-          <div className="space-x-6 hidden md:block">
-            <a href="#events">Spectacles</a>
-            <a href="#calendrier">Calendrier</a>
-            <a href="#roster">Roster</a>
-            <a href="#contact">Contact</a>
+      {/* ================= SITE CONTENT ================= */}
+      <div className="relative z-10">
+
+        {/* NAVBAR */}
+        <nav className="fixed top-0 w-full backdrop-blur-lg bg-black/60 border-b border-zinc-800 z-50">
+          <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+            <img
+              src="/Images/tuw-logo.png"
+              alt="TUW Logo"
+              className="h-14 w-auto hover:scale-105 transition-transform duration-300"
+            />
+
+            <div className="space-x-8 hidden md:block text-sm tracking-wide">
+              <a href="#events" className="hover:text-red-400 transition">Spectacles</a>
+              <a href="#calendrier" className="hover:text-red-400 transition">Calendrier</a>
+              <a href="#roster" className="hover:text-red-400 transition">Roster</a>
+              <a href="#contact" className="hover:text-red-400 transition">Contact</a>
+            </div>
           </div>
+        </nav>
 
-          {/* Social Media Icons */}
-          <div className="flex space-x-4 items-center">
+        {/* HERO */}
+        <section className="pt-40 pb-28 text-center">
+          <div className="max-w-6xl mx-auto px-6">
 
-            <a href="https://www.facebook.com/thetfordultimatewrestling" target="_blank" rel="noopener noreferrer">
-              <img src="/Images/facebook.png" alt="Facebook" className="h-6 w-6 hover:scale-110 transition" />
+            <div className="mb-10">
+              <img
+                src="/Images/tuw-logo.png"
+                alt="Thetford Ultimate Wrestling"
+                className="mx-auto w-full max-w-4xl object-contain"
+              />
+            </div>
+
+            <p className="text-gray-300 tracking-widest mb-10">
+              LA PASSION, L'IMPLICATION, LE DÉPASSEMENT
+            </p>
+
+            <a
+              href="https://lepointdevente.com/tuw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-red-600 px-10 py-5 rounded-2xl font-bold text-lg hover:bg-red-700 hover:scale-105 transition duration-300 shadow-xl"
+            >
+              Billetterie
             </a>
-
-            <a href="https://www.instagram.com/thetfordultimatewrestling/" target="_blank" rel="noopener noreferrer">
-              <img src="/Images/instagram.png" alt="Instagram" className="h-6 w-6 hover:scale-110 transition" />
-            </a>
-
-            <a href="https://www.youtube.com/@thetfordultimatewrestling" target="_blank" rel="noopener noreferrer">
-              <img src="/Images/youtube.png" alt="YouTube" className="h-6 w-6 hover:scale-110 transition" />
-            </a>
-
-            <a href="https://open.spotify.com/intl-fr/artist/6g5i1jqEKNi7zKCfABPfsB" target="_blank" rel="noopener noreferrer">
-              <img src="/Images/spotify.png" alt="Spotify" className="h-6 w-6 hover:scale-110 transition" />
-            </a>
-
-            <a href="https://independentwrestling.tv/promotion/thetford-ultimate-wrestling" target="_blank" rel="noopener noreferrer">
-              <img src="/Images/iwtv.png" alt="IWTV" className="h-6 w-6 hover:scale-110 transition" />
-            </a>
-
           </div>
-        </div>
-      </nav>
+        </section>
 
-      {/* HERO */}
-      <section className="pt-32 pb-24 text-center bg-gradient-to-b from-red-900 to-black">
+        {/* EVENT */}
+        <section id="events" className="py-24 max-w-5xl mx-auto px-6 text-center">
+          <div className="backdrop-blur-xl bg-zinc-900/60 p-8 rounded-3xl shadow-2xl border border-zinc-800">
 
-        <div className="mb-8">
-          <img
-            src="/Images/tuw-logo.png"
-            alt="Thetford Ultimate Wrestling"
-            className="mx-auto w-full max-w-3xl object-contain"
-          />
-        </div>
+            <img
+              src="/Images/Banner_Ultimate_Revolution_2026.png"
+              alt="Ultimate Revolution III Event Poster"
+              className="mx-auto rounded-2xl shadow-2xl w-full max-w-2xl object-cover mb-8"
+            />
 
-        <p className="text-gray-300 mb-8">
-          LA PASSION, L'IMPLICATION, LE DÉPASSEMENT
-        </p>
+            <h2 className="text-4xl font-bold mb-6 tracking-wide">Ultimate Revolution III</h2>
 
-        <a
-          href="https://lepointdevente.com/tuw"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-red-600 px-8 py-4 rounded-xl font-bold hover:bg-red-700 transition"
-        >
-          Billetterie
-        </a>
-      </section>
+            <p className="mb-2 text-lg">April 25, 2026 – 7:00 PM</p>
 
-      {/* EVENT */}
-      <section id="events" className="py-20 max-w-4xl mx-auto px-6 text-center">
+            <p className="text-gray-400 mb-8 leading-relaxed">
+              Centre Récréatif de Robertsonville<br />
+              5885 Avenue du Collège<br />
+              Thetford Mines, QC
+            </p>
 
-        <div className="mb-8">
-          <img
-            src="/Images/Banner_Ultimate_Revolution_2026.png"
-            alt="Ultimate Revolution III Event Poster"
-            className="mx-auto rounded-2xl shadow-2xl w-full max-w-2xl object-cover"
-          />
-        </div>
-
-        <h2 className="text-3xl font-bold mb-6">
-          Ultimate Revolution III
-        </h2>
-
-        <p className="mb-2">April 25, 2026 – 7:00 PM</p>
-
-        <p className="text-gray-400 mb-6">
-          Centre Récréatif de Robertsonville
-        </p>
-
-        <a
-          href="https://lepointdevente.com/tickets/tuwultimaterevolution2026"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-white text-black px-6 py-3 rounded-xl font-semibold inline-block hover:scale-105 transition-transform"
-        >
-          Achetez Vos Billets
-        </a>
-
-      </section>
-
-      {/* CALENDRIER */}
-      <section id="calendrier" className="py-20 bg-zinc-950 px-6 text-center">
-
-        <h2 className="text-3xl font-bold mb-10">
-          Calendrier TUW 2026
-        </h2>
-
-        <img
-          src="/Images/calendrier-2026.png"
-          alt="Calendrier TUW 2026"
-          className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
-        />
-
-      </section>
-
-      {/* ROSTER */}
-      <section id="roster" className="py-20 px-6">
-        <div className="max-w-6xl mx-auto">
-
-          <h2 className="text-3xl font-bold text-center mb-10">
-            Featured Talent
-          </h2>
-
-          <div className="grid md:grid-cols-3 gap-8 text-center">
-            {[
-              { name: "Audrey Moreau", image: "/Images/audrey-moreau.png" },
-              { name: "Bryan Gingras", image: "/Images/bryan-gingras.png" },
-              { name: "Buxx Belmar", image: "/Images/buxx-belmar.png" },
-              { name: "Carloss Gonzalez", image: "/Images/carloss-gonzalez.png" },
-              { name: "Dani Leo", image: "/Images/dani-leo.png" },
-              { name: "DGenerate", image: "/Images/dgenerate.png" },
-              { name: "Dreya Mitchell", image: "/Images/dreya-mitchell.png" },
-              { name: "Francis", image: "/Images/francis.png" },
-              { name: "Franky The Mobster", image: "/Images/franky-the-mobster.png" },
-              { name: "Fred Romeo", image: "/Images/fred-romeo.png" },
-              { name: "Ghyslain", image: "/Images/ghyslain.png" },
-              { name: "Heavy Rox", image: "/Images/heavy-rox.png" },
-              { name: "Jake 'La Paix' Madison", image: "/Images/jake-madison.png" },
-              { name: "Jonny Rush", image: "/Images/jonny-rush.png" },
-              { name: "Kristara", image: "/Images/kristara.png" },
-              { name: "Leah Sparks", image: "/Images/leah-sparks.png" },
-              { name: "Marko Estrada", image: "/Images/marko-estrada.png" },
-              { name: "Minus", image: "/Images/minus.png" },
-              { name: "Mister Brown", image: "/Images/mister-brown.png" },
-              { name: "Mr. VIP Mitch Thompson", image: "/Images/mitch-thompson.png" },
-              { name: "Muundo", image: "/Images/muundo.png" },
-              { name: "Pezz", image: "/Images/pezz.png" },
-              { name: "SeXXXy Eddy", image: "/Images/sexxxy-eddy.png" },
-              { name: "Tony Icon", image: "/Images/tony-icon.png" },
-              { name: "Tyler Nox", image: "/Images/tyler-nox.png" },
-              { name: "Yan Lambino", image: "/Images/yan-lambino.png" },
-              { name: "Ziggy McGoth", image: "/Images/ziggy-mcgoth.png" },
-            ].map((wrestler) => (
-              <div
-                key={wrestler.name}
-                className="bg-zinc-900 p-6 rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300"
-              >
-                <img
-                  src={wrestler.image}
-                  alt={wrestler.name}
-                  className="rounded-xl w-full h-64 object-contain mb-4"
-                />
-                <h3 className="text-xl font-bold">{wrestler.name}</h3>
-              </div>
-            ))}
+            <a
+              href="https://lepointdevente.com/tickets/tuwultimaterevolution2026"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-white text-black px-8 py-4 rounded-xl font-semibold hover:scale-105 transition shadow-xl"
+            >
+              Achetez Vos Billets
+            </a>
           </div>
+        </section>
 
-        </div>
-      </section>
+        {/* CALENDRIER */}
+        <section id="calendrier" className="py-24 px-6 text-center">
+          <div className="max-w-6xl mx-auto backdrop-blur-xl bg-zinc-900/60 p-10 rounded-3xl border border-zinc-800 shadow-2xl">
+            <h2 className="text-4xl font-bold mb-12 tracking-wide">Calendrier TUW 2026</h2>
 
-      {/* CONTACT */}
-      <section id="contact" className="py-20 text-center px-6">
-        <h2 className="text-3xl font-bold mb-6">Contact TUW</h2>
-        <p>Email: luttetuw@gmail.com</p>
-      </section>
+            <img
+              src="/Images/calendrier-2026.png"
+              alt="Calendrier TUW 2026"
+              className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
+            />
+          </div>
+        </section>
 
-      {/* FOOTER */}
-      <footer className="border-t border-zinc-800 py-6 text-center text-sm text-gray-400">
-        © 2001 - 2026 CLUB DE LUTTE TUW INC. TOUS DROITS RÉSERVÉS.
-      </footer>
+        {/* ROSTER */}
+        <section id="roster" className="py-24 px-6">
+          <div className="max-w-7xl mx-auto text-center">
+            <h2 className="text-4xl font-bold mb-14 tracking-wide">Featured Talent</h2>
 
+            <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-8">
+              {[
+                { name: "Audrey Moreau", image: "/Images/audrey-moreau.png" },
+                { name: "Bryan Gingras", image: "/Images/bryan-gingras.png" },
+                { name: "Buxx Belmar", image: "/Images/buxx-belmar.png" },
+                { name: "Carloss Gonzalez", image: "/Images/carloss-gonzalez.png" },
+                { name: "Dani Leo", image: "/Images/dani-leo.png" },
+                { name: "DGenerate", image: "/Images/dgenerate.png" },
+                { name: "Dreya Mitchell", image: "/Images/dreya-mitchell.png" },
+                { name: "Francis", image: "/Images/francis.png" },
+                { name: "Franky The Mobster", image: "/Images/franky-the-mobster.png" },
+                { name: "Fred Romeo", image: "/Images/fred-romeo.png" },
+                { name: "Ghyslain", image: "/Images/ghyslain.png" },
+                { name: "Heavy Rox", image: "/Images/heavy-rox.png" },
+                { name: "Jake 'La Paix' Madison", image: "/Images/jake-madison.png" },
+                { name: "Jonny Rush", image: "/Images/jonny-rush.png" },
+                { name: "Kristara", image: "/Images/kristara.png" },
+                { name: "Leah Sparks", image: "/Images/leah-sparks.png" },
+                { name: "Marko Estrada", image: "/Images/marko-estrada.png" },
+                { name: "Minus", image: "/Images/minus.png" },
+                { name: "Mister Brown", image: "/Images/mister-brown.png" },
+                { name: "Mr. VIP Mitch Thompson", image: "/Images/mitch-thompson.png" },
+                { name: "Muundo", image: "/Images/muundo.png" },
+                { name: "Pezz", image: "/Images/pezz.png" },
+                { name: "SeXXXy Eddy", image: "/Images/sexxxy-eddy.png" },
+                { name: "Tony Icon", image: "/Images/tony-icon.png" },
+                { name: "Tyler Nox", image: "/Images/tyler-nox.png" },
+                { name: "Yan Lambino", image: "/Images/yan-lambino.png" },
+                { name: "Ziggy McGoth", image: "/Images/ziggy-mcgoth.png" }
+              ].map((wrestler) => (
+                <div
+                  key={wrestler.name}
+                  className="group backdrop-blur-xl bg-zinc-900/60 p-6 rounded-3xl border border-zinc-800 shadow-xl hover:scale-105 transition duration-300"
+                >
+                  <img
+                    src={wrestler.image}
+                    alt={wrestler.name}
+                    className="rounded-2xl w-full h-64 object-contain mb-5 group-hover:scale-105 transition duration-500"
+                  />
+                  <h3 className="text-xl font-semibold tracking-wide">{wrestler.name}</h3>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* CONTACT */}
+        <section id="contact" className="py-24 text-center px-6">
+          <h2 className="text-4xl font-bold mb-8 tracking-wide">Contact TUW</h2>
+          <p className="text-gray-300 text-lg">Email: luttetuw@gmail.com</p>
+        </section>
+
+        {/* FOOTER */}
+        <footer className="border-t border-zinc-800 py-8 text-center text-sm text-gray-400 backdrop-blur-xl bg-black/40">
+          © 2001 - 2026 CLUB DE LUTTE TUW INC. TOUS DROITS RÉSERVÉS.
+        </footer>
+
+      </div>
     </div>
   );
 }
