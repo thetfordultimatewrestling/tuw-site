@@ -148,7 +148,7 @@ export default function Home() {
                 <img
                   src="/Images/marko-champion.png"
                   alt="Champion TUW"
-                  className="w-85 h-85 object-cover rounded-2xl mb-6 md:mb-0 md:mr-8"
+                  className="w-90 h-85 object-cover rounded-2xl mb-6 md:mb-0 md:mr-8"
                 />
                 <div className="text-center md:text-left">
                   <h3 className="text-2xl font-bold mb-2">Champion TUW</h3>
@@ -163,7 +163,7 @@ export default function Home() {
                 <img
                   src="/Images/classe-sup-champion.png"
                   alt="Champions par Équipe TUW"
-                  className="w-85 h-85 object-cover rounded-2xl mb-6 md:mb-0 md:mr-8"
+                  className="w-90 h-85 object-cover rounded-2xl mb-6 md:mb-0 md:mr-8"
                 />
                 <div className="text-center md:text-left">
                   <h3 className="text-2xl font-bold mb-2">Champions par Équipe TUW</h3>
@@ -178,7 +178,7 @@ export default function Home() {
                 <img
                   src="/Images/dreya-mitchell.png"
                   alt="Championne Ultimate Wrestling Division"
-                  className="w-85 h-85 object-cover mb-6 md:mb-0 md:mr-8"
+                  className="w-90 h-85 object-cover mb-6 md:mb-0 md:mr-8"
                 />
                 <div className="text-center md:text-left">
                   <h3 className="text-2xl font-bold mb-2">Championne Ultimate Wrestling Divison</h3>
