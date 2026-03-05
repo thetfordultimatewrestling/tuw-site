@@ -55,7 +55,7 @@ export default function Home() {
                 <a href="https://open.spotify.com/intl-fr/artist/6g5i1jqEKNi7zKCfABPfsB" target="_blank" rel="noopener noreferrer">
                   <img src="/Images/spotify.png" alt="Spotify" className="h-6 w-auto object-contain hover:scale-110 transition" />
                 </a>
-                <a href="https://independentwrestling.tv/promotion/thetford-ultimate-wrestling"_blank" rel="noopener noreferrer">
+                <a href="https://independentwrestling.tv/promotion/thetford-ultimate-wrestling="_blank" rel="noopener noreferrer">
                   <img src="/Images/iwtv.png" alt="IWTV" className="h-6 w-auto object-contain hover:scale-110 transition" />
                 </a>
               </div>
