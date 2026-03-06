@@ -68,35 +68,17 @@ export default function Apropos() {
           </div>
         </nav>
 
-        {/* ================= À PROPOS CONTENT ================= */}
+        {/* ================= PARTENAIRES CONTENT ================= */}
 
         <section className="pt-40 pb-24 px-6 text-center">
           <div className="max-w-4xl mx-auto backdrop-blur-xl bg-zinc-900/60 p-10 rounded-3xl border border-zinc-800 shadow-2xl">
 
             <h1 className="text-5xl font-bold mb-10 tracking-wide">
-              À Propos de la TUW
+              Nos Partenaires
             </h1>
 
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Fondée en 2001, Thetford Ultimate Wrestling est une organisation
-              de lutte indépendante basée à Thetford Mines. Depuis plus de deux
-              décennies, la TUW présente des spectacles de lutte
-              professionnelle qui mettent en vedette des talents locaux et
-              internationaux.
-            </p>
-
-            <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              Avec une combinaison d’action intense, de rivalités mémorables et
-              de personnages colorés, la TUW s’est bâtie une réputation solide
-              auprès des amateurs de lutte au Québec.
-            </p>
-
-            <p className="text-gray-300 text-lg leading-relaxed">
-              Notre mission est simple : offrir un spectacle de divertissement
-              unique, accessible à toute la famille, tout en donnant une
-              plateforme aux lutteurs pour performer au plus haut niveau.
-            </p>
-
+             
           </div>
         </section>
 

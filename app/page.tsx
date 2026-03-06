@@ -38,11 +38,8 @@ export default function Home() {
                 <a href="#events" className="hover:text-red-400 transition">Spectacles</a>
                 <a href="#calendrier" className="hover:text-red-400 transition">Calendrier</a>
                 <a href="#roster" className="hover:text-red-400 transition">Roster</a>
-
-                {/* NEW LINKS */}
                 <a href="/partenaires" className="hover:text-red-400 transition">Partenaires</a>
                 <a href="/apropos" className="hover:text-red-400 transition">À Propos</a>
-
                 <a href="#contact" className="hover:text-red-400 transition">Contact</a>
               </div>
 
