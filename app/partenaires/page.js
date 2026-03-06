@@ -68,112 +68,48 @@ export default function Partenaires() {
           </div>
         </nav>
 
-      {/* PAGE CONTENT */}
-      <div className="relative z-10 min-h-screen pt-32 px-6 text-center">
+        {/* PAGE CONTENT */}
+        <div className="relative z-10 min-h-screen pt-32 px-6 text-center">
 
-        <h1 className="text-5xl font-bold mb-16">Partenaires</h1>
+          <h1 className="text-5xl font-bold mb-16">Partenaires</h1>
 
-        <p className="max-w-3xl mx-auto text-gray-300 text-lg mb-20">
-          La TUW remercie ses partenaires qui contribuent au succès de nos
-          événements et au développement de la lutte professionnelle à
-          Thetford Mines.
-        </p>
+          <p className="max-w-3xl mx-auto text-gray-300 text-lg mb-20">
+            La TUW remercie ses partenaires qui contribuent au succès de nos
+            événements et au développement de la lutte professionnelle à
+            Thetford Mines.
+          </p>
 
-        {/* PARTNERS */}
-        <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-20 items-center">
+          {/* PARTNERS GRID */}
+          <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-20 items-center">
 
-          <img
-            src="/Images/Aqua-Beauce.png"
-            alt="AquaBeauce"
-            className="mx-auto h-40 object-contain hover:scale-110 transition duration-300"
-          />
+            {[
+              "Aqua-Beauce",
+              "Arsenal-media",
+              "Canac",
+              "Cinema-pigalle",
+              "Desmarais",
+              "La-face-de-boeuf",
+              "Pabst",
+              "Pawpaw-Snack",
+              "PFK",
+              "Pizz-du-boul",
+              "Pro-Design",
+              "Sonospec",
+              "Tram",
+              "Unicab",
+              "XPN"
+            ].map((name) => (
+              <img
+                key={name}
+                src={`/Images/${name}.png`}
+                alt={name}
+                className="mx-auto h-40 object-contain hover:scale-110 transition duration-300"
+              />
+            ))}
 
-          <img
-            src="/Images/Arsenal-media.png"
-            alt="Arsenal Media"
-            className="mx-auto h-40 object-contain hover:scale-110 transition duration-300"
-          />
+          </div>
 
-          <img
-            src="/Images/Canac.png"
-            alt="Canac Thetford Mines"
-            className="mx-auto h-40 object-contain hover:scale-110 transition duration-300"
-          />
-
-          <img
-            src="/Images/Cinema-pigalle.png"
-            alt="Canac Thetford Mines"
-            className="mx-auto h-40 object-contain hover:scale-110 transition duration-300"
-          />
-
-          <img
-            src="/Images/Desmarais.png"
-            alt="Canac Thetford Mines"
-            className="mx-auto h-40 object-contain hover:scale-110 transition duration-300"
-          />
-
-          <img
-            src="/Images/La-face-de-boeuf.png"
-            alt="Canac Thetford Mines"
-            className="mx-auto h-40 object-contain hover:scale-110 transition duration-300"
-          />
-
-          <img
-            src="/Images/Pabst.png"
-            alt="Canac Thetford Mines"
-            className="mx-auto h-40 object-contain hover:scale-110 transition duration-300"
-          />
-          
-          <img
-            src="/Images/Pawpaw-Snack.png"
-            alt="Canac Thetford Mines"
-            className="mx-auto h-40 object-contain hover:scale-110 transition duration-300"
-          />
-          
-          <img
-            src="/Images/PFK.png"
-            alt="Canac Thetford Mines"
-            className="mx-auto h-40 object-contain hover:scale-110 transition duration-300"
-          />
-          
-          <img
-            src="/Images/Pizz-du-boul.png"
-            alt="Canac Thetford Mines"
-            className="mx-auto h-40 object-contain hover:scale-110 transition duration-300"
-          />
-          
-          <img
-            src="/Images/Pro-Design.png"
-            alt="Canac Thetford Mines"
-            className="mx-auto h-40 object-contain hover:scale-110 transition duration-300"
-          />
-          
-          <img
-            src="/Images/Sonospec.png"
-            alt="Canac Thetford Mines"
-            className="mx-auto h-40 object-contain hover:scale-110 transition duration-300"
-          />
-          
-          <img
-            src="/Images/Tram.png"
-            alt="Canac Thetford Mines"
-            className="mx-auto h-40 object-contain hover:scale-110 transition duration-300"
-          />
-          
-          <img
-            src="/Images/Unicab.png"
-            alt="Canac Thetford Mines"
-            className="mx-auto h-40 object-contain hover:scale-110 transition duration-300"
-          />
-          
-          <img
-            src="/Images/XPN.png"
-            alt="Canac Thetford Mines"
-            className="mx-auto h-40 object-contain hover:scale-110 transition duration-300"
-          />
-          
         </div>
-
       </div>
     </div>
   );
