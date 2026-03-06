@@ -42,6 +42,7 @@ export default function Home() {
       <div className="flex space-x-8 text-sm tracking-wide">
         <a href="#events" className="hover:text-red-400 transition">Spectacles</a>
         <a href="#calendrier" className="hover:text-red-400 transition">Calendrier</a>
+        <a href="#media" className="hover:text-red-400 transition">Media</a>
         <a href="#roster" className="hover:text-red-400 transition">Roster</a>
         <a href="/partenaires" className="hover:text-red-400 transition">Partenaires</a>
         <a href="/apropos" className="hover:text-red-400 transition">À Propos</a>
@@ -85,6 +86,7 @@ export default function Home() {
 
       <a href="#events" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">Spectacles</a>
       <a href="#calendrier" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">Calendrier</a>
+      <a href="#media" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">Media</a>
       <a href="#roster" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">Roster</a>
       <a href="/partenaires" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">Partenaires</a>
       <a href="/apropos" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">À Propos</a>
@@ -189,6 +191,51 @@ export default function Home() {
             />
           </div>
         </section>
+        
+        {/* MEDIA */}
+        <section id="media" className="py-24 px-6 text-center">
+          <div className="max-w-6xl mx-auto backdrop-blur-xl bg-zinc-900/60 p-10 rounded-3xl border border-zinc-800 shadow-2xl">
+
+            <h2 className="text-4xl font-bold mb-8 tracking-wide">Media</h2>
+
+            <p className="text-gray-300 max-w-3xl mx-auto mb-10 leading-relaxed">
+              Découvrez le documentaire complet TUW Au-Delà du Show, réuni en une seule partie sur la page Vimeo du talentueux Dany Foster, qui a réalisé, filmé et monté cette magnifique série.
+            </p>
+
+    {/* Vimeo Video */}
+    <div className="relative w-full mb-16" style={{paddingTop: "56.25%"}}>
+      <iframe
+        src="https://player.vimeo.com/video/1129275962"
+        className="absolute top-0 left-0 w-full h-full rounded-2xl shadow-xl"
+        frameBorder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+    </div>
+
+    {/* YouTube Row */}
+    <div className="flex flex-col md:flex-row items-center justify-center gap-6">
+
+      <a
+        href="https://www.youtube.com/@thetfordultimatewrestling"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="/Images/youtube.png"
+          alt="YouTube"
+          className="w-20 hover:scale-110 transition"
+        />
+      </a>
+
+      <p className="text-gray-300 max-w-xl text-lg leading-relaxed">
+        Visitez notre page YouTube pour découvrir davantage de contenu multimédia, dont plusieurs de nos courts-métrages disponibles sur cette chaîne.
+      </p>
+
+    </div>
+
+  </div>
+</section>
 
         {/* ROSTER */}
         <section id="roster" className="py-24 px-6">
