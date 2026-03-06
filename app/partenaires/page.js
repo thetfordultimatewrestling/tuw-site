@@ -1,7 +1,8 @@
+"use client";
+
 import { useState } from "react";
 
 export default function Partenaires() {
-
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
