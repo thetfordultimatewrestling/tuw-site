@@ -1,4 +1,4 @@
-export default function Apropos() {
+export default function Partenaires() {
   return (
     <div className="relative min-h-screen text-white overflow-x-hidden">
 
