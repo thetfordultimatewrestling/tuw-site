@@ -1,4 +1,9 @@
+import { useState } from "react";
+
 export default function Apropos() {
+
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className="relative min-h-screen text-white overflow-x-hidden">
 
@@ -32,11 +37,10 @@ export default function Apropos() {
               />
             </a>
 
-            {/* Right Side Navigation */}
-            <div className="flex items-center space-x-8">
+            {/* Desktop Navigation */}
+            <div className="hidden md:flex items-center space-x-8">
 
-              {/* Navigation Links */}
-              <div className="hidden md:flex space-x-8 text-sm tracking-wide">
+              <div className="flex space-x-8 text-sm tracking-wide">
                 <a href="/#events" className="hover:text-red-400 transition">Spectacles</a>
                 <a href="/#calendrier" className="hover:text-red-400 transition">Calendrier</a>
                 <a href="/#roster" className="hover:text-red-400 transition">Roster</a>
@@ -48,37 +52,94 @@ export default function Apropos() {
               {/* Social Media Icons */}
               <div className="flex space-x-4 items-center">
                 <a href="https://www.facebook.com/thetfordultimatewrestling" target="_blank" rel="noopener noreferrer">
-                  <img src="/Images/facebook.png" alt="Facebook" className="h-6 hover:scale-110 transition" />
+                  <img src="/Images/facebook.png" alt="Facebook" className="h-6 hover:scale-110 transition"/>
                 </a>
                 <a href="https://www.instagram.com/thetfordultimatewrestling/" target="_blank" rel="noopener noreferrer">
-                  <img src="/Images/instagram.png" alt="Instagram" className="h-6 hover:scale-110 transition" />
+                  <img src="/Images/instagram.png" alt="Instagram" className="h-6 hover:scale-110 transition"/>
                 </a>
                 <a href="https://www.youtube.com/@thetfordultimatewrestling" target="_blank" rel="noopener noreferrer">
-                  <img src="/Images/youtube.png" alt="YouTube" className="h-6 hover:scale-110 transition" />
+                  <img src="/Images/youtube.png" alt="YouTube" className="h-6 hover:scale-110 transition"/>
                 </a>
                 <a href="https://open.spotify.com/intl-fr/artist/6g5i1jqEKNi7zKCfABPfsB" target="_blank" rel="noopener noreferrer">
-                  <img src="/Images/spotify.png" alt="Spotify" className="h-6 hover:scale-110 transition" />
+                  <img src="/Images/spotify.png" alt="Spotify" className="h-6 hover:scale-110 transition"/>
                 </a>
                 <a href="https://independentwrestling.tv/promotion/thetford-ultimate-wrestling" target="_blank" rel="noopener noreferrer">
-                  <img src="/Images/iwtv.png" alt="IWTV" className="h-6 hover:scale-110 transition" />
+                  <img src="/Images/iwtv.png" alt="IWTV" className="h-6 hover:scale-110 transition"/>
                 </a>
               </div>
 
             </div>
+
+            {/* Hamburger Button */}
+            <button
+              className="md:hidden text-white text-3xl"
+              onClick={() => setMenuOpen(!menuOpen)}
+            >
+              ☰
+            </button>
+
           </div>
+
+          {/* Mobile Menu */}
+          {menuOpen && (
+            <div className="md:hidden bg-black/95 backdrop-blur-lg border-t border-zinc-800">
+
+              <div className="flex flex-col items-center space-y-6 py-8 text-lg">
+
+                <a href="/#events" onClick={() => setMenuOpen(false)}>Spectacles</a>
+                <a href="/#calendrier" onClick={() => setMenuOpen(false)}>Calendrier</a>
+                <a href="/#roster" onClick={() => setMenuOpen(false)}>Roster</a>
+                <a href="/partenaires" onClick={() => setMenuOpen(false)}>Partenaires</a>
+                <a href="/apropos" onClick={() => setMenuOpen(false)}>À Propos</a>
+                <a href="/#contact" onClick={() => setMenuOpen(false)}>Contact</a>
+
+                {/* Mobile Socials */}
+                <div className="flex justify-center space-x-6 pt-4">
+
+                  <a href="https://www.facebook.com/thetfordultimatewrestling" target="_blank" rel="noopener noreferrer">
+                    <img src="/Images/facebook.png" className="h-6 hover:scale-110 transition"/>
+                  </a>
+
+                  <a href="https://www.instagram.com/thetfordultimatewrestling/" target="_blank" rel="noopener noreferrer">
+                    <img src="/Images/instagram.png" className="h-6 hover:scale-110 transition"/>
+                  </a>
+
+                  <a href="https://www.youtube.com/@thetfordultimatewrestling" target="_blank" rel="noopener noreferrer">
+                    <img src="/Images/youtube.png" className="h-6 hover:scale-110 transition"/>
+                  </a>
+
+                  <a href="https://open.spotify.com/intl-fr/artist/6g5i1jqEKNi7zKCfABPfsB" target="_blank" rel="noopener noreferrer">
+                    <img src="/Images/spotify.png" className="h-6 hover:scale-110 transition"/>
+                  </a>
+
+                  <a href="https://independentwrestling.tv/promotion/thetford-ultimate-wrestling" target="_blank" rel="noopener noreferrer">
+                    <img src="/Images/iwtv.png" className="h-6 hover:scale-110 transition"/>
+                  </a>
+
+                </div>
+
+              </div>
+
+            </div>
+          )}
+
         </nav>
 
-        {/* ================= PARTENAIRES CONTENT ================= */}
-
+        {/* PAGE CONTENT */}
         <section className="pt-40 pb-24 px-6 text-center">
           <div className="max-w-4xl mx-auto backdrop-blur-xl bg-zinc-900/60 p-10 rounded-3xl border border-zinc-800 shadow-2xl">
 
             <h1 className="text-5xl font-bold mb-10 tracking-wide">
-              Nos Partenaires
+              À Propos
             </h1>
 
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-             
+              La TUW (Thetford Ultimate Wrestling) est une organisation de lutte
+              professionnelle basée à Thetford Mines. Depuis plusieurs années,
+              la TUW offre aux fans de lutte des spectacles intenses mettant en
+              vedette des talents locaux et internationaux.
+            </p>
+
           </div>
         </section>
 
