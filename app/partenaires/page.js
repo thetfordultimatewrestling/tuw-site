@@ -12,7 +12,7 @@ export default function Partenaires() {
       <div
         className="fixed inset-0 -z-20"
         style={{
-          backgroundImage: "url('/Images/website-background.png')",
+          backgroundImage: "url('/Images/website-backgroundc.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat"

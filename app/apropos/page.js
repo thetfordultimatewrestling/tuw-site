@@ -13,7 +13,7 @@ export default function Apropos() {
       <div
         className="fixed inset-0 -z-20"
         style={{
-          backgroundImage: "url('/Images/website-background.png')",
+          backgroundImage: "url('/Images/website-backgroundb.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat"
@@ -136,11 +136,15 @@ export default function Apropos() {
             </h1>
 
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-              La TUW (Thetford Ultimate Wrestling) est une organisation de lutte
-              professionnelle basée à Thetford Mines. Depuis plusieurs années,
-              la TUW offre aux fans de lutte des spectacles intenses mettant en
-              vedette des talents locaux et internationaux.
-            </p>
+              La Thetford Ultimate Wrestling (TUW) est une promotion de lutte professionnelle originaire de Thetford Mines qui présente des spectacles depuis plus de 20 ans. Reconnue pour la qualité de sa production visuelle et le calibre de ses spectacles, elle est aujourd’hui considérée comme l’une des promotions de lutte les plus prestigieuses au Québec.
+
+              Fondée en 2001 par Pierre Bouffard, la TUW met fin à ses activités en 2015 avant de renaître en 2022 grâce à Anthony Bouffard, accompagné de trois membres de l’équipe originale. Son retour officiel a lieu le 4 février 2023 au Cégep de Thetford, dans la salle Promutuel, reconnue comme l’une des plus belles salles de spectacle de la province.
+
+              La promotion met en lumière plusieurs talents québécois, dont Franky The Mobster, Marko Estrada, Dreya Mitchell, Kristara, Mitch Thompson, DGenerate, TDT, SeXXXy Eddy, Carloss Gonzalez et bien d’autres.
+
+              Avec plusieurs événements chaque année et une nouvelle équipe créative œuvrant en audiovisuel, en opérations et en création, la TUW poursuit son évolution vers un niveau supérieur. Fait unique au Québec : la promotion produit elle-même toutes les chansons thèmes de ses lutteurs et de ses événements, disponibles sur les plateformes numériques, en collaboration avec Dual Shadow Studio.
+
+              Notre devise : la passion, l’implication et le dépassement!            </p>
 
           </div>
         </section>
