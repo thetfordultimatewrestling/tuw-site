@@ -19,7 +19,7 @@ export default function DevenirPartenaire() {
   return (
     <div className="relative min-h-screen text-white overflow-x-hidden">
 
-      {/* Background */}
+      {/* ================= FIXED BACKGROUND ================= */}
       <div
         className="fixed inset-0 -z-20"
         style={{
@@ -29,7 +29,6 @@ export default function DevenirPartenaire() {
           backgroundRepeat: "no-repeat"
         }}
       />
-
       <div className="fixed inset-0 bg-black/70 -z-10" />
 
       <div className="relative z-10">
@@ -38,6 +37,7 @@ export default function DevenirPartenaire() {
         <nav className="fixed top-0 w-full backdrop-blur-lg bg-black/60 border-b border-zinc-800 z-50">
           <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
+            {/* Logo */}
             <a href="/">
               <img
                 src="/Images/tuw-logo.png"
@@ -46,6 +46,7 @@ export default function DevenirPartenaire() {
               />
             </a>
 
+            {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
 
               <div className="flex space-x-8 text-sm tracking-wide">
@@ -58,6 +59,7 @@ export default function DevenirPartenaire() {
                 <a href="/#contact" className="hover:text-red-400 transition">Contact</a>
               </div>
 
+              {/* Social Media */}
               <div className="flex space-x-4 items-center">
                 <a href="https://www.facebook.com/thetfordultimatewrestling" target="_blank">
                   <img src="/Images/facebook.png" className="h-6 hover:scale-110 transition"/>
@@ -65,7 +67,7 @@ export default function DevenirPartenaire() {
                 <a href="https://www.instagram.com/thetfordultimatewrestling/" target="_blank">
                   <img src="/Images/instagram.png" className="h-6 hover:scale-110 transition"/>
                 </a>
-                <a href="https://www.youtube.com/@thetfordultimatewrestling/" target="_blank">
+                <a href="https://www.youtube.com/@thetfordultimatewrestling" target="_blank">
                   <img src="/Images/youtube.png" className="h-6 hover:scale-110 transition"/>
                 </a>
                 <a href="https://open.spotify.com/intl-fr/artist/6g5i1jqEKNi7zKCfABPfsB" target="_blank">
@@ -78,6 +80,7 @@ export default function DevenirPartenaire() {
 
             </div>
 
+            {/* Hamburger */}
             <button
               className="md:hidden text-white text-3xl"
               onClick={() => setMenuOpen(!menuOpen)}
@@ -91,7 +94,6 @@ export default function DevenirPartenaire() {
           {menuOpen && (
             <div className="md:hidden bg-black/95 backdrop-blur-lg border-t border-zinc-800">
               <div className="flex flex-col items-center space-y-6 py-8 text-lg">
-
                 <a href="/#events" onClick={() => setMenuOpen(false)}>Spectacles</a>
                 <a href="/#calendrier" onClick={() => setMenuOpen(false)}>Calendrier</a>
                 <a href="/#media" onClick={() => setMenuOpen(false)}>Media</a>
@@ -107,20 +109,31 @@ export default function DevenirPartenaire() {
                   <img src="/Images/spotify.png" className="h-6"/>
                   <img src="/Images/iwtv.png" className="h-6"/>
                 </div>
-
               </div>
             </div>
           )}
-
         </nav>
 
-        {/* PAGE CONTENT */}
+        {/* ================= PAGE CONTENT ================= */}
         <div className="relative z-10 pt-32 pb-24 px-6">
 
-          <h1 className="text-5xl font-bold text-center mb-20">
+          <h1 className="text-5xl font-bold text-center mb-6">
             Devenir Partenaire
           </h1>
 
+          {/* Download Button under the heading */}
+          <div className="text-center mb-20">
+            <a
+              href="/Images/commandite-tuw.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-10 py-4 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-lg transition duration-300 shadow-lg hover:scale-105"
+            >
+              ⬇ Télécharger le document de commandite
+            </a>
+          </div>
+
+          {/* Images */}
           <div className="max-w-5xl mx-auto space-y-24">
             {images.map((img, index) => (
               <div
@@ -142,20 +155,9 @@ export default function DevenirPartenaire() {
 
         </div>
 
-        {/* Floating Download Button - Top Right */}
-        <a
-          href="/Images/Document_de_partenaria_TUW.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="fixed top-8 right-8 z-50 bg-red-600 hover:bg-red-700 text-white px-6 py-4 rounded-full shadow-2xl flex items-center space-x-3 transition transform hover:scale-105"
-        >
-          <span className="text-xl">⬇</span>
-          <span className="font-semibold">Télécharger le document de commandite</span>
-        </a>
-
       </div>
 
-      {/* Animation */}
+      {/* ================= ANIMATION ================= */}
       <style jsx global>{`
         @keyframes fadeIn {
           from {
@@ -167,7 +169,6 @@ export default function DevenirPartenaire() {
             transform: translateY(0);
           }
         }
-
         .animate-fadeIn {
           animation: fadeIn 0.8s ease-out;
         }
