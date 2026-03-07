@@ -19,28 +19,25 @@ export default function DevenirPartenaire() {
   return (
     <div className="relative min-h-screen text-white overflow-x-hidden">
 
-      {/* ================= FIXED BACKGROUND ================= */}
+      {/* Background */}
       <div
         className="fixed inset-0 -z-20"
         style={{
-          backgroundImage: "url('/Images/website-backgroundd.png')",
+          backgroundImage: "url('/Images/website-backgroundc.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat"
         }}
       />
 
-      {/* Dark overlay */}
       <div className="fixed inset-0 bg-black/70 -z-10" />
 
-      {/* ================= SITE CONTENT ================= */}
       <div className="relative z-10">
 
-        {/* NAVBAR */}
+        {/* ================= NAVBAR ================= */}
         <nav className="fixed top-0 w-full backdrop-blur-lg bg-black/60 border-b border-zinc-800 z-50">
           <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
-            {/* Logo */}
             <a href="/">
               <img
                 src="/Images/tuw-logo.png"
@@ -49,7 +46,6 @@ export default function DevenirPartenaire() {
               />
             </a>
 
-            {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
 
               <div className="flex space-x-8 text-sm tracking-wide">
@@ -62,34 +58,26 @@ export default function DevenirPartenaire() {
                 <a href="/#contact" className="hover:text-red-400 transition">Contact</a>
               </div>
 
-              {/* Social Media */}
               <div className="flex space-x-4 items-center">
-
-                <a href="https://www.facebook.com/thetfordultimatewrestling" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/thetfordultimatewrestling" target="_blank">
                   <img src="/Images/facebook.png" className="h-6 hover:scale-110 transition"/>
                 </a>
-
-                <a href="https://www.instagram.com/thetfordultimatewrestling/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/thetfordultimatewrestling/" target="_blank">
                   <img src="/Images/instagram.png" className="h-6 hover:scale-110 transition"/>
                 </a>
-
-                <a href="https://www.youtube.com/@thetfordultimatewrestling" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.youtube.com/@thetfordultimatewrestling/" target="_blank">
                   <img src="/Images/youtube.png" className="h-6 hover:scale-110 transition"/>
                 </a>
-
-                <a href="https://open.spotify.com/intl-fr/artist/6g5i1jqEKNi7zKCfABPfsB" target="_blank" rel="noopener noreferrer">
+                <a href="https://open.spotify.com/intl-fr/artist/6g5i1jqEKNi7zKCfABPfsB" target="_blank">
                   <img src="/Images/spotify.png" className="h-6 hover:scale-110 transition"/>
                 </a>
-
-                <a href="https://independentwrestling.tv/promotion/thetford-ultimate-wrestling" target="_blank" rel="noopener noreferrer">
+                <a href="https://independentwrestling.tv/promotion/thetford-ultimate-wrestling" target="_blank">
                   <img src="/Images/iwtv.png" className="h-6 hover:scale-110 transition"/>
                 </a>
-
               </div>
 
             </div>
 
-            {/* Hamburger */}
             <button
               className="md:hidden text-white text-3xl"
               onClick={() => setMenuOpen(!menuOpen)}
@@ -102,7 +90,6 @@ export default function DevenirPartenaire() {
           {/* Mobile Menu */}
           {menuOpen && (
             <div className="md:hidden bg-black/95 backdrop-blur-lg border-t border-zinc-800">
-
               <div className="flex flex-col items-center space-y-6 py-8 text-lg">
 
                 <a href="/#events" onClick={() => setMenuOpen(false)}>Spectacles</a>
@@ -114,23 +101,20 @@ export default function DevenirPartenaire() {
                 <a href="/#contact" onClick={() => setMenuOpen(false)}>Contact</a>
 
                 <div className="flex justify-center space-x-6 pt-4">
-
                   <img src="/Images/facebook.png" className="h-6"/>
                   <img src="/Images/instagram.png" className="h-6"/>
                   <img src="/Images/youtube.png" className="h-6"/>
                   <img src="/Images/spotify.png" className="h-6"/>
                   <img src="/Images/iwtv.png" className="h-6"/>
-
                 </div>
 
               </div>
-
             </div>
           )}
 
         </nav>
 
-        {/* ================= PAGE CONTENT ================= */}
+        {/* PAGE CONTENT */}
         <div className="relative z-10 pt-32 pb-24 px-6">
 
           <h1 className="text-5xl font-bold text-center mb-20">
@@ -138,7 +122,6 @@ export default function DevenirPartenaire() {
           </h1>
 
           <div className="max-w-5xl mx-auto space-y-24">
-
             {images.map((img, index) => (
               <div
                 key={img}
@@ -151,14 +134,24 @@ export default function DevenirPartenaire() {
                 <img
                   src={`/Images/${img}`}
                   alt={img}
-                  className="w-full rounded-xl shadow-2xl transform hover:scale-[1.02] transition duration-500"
+                  className="w-full rounded-xl shadow-2xl opacity-90 hover:opacity-100 transition duration-500 transform hover:scale-[1.02]"
                 />
               </div>
             ))}
-
           </div>
 
         </div>
+
+        {/* Floating Download Button - Top Right */}
+        <a
+          href="/Images/Document_de_partenaria_TUW.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="fixed top-8 right-8 z-50 bg-red-600 hover:bg-red-700 text-white px-6 py-4 rounded-full shadow-2xl flex items-center space-x-3 transition transform hover:scale-105"
+        >
+          <span className="text-xl">⬇</span>
+          <span className="font-semibold">Télécharger le document de commandite</span>
+        </a>
 
       </div>
 
