@@ -25,7 +25,7 @@ export default function Home() {
 
       <div className="relative z-10">
 
-        {/* ================= NAVBAR ================= */}
+{/* ================= NAVBAR ================= */}
 <nav className="fixed top-0 w-full backdrop-blur-lg bg-black/60 border-b border-zinc-800 z-50">
 
   <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
@@ -50,7 +50,7 @@ export default function Home() {
         <a href="#contact" className="hover:text-red-400 transition">Contact</a>
       </div>
 
-      {/* Social Icons */}
+      {/* Social Icons (Desktop) */}
       <div className="flex space-x-4 items-center">
         <a href="https://www.facebook.com/thetfordultimatewrestling" target="_blank">
           <img src="/Images/facebook.png" className="h-6 hover:scale-110 transition"/>
@@ -113,11 +113,35 @@ export default function Home() {
         Contact
       </a>
 
+      {/* Mobile Social Icons */}
+      <div className="flex justify-center space-x-6 pt-6 border-t border-red-600/40">
+
+        <a href="https://www.facebook.com/thetfordultimatewrestling" target="_blank">
+          <img src="/Images/facebook.png" className="h-6 hover:scale-110 transition"/>
+        </a>
+
+        <a href="https://www.instagram.com/thetfordultimatewrestling/" target="_blank">
+          <img src="/Images/instagram.png" className="h-6 hover:scale-110 transition"/>
+        </a>
+
+        <a href="https://www.youtube.com/@thetfordultimatewrestling" target="_blank">
+          <img src="/Images/youtube.png" className="h-6 hover:scale-110 transition"/>
+        </a>
+
+        <a href="https://open.spotify.com/intl-fr/artist/6g5i1jqEKNi7zKCfABPfsB" target="_blank">
+          <img src="/Images/spotify.png" className="h-6 hover:scale-110 transition"/>
+        </a>
+
+        <a href="https://independentwrestling.tv/promotion/thetford-ultimate-wrestling" target="_blank">
+          <img src="/Images/iwtv.png" className="h-6 hover:scale-110 transition"/>
+        </a>
+
+      </div>
+
     </div>
   )}
 
 </nav>
-
         {/* ================= HERO ================= */}
         <section className="pt-40 pb-28 text-center">
           <div className="max-w-6xl mx-auto px-6">
