@@ -23,7 +23,7 @@ export default function DevenirPartenaire() {
       <div
         className="fixed inset-0 -z-20"
         style={{
-          backgroundImage: "url('/Images/website-backgroundc.png')",
+          backgroundImage: "url('/Images/website-backgroundd.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat"
