@@ -27,6 +27,7 @@ export default function Home() {
 
         {/* ================= NAVBAR ================= */}
 <nav className="fixed top-0 w-full backdrop-blur-lg bg-black/60 border-b border-zinc-800 z-50">
+
   <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
     {/* Logo */}
@@ -36,10 +37,9 @@ export default function Home() {
       className="h-14 w-auto hover:scale-105 transition"
     />
 
-    {/* Desktop Navigation + Socials */}
+    {/* Desktop Menu */}
     <div className="hidden md:flex items-center space-x-8">
 
-      {/* Navigation Links */}
       <div className="flex space-x-8 text-sm tracking-wide">
         <a href="#events" className="hover:text-red-400 transition">Spectacles</a>
         <a href="#calendrier" className="hover:text-red-400 transition">Calendrier</a>
@@ -52,27 +52,21 @@ export default function Home() {
 
       {/* Social Icons */}
       <div className="flex space-x-4 items-center">
-
         <a href="https://www.facebook.com/thetfordultimatewrestling" target="_blank">
           <img src="/Images/facebook.png" className="h-6 hover:scale-110 transition"/>
         </a>
-
         <a href="https://www.instagram.com/thetfordultimatewrestling/" target="_blank">
           <img src="/Images/instagram.png" className="h-6 hover:scale-110 transition"/>
         </a>
-
         <a href="https://www.youtube.com/@thetfordultimatewrestling" target="_blank">
           <img src="/Images/youtube.png" className="h-6 hover:scale-110 transition"/>
         </a>
-
         <a href="https://open.spotify.com/intl-fr/artist/6g5i1jqEKNi7zKCfABPfsB" target="_blank">
           <img src="/Images/spotify.png" className="h-6 hover:scale-110 transition"/>
         </a>
-
         <a href="https://independentwrestling.tv/promotion/thetford-ultimate-wrestling" target="_blank">
           <img src="/Images/iwtv.png" className="h-6 hover:scale-110 transition"/>
         </a>
-
       </div>
 
     </div>
@@ -86,6 +80,42 @@ export default function Home() {
     </button>
 
   </div>
+
+  {/* ================= MOBILE DROPDOWN MENU ================= */}
+  {menuOpen && (
+    <div className="md:hidden bg-black/95 border-t border-red-600/40 backdrop-blur-md px-6 py-6 space-y-6 text-center">
+
+      <a href="#events" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
+        Spectacles
+      </a>
+
+      <a href="#calendrier" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
+        Calendrier
+      </a>
+
+      <a href="#media" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
+        Media
+      </a>
+
+      <a href="#roster" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
+        Roster
+      </a>
+
+      <a href="/partenaires" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
+        Partenaires
+      </a>
+
+      <a href="/apropos" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
+        À Propos
+      </a>
+
+      <a href="#contact" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
+        Contact
+      </a>
+
+    </div>
+  )}
+
 </nav>
 
         {/* ================= HERO ================= */}
