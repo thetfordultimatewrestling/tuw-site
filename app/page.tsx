@@ -26,51 +26,67 @@ export default function Home() {
       <div className="relative z-10">
 
         {/* ================= NAVBAR ================= */}
-        <nav className="fixed top-0 w-full backdrop-blur-lg bg-black/60 border-b border-zinc-800 z-50">
-          <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+<nav className="fixed top-0 w-full backdrop-blur-lg bg-black/60 border-b border-zinc-800 z-50">
+  <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
-            <img
-              src="/Images/tuw-logo.png"
-              alt="TUW Logo"
-              className="h-14 w-auto hover:scale-105 transition"
-            />
+    {/* Logo */}
+    <img
+      src="/Images/tuw-logo.png"
+      alt="TUW Logo"
+      className="h-14 w-auto hover:scale-105 transition"
+    />
 
-            <div className="hidden md:flex space-x-8 text-sm tracking-wide">
+    {/* Desktop Navigation + Socials */}
+    <div className="hidden md:flex items-center space-x-8">
 
-              <a href="#events" className="hover:text-red-400 transition">Spectacles</a>
-              <a href="#calendrier" className="hover:text-red-400 transition">Calendrier</a>
-              <a href="#media" className="hover:text-red-400 transition">Media</a>
-              <a href="#roster" className="hover:text-red-400 transition">Roster</a>
-              <a href="/partenaires" className="hover:text-red-400 transition">Partenaires</a>
-              <a href="/apropos" className="hover:text-red-400 transition">À Propos</a>
-              <a href="#contact" className="hover:text-red-400 transition">Contact</a>
+      {/* Navigation Links */}
+      <div className="flex space-x-8 text-sm tracking-wide">
+        <a href="#events" className="hover:text-red-400 transition">Spectacles</a>
+        <a href="#calendrier" className="hover:text-red-400 transition">Calendrier</a>
+        <a href="#media" className="hover:text-red-400 transition">Media</a>
+        <a href="#roster" className="hover:text-red-400 transition">Roster</a>
+        <a href="/partenaires" className="hover:text-red-400 transition">Partenaires</a>
+        <a href="/apropos" className="hover:text-red-400 transition">À Propos</a>
+        <a href="#contact" className="hover:text-red-400 transition">Contact</a>
+      </div>
 
-            </div>
+      {/* Social Icons */}
+      <div className="flex space-x-4 items-center">
 
-            <button
-              className="md:hidden text-white text-3xl"
-              onClick={() => setMenuOpen(!menuOpen)}
-            >
-              {menuOpen ? "✕" : "☰"}
-            </button>
+        <a href="https://www.facebook.com/thetfordultimatewrestling" target="_blank">
+          <img src="/Images/facebook.png" className="h-6 hover:scale-110 transition"/>
+        </a>
 
-          </div>
+        <a href="https://www.instagram.com/thetfordultimatewrestling/" target="_blank">
+          <img src="/Images/instagram.png" className="h-6 hover:scale-110 transition"/>
+        </a>
 
-          {/* Mobile Menu */}
-          {menuOpen && (
-            <div className="md:hidden bg-black/95 border-t border-red-600/40 backdrop-blur-md px-6 py-6 space-y-6 text-center">
+        <a href="https://www.youtube.com/@thetfordultimatewrestling" target="_blank">
+          <img src="/Images/youtube.png" className="h-6 hover:scale-110 transition"/>
+        </a>
 
-              <a href="#events" className="block text-lg hover:text-red-400">Spectacles</a>
-              <a href="#calendrier" className="block text-lg hover:text-red-400">Calendrier</a>
-              <a href="#media" className="block text-lg hover:text-red-400">Media</a>
-              <a href="#roster" className="block text-lg hover:text-red-400">Roster</a>
-              <a href="/partenaires" className="block text-lg hover:text-red-400">Partenaires</a>
-              <a href="/apropos" className="block text-lg hover:text-red-400">À Propos</a>
-              <a href="#contact" className="block text-lg hover:text-red-400">Contact</a>
+        <a href="https://open.spotify.com/intl-fr/artist/6g5i1jqEKNi7zKCfABPfsB" target="_blank">
+          <img src="/Images/spotify.png" className="h-6 hover:scale-110 transition"/>
+        </a>
 
-            </div>
-          )}
-        </nav>
+        <a href="https://independentwrestling.tv/promotion/thetford-ultimate-wrestling" target="_blank">
+          <img src="/Images/iwtv.png" className="h-6 hover:scale-110 transition"/>
+        </a>
+
+      </div>
+
+    </div>
+
+    {/* Mobile Hamburger */}
+    <button
+      className="md:hidden text-white text-3xl"
+      onClick={() => setMenuOpen(!menuOpen)}
+    >
+      {menuOpen ? "✕" : "☰"}
+    </button>
+
+  </div>
+</nav>
 
         {/* ================= HERO ================= */}
         <section className="pt-40 pb-28 text-center">
@@ -323,7 +339,9 @@ export default function Home() {
                 <div className="text-center md:text-left">
                   <h3 className="text-2xl font-bold mb-2">Champion TUW</h3>
                   <p className="text-gray-400">
-                    Marko Estrada, ancien des Invincibles avec Franky The Mobster, a trahi son partenaire en s’alliant secrètement à Tony Icon pour devenir champion de la TUW...
+                    Marko Estrada, ancien des Invincibles avec Franky The Mobster, a trahi son partenaire en s’alliant secrètement à Tony Icon pour devenir champion de la TUW. 
+                    Après avoir sécurisé sa chance au titre contre Buxx Belmar, il a remporté l’or, expulsé Tony et Scott Matrix, puis dissous le Icon Club. 
+                    Il dirige maintenant La Classe Supérieure avec Dreya Mitchell, DGenerate et Mitch Thompson. Un clan qui possède tous les titres de la compagnie.
                   </p>
                 </div>
               </div>
@@ -334,7 +352,9 @@ export default function Home() {
                 <div className="text-center md:text-left">
                   <h3 className="text-2xl font-bold mb-2">Champions par Équipe TUW</h3>
                   <p className="text-gray-400">
-                    À Feast N’ Best 3, Marko Estrada a trahi son partenaire Franky The Mobster en plein combat contre Mitch Thompson et DGenerate...
+                    À Feast N’ Best 3, Marko Estrada a trahi son partenaire Franky The Mobster en plein combat contre Mitch Thompson et DGenerate, alors membres du Icon Club. 
+                    Après deux splash dévastateurs sur Franky, Marko a quitté le ring, laissant FTM inconscient. Mitch et DGenerate en ont profité pour devenir champions par équipe de la TUW. 
+                    Aujourd’hui, le Icon Club n’est plus, et Mitch ainsi que DGenerate font désormais partie de La Classe Supérieure aux côtés de Marko Estrada et Dreya Mitchell.
                   </p>
                 </div>
               </div>
@@ -345,7 +365,9 @@ export default function Home() {
                 <div className="text-center md:text-left">
                   <h3 className="text-2xl font-bold mb-2">Championne Ultimate Wrestling Divison</h3>
                   <p className="text-gray-400">
-                    Le 22 mars 2025 à March Madness IX, Dreya Mitchell est devenue championne de la TUW...
+                    Le 22 mars 2025 à March Madness IX, Dreya Mitchell est devenue championne de la TUW en battant par surprise Carloss Gonzalez dans le combat le plus court de l’histoire de la TUW. 
+                    Après avoir gagné son contrat à Original Kickoff face à Kacey Diamond et Kristara, elle a manipulé la situation pour frapper au moment parfait. 
+                    Invaincue depuis novembre 2024, elle détient toujours le titre et la plus longue séquence de victoires de la compagnie. Elle fait partie du club de Marko Estrada, La Classe Supérieure aux côtés de Mitch Thompson et DGenerate.
                   </p>
                 </div>
               </div>
@@ -396,11 +418,18 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ================= CONTACT ================= */}
-        <section id="contact" className="py-24 text-center px-6">
-          <h2 className="text-4xl font-bold mb-8 tracking-wide">Contact TUW</h2>
-          <p className="text-gray-300 text-lg">Email: luttetuw@gmail.com</p>
-        </section>
+            {/* ================= CONTACT ================= */}
+            <section id="contact" className="py-24 text-center px-6">
+            <h2 className="text-4xl font-bold mb-8 tracking-wide">Contact TUW</h2>
+
+            <p className="text-gray-300 text-lg mb-2">
+             📧 Courriel: luttetuw@gmail.com
+            </p>
+
+            <p className="text-gray-300 text-lg">
+             📞 Téléphone: 418-814-3900
+            </p>
+         </section>
 
         {/* ================= FOOTER ================= */}
         <footer className="border-t border-zinc-800 py-8 text-center text-sm text-gray-400 backdrop-blur-xl bg-black/40">
