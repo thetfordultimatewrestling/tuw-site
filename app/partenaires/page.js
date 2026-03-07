@@ -139,11 +139,31 @@ export default function Partenaires() {
 
           <h1 className="text-5xl font-bold mb-16">Partenaires</h1>
 
-          <p className="max-w-3xl mx-auto text-gray-300 text-lg mb-20">
+          <p className="max-w-3xl mx-auto text-gray-300 text-lg mb-10">
             La TUW remercie ses partenaires qui contribuent au succès de nos
             événements et au développement de la lutte professionnelle à
             Thetford Mines.
           </p>
+
+          {/* SPONSOR CTA */}
+          <div className="max-w-3xl mx-auto mb-24 p-10 bg-black/60 border border-red-600/40 rounded-2xl backdrop-blur-md">
+
+            <h2 className="text-2xl font-bold mb-4">Devenez partenaire</h2>
+
+            <p className="text-gray-300 text-lg mb-6">
+              Vous souhaitez soutenir la TUW et gagner en visibilité lors de nos
+              événements? Découvrez comment devenir partenaire officiel et faire
+              partie de l’expérience TUW.
+            </p>
+
+            <a
+              href="/devenir-partenaire"
+              className="inline-block px-10 py-4 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-lg transition duration-300 shadow-lg hover:scale-105"
+            >
+              Devenir partenaire de la TUW
+            </a>
+
+          </div>
 
           {/* PARTNERS GRID */}
           <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-20 items-center">
