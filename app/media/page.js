@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function Home() {
+export default function Media() {
 
   const [menuOpen, setMenuOpen] = useState(false);
 

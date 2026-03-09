@@ -3,6 +3,7 @@
 import { useState } from "react";
 
 export default function Roster() {
+
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -12,7 +13,7 @@ export default function Roster() {
       <div
         className="fixed inset-0 -z-20"
         style={{
-          backgroundImage: "url('/Images/website-backgroundc.png')",
+          backgroundImage: "url('/Images/website-backgrounde.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat"
