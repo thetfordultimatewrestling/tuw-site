@@ -154,14 +154,16 @@ export default function Recrutement() {
                className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
             />
 
-          </div>
+                </div>
 
+        </section>   {/* <-- THIS WAS MISSING */}
 
         {/* ================= FOOTER ================= */}
         <footer className="border-t border-zinc-800 py-8 text-center text-sm text-gray-400 backdrop-blur-xl bg-black/40">
           © 2001 - 2026 CLUB DE LUTTE TUW INC. TOUS DROITS RÉSERVÉS.
         </footer>
 
-   );
+      </div>
+    </div>
+  );
 }
-
