@@ -25,10 +25,9 @@ export default function Media() {
 
       <div className="relative z-10">
 
-{/* ================= NAVBAR ================= */}
-<nav className="fixed top-0 w-full backdrop-blur-lg bg-black/60 border-b border-zinc-800 z-50">
-
-  <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+{/* NAVBAR */}
+        <nav className="fixed top-0 w-full backdrop-blur-lg bg-black/60 border-b border-zinc-800 z-50">
+          <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
             {/* Logo */}
             <a href="/">
@@ -39,111 +38,101 @@ export default function Media() {
               />
             </a>
 
-    {/* Desktop Menu */}
-    <div className="hidden md:flex items-center space-x-8">
+            {/* Desktop Navigation */}
+            <div className="hidden md:flex items-center space-x-8">
 
-      <div className="flex space-x-8 text-sm tracking-wide">
-        <a href="/events" className="hover:text-red-400 transition">Spectacles</a>
-        <a href="/calendrier" className="hover:text-red-400 transition">Calendrier</a>
-        <a href="/media" className="hover:text-red-400 transition">Media</a>
-        <a href="/roster" className="hover:text-red-400 transition">Roster</a>
-        <a href="/partenaires" className="hover:text-red-400 transition">Partenaires</a>
-        <a href="/apropos" className="hover:text-red-400 transition">À Propos</a>
-        <a href="/contact" className="hover:text-red-400 transition">Contact</a>
-      </div>
+              <div className="flex space-x-8 text-sm tracking-wide">
+                <a href="/#events" className="hover:text-red-400 transition">Spectacles</a>
+                <a href="/#calendrier" className="hover:text-red-400 transition">Calendrier</a>
+                <a href="/media" className="hover:text-red-400 transition">Media</a>
+                <a href="/roster" className="hover:text-red-400 transition">Roster</a>
+                <a href="/partenaires" className="hover:text-red-400 transition">Partenaires</a>
+                <a href="/apropos" className="hover:text-red-400 transition">À Propos</a>
+                <a href="/#contact" className="hover:text-red-400 transition">Contact</a>
+              </div>
 
-      {/* Social Icons (Desktop) */}
-      <div className="flex space-x-4 items-center">
-        <a href="https://www.facebook.com/thetfordultimatewrestling" target="_blank">
-          <img src="/Images/facebook.png" className="h-6 hover:scale-110 transition"/>
-        </a>
-        <a href="https://www.instagram.com/thetfordultimatewrestling/" target="_blank">
-          <img src="/Images/instagram.png" className="h-6 hover:scale-110 transition"/>
-        </a>
-        <a href="https://www.youtube.com/@thetfordultimatewrestling" target="_blank">
-          <img src="/Images/youtube.png" className="h-6 hover:scale-110 transition"/>
-        </a>
-        <a href="https://open.spotify.com/intl-fr/artist/6g5i1jqEKNi7zKCfABPfsB" target="_blank">
-          <img src="/Images/spotify.png" className="h-6 hover:scale-110 transition"/>
-        </a>
-        <a href="https://independentwrestling.tv/promotion/thetford-ultimate-wrestling" target="_blank">
-          <img src="/Images/iwtv.png" className="h-6 hover:scale-110 transition"/>
-        </a>
-      </div>
+              {/* Social Media Icons */}
+              <div className="flex space-x-4 items-center">
 
-    </div>
+                <a href="https://www.facebook.com/thetfordultimatewrestling" target="_blank" rel="noopener noreferrer">
+                  <img src="/Images/facebook.png" alt="Facebook" className="h-6 hover:scale-110 transition"/>
+                </a>
 
-    {/* Mobile Hamburger */}
-    <button
-      className="md:hidden text-white text-3xl"
-      onClick={() => setMenuOpen(!menuOpen)}
-    >
-      {menuOpen ? "✕" : "☰"}
-    </button>
+                <a href="https://www.instagram.com/thetfordultimatewrestling/" target="_blank" rel="noopener noreferrer">
+                  <img src="/Images/instagram.png" alt="Instagram" className="h-6 hover:scale-110 transition"/>
+                </a>
 
-  </div>
+                <a href="https://www.youtube.com/@thetfordultimatewrestling" target="_blank" rel="noopener noreferrer">
+                  <img src="/Images/youtube.png" alt="YouTube" className="h-6 hover:scale-110 transition"/>
+                </a>
 
-  {/* ================= MOBILE DROPDOWN MENU ================= */}
-  {menuOpen && (
-    <div className="md:hidden bg-black/95 border-t border-red-600/40 backdrop-blur-md px-6 py-6 space-y-6 text-center">
+                <a href="https://open.spotify.com/intl-fr/artist/6g5i1jqEKNi7zKCfABPfsB" target="_blank" rel="noopener noreferrer">
+                  <img src="/Images/spotify.png" alt="Spotify" className="h-6 hover:scale-110 transition"/>
+                </a>
 
-      <a href="/events" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
-        Spectacles
-      </a>
+                <a href="https://independentwrestling.tv/promotion/thetford-ultimate-wrestling" target="_blank" rel="noopener noreferrer">
+                  <img src="/Images/iwtv.png" alt="IWTV" className="h-6 hover:scale-110 transition"/>
+                </a>
 
-      <a href="/calendrier" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
-        Calendrier
-      </a>
+              </div>
 
-      <a href="/media" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
-        Media
-      </a>
+            </div>
 
-      <a href="/roster" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
-        Roster
-      </a>
+            {/* Hamburger Button */}
+            <button
+              className="md:hidden text-white text-3xl"
+              onClick={() => setMenuOpen(!menuOpen)}
+            >
+              ☰
+            </button>
 
-      <a href="/partenaires" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
-        Partenaires
-      </a>
+          </div>
 
-      <a href="/apropos" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
-        À Propos
-      </a>
+          {/* Mobile Menu */}
+          {menuOpen && (
+            <div className="md:hidden bg-black/95 backdrop-blur-lg border-t border-zinc-800">
 
-      <a href="/contact" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
-        Contact
-      </a>
+              <div className="flex flex-col items-center space-y-6 py-8 text-lg">
 
-      {/* Mobile Social Icons */}
-      <div className="flex justify-center space-x-6 pt-6 border-t border-red-600/40">
+                <a href="/#events" onClick={() => setMenuOpen(false)}>Spectacles</a>
+                <a href="/#calendrier" onClick={() => setMenuOpen(false)}>Calendrier</a>
+                <a href="/media" onClick={() => setMenuOpen(false)}>Media</a>
+                <a href="/roster" onClick={() => setMenuOpen(false)}>Roster</a>
+                <a href="/partenaires" onClick={() => setMenuOpen(false)}>Partenaires</a>
+                <a href="/apropos" onClick={() => setMenuOpen(false)}>À Propos</a>
+                <a href="/#contact" onClick={() => setMenuOpen(false)}>Contact</a>
 
-        <a href="https://www.facebook.com/thetfordultimatewrestling" target="_blank">
-          <img src="/Images/facebook.png" className="h-6 hover:scale-110 transition"/>
-        </a>
+                {/* Mobile Socials */}
+                <div className="flex justify-center space-x-6 pt-4">
 
-        <a href="https://www.instagram.com/thetfordultimatewrestling/" target="_blank">
-          <img src="/Images/instagram.png" className="h-6 hover:scale-110 transition"/>
-        </a>
+                  <a href="https://www.facebook.com/thetfordultimatewrestling" target="_blank" rel="noopener noreferrer">
+                    <img src="/Images/facebook.png" className="h-6 hover:scale-110 transition"/>
+                  </a>
 
-        <a href="https://www.youtube.com/@thetfordultimatewrestling" target="_blank">
-          <img src="/Images/youtube.png" className="h-6 hover:scale-110 transition"/>
-        </a>
+                  <a href="https://www.instagram.com/thetfordultimatewrestling/" target="_blank" rel="noopener noreferrer">
+                    <img src="/Images/instagram.png" className="h-6 hover:scale-110 transition"/>
+                  </a>
 
-        <a href="https://open.spotify.com/intl-fr/artist/6g5i1jqEKNi7zKCfABPfsB" target="_blank">
-          <img src="/Images/spotify.png" className="h-6 hover:scale-110 transition"/>
-        </a>
+                  <a href="https://www.youtube.com/@thetfordultimatewrestling" target="_blank" rel="noopener noreferrer">
+                    <img src="/Images/youtube.png" className="h-6 hover:scale-110 transition"/>
+                  </a>
 
-        <a href="https://independentwrestling.tv/promotion/thetford-ultimate-wrestling" target="_blank">
-          <img src="/Images/iwtv.png" className="h-6 hover:scale-110 transition"/>
-        </a>
+                  <a href="https://open.spotify.com/intl-fr/artist/6g5i1jqEKNi7zKCfABPfsB" target="_blank" rel="noopener noreferrer">
+                    <img src="/Images/spotify.png" className="h-6 hover:scale-110 transition"/>
+                  </a>
 
-      </div>
+                  <a href="https://independentwrestling.tv/promotion/thetford-ultimate-wrestling" target="_blank" rel="noopener noreferrer">
+                    <img src="/Images/iwtv.png" className="h-6 hover:scale-110 transition"/>
+                  </a>
 
-    </div>
-  )}
+                </div>
 
-</nav>
+              </div>
+
+            </div>
+          )}
+
+        </nav>
 
         {/* ================= MEDIA ================= */}
         <section id="media" className="py-24 px-6 text-center">
