@@ -43,13 +43,13 @@ export default function Media() {
     <div className="hidden md:flex items-center space-x-8">
 
       <div className="flex space-x-8 text-sm tracking-wide">
-        <a href="#events" className="hover:text-red-400 transition">Spectacles</a>
-        <a href="#calendrier" className="hover:text-red-400 transition">Calendrier</a>
+        <a href="/events" className="hover:text-red-400 transition">Spectacles</a>
+        <a href="/calendrier" className="hover:text-red-400 transition">Calendrier</a>
         <a href="/media" className="hover:text-red-400 transition">Media</a>
         <a href="/roster" className="hover:text-red-400 transition">Roster</a>
         <a href="/partenaires" className="hover:text-red-400 transition">Partenaires</a>
         <a href="/apropos" className="hover:text-red-400 transition">À Propos</a>
-        <a href="#contact" className="hover:text-red-400 transition">Contact</a>
+        <a href="/contact" className="hover:text-red-400 transition">Contact</a>
       </div>
 
       {/* Social Icons (Desktop) */}
@@ -87,11 +87,11 @@ export default function Media() {
   {menuOpen && (
     <div className="md:hidden bg-black/95 border-t border-red-600/40 backdrop-blur-md px-6 py-6 space-y-6 text-center">
 
-      <a href="#events" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
+      <a href="/events" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
         Spectacles
       </a>
 
-      <a href="#calendrier" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
+      <a href="/calendrier" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
         Calendrier
       </a>
 
@@ -111,7 +111,7 @@ export default function Media() {
         À Propos
       </a>
 
-      <a href="#contact" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
+      <a href="/contact" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
         Contact
       </a>
 
