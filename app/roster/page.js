@@ -186,40 +186,64 @@ export default function Roster() {
             </div>
 
             {/* Roster Grid */}
-            <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-8 text-center">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 text-center">
               {[
-                { name: "Audrey Moreau", image: "/Images/audrey-moreau.png" },
-                { name: "Bryan Gingras", image: "/Images/bryan-gingras.png" },
-                { name: "Buxx Belmar", image: "/Images/buxx-belmar.png" },
-                { name: "Carloss Gonzalez", image: "/Images/carloss-gonzalez.png" },
-                { name: "Dani Leo", image: "/Images/dani-leo.png" },
-                { name: "DGenerate", image: "/Images/dgenerate.png" },
-                { name: "Dreya Mitchell", image: "/Images/dreya-mitchell.png" },
-                { name: "Francis", image: "/Images/francis.png" },
-                { name: "Franky The Mobster", image: "/Images/franky-the-mobster.png" },
-                { name: "Fred Romeo", image: "/Images/fred-romeo.png" },
-                { name: "Ghyslain", image: "/Images/ghyslain.png" },
-                { name: "Heavy Rox", image: "/Images/heavy-rox.png" },
-                { name: "Jake 'La Paix' Madison", image: "/Images/jake-madison.png" },
-                { name: "Jonny Rush", image: "/Images/jonny-rush.png" },
-                { name: "Kristara", image: "/Images/kristara.png" },
-                { name: "Leah Sparks", image: "/Images/leah-sparks.png" },
-                { name: "Marko Estrada", image: "/Images/marko-champion.png" },
-                { name: "Minus", image: "/Images/minus.png" },
-                { name: "Mister Brown", image: "/Images/mister-brown.png" },
-                { name: "Mr. VIP Mitch Thompson", image: "/Images/mitch-thompson.png" },
-                { name: "Muundo", image: "/Images/muundo.png" },
-                { name: "Pezz", image: "/Images/pezz.png" },
-                { name: "SeXXXy Eddy", image: "/Images/sexxxy-eddy.png" },
-                { name: "Tony Icon", image: "/Images/tony-icon.png" },
-                { name: "Tyler Nox", image: "/Images/tyler-nox.png" },
-                { name: "Yan Lambino", image: "/Images/yan-lambino.png" },
-                { name: "Ziggy McGoth", image: "/Images/ziggy-mcgoth.png" }
+                { name: "Audrey Moreau", image: "/Images/audrey-moreau.png", bio: "Ancienne intervieweuse de la TUW, Audrey Moreau est désormais l’assistante de Dani Leo. Bien qu’elle soit naturellement chaleureuse avec les fans et les lutteurs, Dani lui interdit de trop s’attacher. Coincée entre sa gentillesse et les exigences de Dani, Audrey sert d’interprète pour transmettre ses messages au public." },
+                { name: "Bryan Gingras", image: "/Images/bryan-gingras.png", bio: "Bryan Gingras est l’interlocuteur événementiel de la TUW. Toujours dans le feu de l’action, il recueille les réactions des talents avant et après leurs matchs, au cœur même de l’intensité des événements." },
+                { name: "Buxx Belmar", image: "/Images/buxx-belmar.png", bio: "Buxx Belmar a conquis la foule dès son arrivée à la TUW à March Madness IX. Devenu champion dès sa deuxième apparition, il s’est imposé comme le favori du public. Après plus de 300 jours de règne, son parcours dominant s’est terminé lorsque Marko Estrada lui a arraché le titre… aidé par les manigances de son clan." },
+                { name: "Carloss Gonzalez", image: "/Images/carloss-gonzalez.png", bio: "Carloss Gonzalez est l’un des grands favoris de la foule grâce à son style explosif. Ancien champion Ultimate Wrestling Division, il charme les dames et fait rougir les demoiselles partout où il passe. Il fait équipe avec SeXXXy Eddy au sein du duo flamboyant Les Chaud Stoppers." },
+                { name: "Dani Leo", image: "/Images/dani-leo.png", bio: "Dani Leo est l’une des lutteuses les plus détestées de la TUW. Toujours arrogante et exigeante, elle veut que tout tourne autour d’elle et se considère comme le centre de l’attention. Elle a récemment engagé Audrey Moreau pour traduire ses paroles au « disgusting » public de Thetford Mines… et pour porter ses sacs. Dans le ring, elle est sournoise, rapide et prête à tout pour gagner." },
+                { name: "DGenerate", image: "/Images/dgenerate.png", bio: "DGenerate, champion par équipe TUW aux côtés de Mr VIP Mitch Thompson, est l’un des lutteurs les plus dégénérés, impulsifs et flamboyants de la TUW. Très émotif, il reste pourtant redoutable dans le ring. Ancien champion TUW et membre de la Classe Supérieure avec Marko Estrada, Mitch Thompson et Dreya Mitchell, il fait toujours sentir sa présence sur chaque match." },
+                { name: "Dreya Mitchell", image: "/Images/dreya-mitchell.png", bio: "Dreya Mitchell, actuelle championne Ultimate Wrestling Division, a brisé les barrières en devenant la première femme à détenir ce titre autrefois réservé aux hommes. Rusée, puissante et rapide, elle reste invaincue depuis son arrivée à la TUW en novembre 2024. Championne depuis un an, Dreya fait partie de la Classe Supérieure aux côtés de Marko Estrada, Mitch Thompson et DGenerate, imposant sa domination sur tous ses adversaires." },
+                { name: "Francis", image: "/Images/francis.png", bio: "Francis, ancien lutteur ayant fait ses preuves à travers le Québec, l’Ontario et les États-Unis, est désormais le Directeur des Opérations de la TUW. Sa présence backstage le conduit parfois de l’autre côté du rideau pour calmer les talents enflammés. Toujours impartial, il garde le contrôle et veille au bon déroulement des événements." },
+                { name: "Franky The Mobster", image: "/Images/franky-the-mobster.png", bio: "Franky The Mobster, vétéran et figure emblématique de la lutte québécoise, est un lutteur imprévisible et toujours prêt à exploser. Puissant et imposant, il domine non seulement la TUW, mais partout où il passe. Ancien partenaire de Marko Estrada sous le nom des Invincibles, il a été trahi par son ancien allié et son clan, et trace désormais sa route en solitaire." },
+                { name: "Fred Romeo", image: "/Images/fred-romeo.png", bio: "Fred Romeo, la crème italienne, est un lutteur explosif qui se fait rapidement remarquer partout où il passe. Franc et direct, il proclame haut et fort que la TUW est son carré de sable. Bien qu’on le lie à la mafia de la lutte québécoise, il a toujours nié ces rumeurs. Redouté par la majorité des talents backstage, Fred impose sa présence autant sur le ring qu’en coulisses." },
+                { name: "Ghyslain", image: "/Images/ghyslain.png", bio: "Ghyslain est l’annonceur maison de la TUW depuis ses débuts en 2001. Véritable figure originale de la fédération, il apporte une énergie explosive et reste toujours au cœur de l’action, fidèle à son poste et à l’esprit de la TUW." },
+                { name: "Heavy Rox", image: "/Images/heavy-rox.png", bio: "Heavy Rox est l’une des meilleures lutteuses du Québec et une figure incontournable de la TUW. Son style hybride mêle rapidité, technique et puissance, avec des frappes qui font mal. Dans le ring, son côté rebelle ressort pleinement, donnant à son style une allure anarchique et imprévisible." },
+                { name: "Jake Madison", image: "/Images/jake-madison.png", bio: "Jake “La Paix” Madison est l’un des lutteurs les plus sous-estimés de la TUW. Agile et rapide, il sait saisir chaque opportunité qui se présente. Pacifiste convaincu, il chérit son calumet de la paix, mais ses combats révèlent parfois un côté mystérieux : on peut le voir disparaître sous le ring pour réapparaître… dans un nuage de fumée pour le moins discutable." },
+                { name: "Jonny Rush", image: "/Images/jonny-rush.png", bio: "Jonny Rush est un lutteur réputé pour son style haute-voltige. Avec une forme physique exceptionnelle, il frappe fort et réalise des manœuvres rares qui défient la gravité. À ses côtés, son mentor Shane Pinto l’accompagne, guidant ce talent spectaculaire au cœur de la TUW." },
+                { name: "Kristara", image: "/Images/kristara.png", bio: "Kristara, nommée lutteuse #1 au Québec et présente dans le fameux PWI 500 ces deux dernières années, est l’une des meilleures lutteuses du Canada et parmi les 500 meilleures au monde. Collectant les titres partout où elle passe, elle cumule les victoires à la TUW et, malgré un horaire chargé dû à ses combats à travers le Canada, reste une présence régulière et redoutable dans la promotion." },
+                { name: "Leah Sparks", image: "/Images/leah-sparks.png", bio: "Leah Sparks, nommée recrue de l’année 2025, est sans doute la lutteuse la plus agile et athlétique de la TUW. Ce véritable firecracker combine haute voltige et frappes puissantes. Extrêmement souple, elle réalise des manœuvres que personne d’autre n’oserait tenter, impressionnant à chaque combat." },
+                { name: "Marko Estrada", image: "/Images/marko-estrada.png", bio: "Marko Estrada est l’un des visages emblématiques de la lutte au Québec. À la TUW pour une seule raison : dominer. Champion TUW et leader de la Classe Supérieure avec Mitch Thompson, Dreya Mitchell et DGenerate, il allie un style extrêmement athlétique à une dangerosité redoutable, faisant de lui l’un des lutteurs les plus puissants de la promotion. Ancien partenaire de Franky The Mobster dans Les Invincibles, Marko l’a trahi pour accomplir sa mission : devenir le visage de la TUW, le champion incontesté… et le lutteur le plus détesté de tous." },
+                { name: "Minus", image: "/Images/minus.png", bio: "Minus est l’arbitre senior de la TUW, présent dans la promotion depuis 2004. Lorsqu’il entre dans le ring, il impose la loi et veille à ce que chaque match se déroule selon les règles, avec rigueur et autorité." },
+                { name: "Mister Brown", image: "/Images/mister-brown.png", bio: "Mister Brown, ancien champion TUW, est surnommé le King of Hardcore et n’a peur de rien. Agile dans le ring, il excelle particulièrement lorsque les règles disparaissent : en combats hardcore, rares sont les occasions où Brown ne sort pas vainqueur." },
+                { name: "Mitch Thompson", image: "/Images/mitch-thompson.png", bio: "Mr VIP Mitch Thompson figure régulièrement dans le top 10 des meilleurs lutteurs du Québec et est reconnu comme l’un des meilleurs spécialistes de la haute voltige de la province. Champion par équipe de la TUW aux côtés de DGenerate et membre de la Classe Supérieure avec Marko Estrada, DGenerate et Dreya Mitchell, Mitch allie agilité exceptionnelle et style sournois, rendant chacun de ses combats imprévisible et redoutable." },
+                { name: "Muundo", image: "/Images/muundo.png", bio: "Muundo est l’un des lutteurs les plus puissants et explosifs de la TUW. Aimé du public, il est devenu un visage emblématique depuis le retour de la promotion en 2023 : lorsqu’on pense TUW, on pense Muundo." },
+                { name: "Pezz", image: "/Images/pezz.png", bio: "Pezz, anciennement Capitaine Pezz, est l’un des rares à être présent à la TUW depuis ses débuts en 2001. Ancien champion TUW, il a pris un tournant sombre en 2025 : après son attaque sur son ancien partenaire Jake Madison en tant que The High Seas, Pezz n’est plus le même. Très imprévisible, son style puissant et dominant, unique à la TUW, fait de lui un adversaire redoutable." },
+                { name: "Sexxxy Eddy", image: "/Images/sexxxy-eddy.png", bio: "SeXXXy Eddy est une légende de la lutte au Québec. L’un des premiers lutteurs indépendants québécois à franchir la frontière pour lutter aux États-Unis dès 2003, Eddy amène l'expérience et il est l’un des talents les plus divertissants de la TUW. En équipe avec Carloss Gonzalez, formant Les Chaud Stoppers, Eddy possède quelque chose dans le backstage que peu de talents ont… 5 lbs de… " },
+                { name: "Shane Pinto", image: "/Images/shane-pinto.png", bio: "Sugar Shane Pinto est l’un des gérants les plus bruyants et charismatiques de la scène québécoise. Mentor de Jonny Rush, il travaille sans relâche pour propulser son protégé au sommet. Bien qu’il soit sur la scène depuis seulement quelques années, sa présence est partout, et lorsqu’il le souhaite, Shane peut aussi entrer dans le ring, prouvant qu’il est l’un des gérants les plus mémorables depuis longtemps." },
+                { name: "Tony Icon", image: "/Images/tony-icon.png", bio: "Tony Icon, présent depuis le tout début de la TUW en 2001, a longtemps été le visage le plus détesté de la promotion, autant backstage que devant le public. Maître de son destin et de son fameux Icon Club, il avait souvent le dernier mot… jusqu’à récemment. Architecte de la trahison de Marko Estrada sur Franky The Mobster, Tony a lui-même été trahi par Marko et tout a perdu." },
+                { name: "Tyler Nox", image: "/Images/tyler-nox.png", bio: "Tyler Nox est sans aucun doute l’un des lutteurs les plus voyagés du Québec. Après une incroyable année 2025, il est partout, et la TUW ne fait pas exception. Présent dans des combats importants malgré un horaire très chargé, Tyler livre toujours la marchandise lorsqu’il foule le ring de la promotion." },
+                { name: "Yan Lambino", image: "/Images/yan-lambino.png", bio: "Yan Lambino, arbitre de la TUW depuis le retour de la promotion en 2023, est l’un des arbitres les plus respectés du Québec. Imposant et rigoureux, il fait la loi dans le ring et officie souvent lors des combats impliquant nos invités internationaux." },
+                { name: "Ziggy McGoth", image: "/Images/ziggy-mcgoth.png", bio: "Ziggy McGoth fait partie de la famille McGoth, une fratrie dysfonctionnelle de frères masqués connus pour leur style imprévisible et leur énergie débridée, alimentée par les boissons énergisantes. Favori des enfants, Ziggy offre toujours un spectacle haut en couleur dans le ring. Peu victorieux, il donne néanmoins toujours son 110 %, captivant le public à chaque apparition." },
+
               ].map((wrestler) => (
-                <div key={wrestler.name} className="group bg-black/60 border border-red-600/40 backdrop-blur-md p-6 rounded-2xl shadow-xl hover:scale-105 transition duration-300">
-                  <img src={wrestler.image} alt={wrestler.name} className="rounded-2xl w-full h-64 object-contain group-hover:scale-105 transition duration-500"/>
-                </div>
-              ))}
+                <div
+                  key={wrestler.name}
+                  className="relative group bg-black/60 border border-red-600/40 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl hover:scale-105 transition duration-300"
+                >
+
+                  <img
+                    src={wrestler.image}
+                    alt={wrestler.name}
+                    className="w-full h-96 object-contain transition duration-500 group-hover:scale-110"
+                  />
+
+    {/* Hover Overlay */}
+    <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-center items-center p-6">
+
+      <h3 className="text-xl font-bold text-red-400 mb-2">
+        {wrestler.name}
+      </h3>
+
+      <p className="text-gray-300 text-sm">
+        {wrestler.bio}
+      </p>
+
+    </div>
+
+  </div>
+))}
             </div>
 
                      </div>
