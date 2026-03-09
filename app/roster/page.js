@@ -172,7 +172,7 @@ export default function Roster() {
 
               {/* Championne */}
               <div className="flex flex-col md:flex-row items-center bg-black/60 border border-red-600/40 backdrop-blur-md rounded-2xl p-6 shadow-xl">
-                <img src="/Images/dreya-mitchell.png" alt="Championne Ultimate Wrestling Division" className="w-105 h-85 object-cover rounded-2xl mb-6 md:mb-0 md:mr-8"/>
+                <img src="/Images/dreya-champ.png" alt="Championne Ultimate Wrestling Division" className="w-105 h-85 object-cover rounded-2xl mb-6 md:mb-0 md:mr-8"/>
                 <div className="text-center md:text-left">
                   <h3 className="text-2xl font-bold mb-2">Championne Ultimate Wrestling Divison</h3>
                   <p className="text-gray-400">

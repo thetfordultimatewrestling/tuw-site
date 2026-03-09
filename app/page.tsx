@@ -172,7 +172,7 @@ export default function Home() {
           <div className="bg-black/60 border border-red-600/40 backdrop-blur-md p-8 rounded-2xl shadow-xl">
 
             <img
-              src="/Images/Banner_Ultimate_Revolution_2026.png"
+              src="/Images/Affiche-Officielle-UR2026.png"
               alt="Ultimate Revolution III Event Poster"
               className="mx-auto rounded-2xl shadow-xl w-full max-w-2xl object-cover mb-8"
             />
