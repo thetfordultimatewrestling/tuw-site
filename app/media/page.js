@@ -30,12 +30,14 @@ export default function Media() {
 
   <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
-    {/* Logo */}
-    <img
-      src="/Images/tuw-logo.png"
-      alt="TUW Logo"
-      className="h-14 w-auto hover:scale-105 transition"
-    />
+            {/* Logo */}
+            <a href="/">
+              <img
+                src="/Images/tuw-logo.png"
+                alt="TUW Logo"
+                className="h-14 w-auto hover:scale-105 transition-transform duration-300"
+              />
+            </a>
 
     {/* Desktop Menu */}
     <div className="hidden md:flex items-center space-x-8">
