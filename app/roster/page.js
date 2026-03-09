@@ -43,14 +43,14 @@ export default function Roster() {
             <div className="hidden md:flex items-center space-x-8">
 
               <div className="flex space-x-8 text-sm tracking-wide">
-                <a href="/events" className="hover:text-red-400 transition">Spectacles</a>
-                <a href="/calendrier" className="hover:text-red-400 transition">Calendrier</a>
+                <a href="/#events" className="hover:text-red-400 transition">Spectacles</a>
+                <a href="/#calendrier" className="hover:text-red-400 transition">Calendrier</a>
                 <a href="/media" className="hover:text-red-400 transition">Media</a>
                 <a href="/roster" className="hover:text-red-400 transition">Roster</a>
                 <a href="/partenaires" className="hover:text-red-400 transition">Partenaires</a>
                 <a href="/apropos" className="hover:text-red-400 transition">À Propos</a>
-                <a href="/contact" className="hover:text-red-400 transition">Contact</a>
                 <a href="/recrutement" className="hover:text-red-400 transition">Recrutement</a>
+                <a href="/contact" className="hover:text-red-400 transition">Contact</a>
               </div>
 
               {/* Social Media Icons */}
@@ -96,8 +96,8 @@ export default function Roster() {
 
               <div className="flex flex-col items-center space-y-6 py-8 text-lg">
 
-                <a href="/events" onClick={() => setMenuOpen(false)}>Spectacles</a>
-                <a href="/calendrier" onClick={() => setMenuOpen(false)}>Calendrier</a>
+                <a href="/#events" onClick={() => setMenuOpen(false)}>Spectacles</a>
+                <a href="/#calendrier" onClick={() => setMenuOpen(false)}>Calendrier</a>
                 <a href="/media" onClick={() => setMenuOpen(false)}>Media</a>
                 <a href="/roster" onClick={() => setMenuOpen(false)}>Roster</a>
                 <a href="/partenaires" onClick={() => setMenuOpen(false)}>Partenaires</a>
