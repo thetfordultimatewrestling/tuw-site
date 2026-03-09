@@ -49,7 +49,7 @@ export default function Media() {
                 <a href="/partenaires" className="hover:text-red-400 transition">Partenaires</a>
                 <a href="/apropos" className="hover:text-red-400 transition">À Propos</a>
                 <a href="/recrutement" className="hover:text-red-400 transition">Recrutement</a>
-                <a href="/contact" className="hover:text-red-400 transition">Contact</a>
+                <a href="/#contact" className="hover:text-red-400 transition">Contact</a>
               </div>
 
               {/* Social Media Icons */}
@@ -102,7 +102,7 @@ export default function Media() {
                 <a href="/partenaires" onClick={() => setMenuOpen(false)}>Partenaires</a>
                 <a href="/apropos" onClick={() => setMenuOpen(false)}>À Propos</a>
                 <a href="/recrutement" onClick={() => setMenuOpen(false)}>Recrutement</a>
-                <a href="/contact" onClick={() => setMenuOpen(false)}>Contact</a>
+                <a href="/#contact" onClick={() => setMenuOpen(false)}>Contact</a>
 
                 {/* Mobile Socials */}
                 <div className="flex justify-center space-x-6 pt-4">
