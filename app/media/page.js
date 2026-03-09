@@ -190,3 +190,12 @@ export default function Home() {
           </div>
 
         </section>
+        {/* ================= FOOTER ================= */}
+        <footer className="border-t border-zinc-800 py-8 text-center text-sm text-gray-400 backdrop-blur-xl bg-black/40">
+          © 2001 - 2026 CLUB DE LUTTE TUW INC. TOUS DROITS RÉSERVÉS.
+        </footer>
+
+      </div>
+    </div>
+  );
+}
