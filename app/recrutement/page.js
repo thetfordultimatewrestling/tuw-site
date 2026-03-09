@@ -162,8 +162,6 @@ export default function Recrutement() {
           © 2001 - 2026 CLUB DE LUTTE TUW INC. TOUS DROITS RÉSERVÉS.
         </footer>
 
-      </div>
-    </div>
-  );
+   );
 }
 
