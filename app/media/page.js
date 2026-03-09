@@ -43,8 +43,8 @@ export default function Home() {
       <div className="flex space-x-8 text-sm tracking-wide">
         <a href="#events" className="hover:text-red-400 transition">Spectacles</a>
         <a href="#calendrier" className="hover:text-red-400 transition">Calendrier</a>
-        <a href="#media" className="hover:text-red-400 transition">Media</a>
-        <a href="#roster" className="hover:text-red-400 transition">Roster</a>
+        <a href="/media" className="hover:text-red-400 transition">Media</a>
+        <a href="/roster" className="hover:text-red-400 transition">Roster</a>
         <a href="/partenaires" className="hover:text-red-400 transition">Partenaires</a>
         <a href="/apropos" className="hover:text-red-400 transition">À Propos</a>
         <a href="#contact" className="hover:text-red-400 transition">Contact</a>
@@ -93,11 +93,11 @@ export default function Home() {
         Calendrier
       </a>
 
-      <a href="#media" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
+      <a href="/media" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
         Media
       </a>
 
-      <a href="#roster" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
+      <a href="/roster" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
         Roster
       </a>
 
