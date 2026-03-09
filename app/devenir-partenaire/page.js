@@ -33,7 +33,7 @@ export default function DevenirPartenaire() {
 
       <div className="relative z-10">
 
-        {/* ================= NAVBAR ================= */}
+       {/* NAVBAR */}
         <nav className="fixed top-0 w-full backdrop-blur-lg bg-black/60 border-b border-zinc-800 z-50">
           <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
@@ -50,37 +50,44 @@ export default function DevenirPartenaire() {
             <div className="hidden md:flex items-center space-x-8">
 
               <div className="flex space-x-8 text-sm tracking-wide">
-                <a href="/#events" className="hover:text-red-400 transition">Spectacles</a>
-                <a href="/#calendrier" className="hover:text-red-400 transition">Calendrier</a>
+                <a href="/events" className="hover:text-red-400 transition">Spectacles</a>
+                <a href="/calendrier" className="hover:text-red-400 transition">Calendrier</a>
                 <a href="/media" className="hover:text-red-400 transition">Media</a>
                 <a href="/roster" className="hover:text-red-400 transition">Roster</a>
                 <a href="/partenaires" className="hover:text-red-400 transition">Partenaires</a>
                 <a href="/apropos" className="hover:text-red-400 transition">À Propos</a>
-                <a href="/#contact" className="hover:text-red-400 transition">Contact</a>
+                <a href="/contact" className="hover:text-red-400 transition">Contact</a>
+                <a href="/recrutement" className="hover:text-red-400 transition">Recrutement</a>
               </div>
 
-              {/* Social Media */}
+              {/* Social Media Icons */}
               <div className="flex space-x-4 items-center">
-                <a href="https://www.facebook.com/thetfordultimatewrestling" target="_blank">
-                  <img src="/Images/facebook.png" className="h-6 hover:scale-110 transition"/>
+
+                <a href="https://www.facebook.com/thetfordultimatewrestling" target="_blank" rel="noopener noreferrer">
+                  <img src="/Images/facebook.png" alt="Facebook" className="h-6 hover:scale-110 transition"/>
                 </a>
-                <a href="https://www.instagram.com/thetfordultimatewrestling/" target="_blank">
-                  <img src="/Images/instagram.png" className="h-6 hover:scale-110 transition"/>
+
+                <a href="https://www.instagram.com/thetfordultimatewrestling/" target="_blank" rel="noopener noreferrer">
+                  <img src="/Images/instagram.png" alt="Instagram" className="h-6 hover:scale-110 transition"/>
                 </a>
-                <a href="https://www.youtube.com/@thetfordultimatewrestling" target="_blank">
-                  <img src="/Images/youtube.png" className="h-6 hover:scale-110 transition"/>
+
+                <a href="https://www.youtube.com/@thetfordultimatewrestling" target="_blank" rel="noopener noreferrer">
+                  <img src="/Images/youtube.png" alt="YouTube" className="h-6 hover:scale-110 transition"/>
                 </a>
-                <a href="https://open.spotify.com/intl-fr/artist/6g5i1jqEKNi7zKCfABPfsB" target="_blank">
-                  <img src="/Images/spotify.png" className="h-6 hover:scale-110 transition"/>
+
+                <a href="https://open.spotify.com/intl-fr/artist/6g5i1jqEKNi7zKCfABPfsB" target="_blank" rel="noopener noreferrer">
+                  <img src="/Images/spotify.png" alt="Spotify" className="h-6 hover:scale-110 transition"/>
                 </a>
-                <a href="https://independentwrestling.tv/promotion/thetford-ultimate-wrestling" target="_blank">
-                  <img src="/Images/iwtv.png" className="h-6 hover:scale-110 transition"/>
+
+                <a href="https://independentwrestling.tv/promotion/thetford-ultimate-wrestling" target="_blank" rel="noopener noreferrer">
+                  <img src="/Images/iwtv.png" alt="IWTV" className="h-6 hover:scale-110 transition"/>
                 </a>
+
               </div>
 
             </div>
 
-            {/* Hamburger */}
+            {/* Hamburger Button */}
             <button
               className="md:hidden text-white text-3xl"
               onClick={() => setMenuOpen(!menuOpen)}
@@ -93,25 +100,48 @@ export default function DevenirPartenaire() {
           {/* Mobile Menu */}
           {menuOpen && (
             <div className="md:hidden bg-black/95 backdrop-blur-lg border-t border-zinc-800">
+
               <div className="flex flex-col items-center space-y-6 py-8 text-lg">
-                <a href="/#events" onClick={() => setMenuOpen(false)}>Spectacles</a>
-                <a href="/#calendrier" onClick={() => setMenuOpen(false)}>Calendrier</a>
+
+                <a href="/events" onClick={() => setMenuOpen(false)}>Spectacles</a>
+                <a href="/calendrier" onClick={() => setMenuOpen(false)}>Calendrier</a>
                 <a href="/media" onClick={() => setMenuOpen(false)}>Media</a>
                 <a href="/roster" onClick={() => setMenuOpen(false)}>Roster</a>
                 <a href="/partenaires" onClick={() => setMenuOpen(false)}>Partenaires</a>
                 <a href="/apropos" onClick={() => setMenuOpen(false)}>À Propos</a>
-                <a href="/#contact" onClick={() => setMenuOpen(false)}>Contact</a>
+                <a href="/recrutement" onClick={() => setMenuOpen(false)}>Recrutement</a>
+                <a href="/contact" onClick={() => setMenuOpen(false)}>Contact</a>
 
+                {/* Mobile Socials */}
                 <div className="flex justify-center space-x-6 pt-4">
-                  <img src="/Images/facebook.png" className="h-6"/>
-                  <img src="/Images/instagram.png" className="h-6"/>
-                  <img src="/Images/youtube.png" className="h-6"/>
-                  <img src="/Images/spotify.png" className="h-6"/>
-                  <img src="/Images/iwtv.png" className="h-6"/>
+
+                  <a href="https://www.facebook.com/thetfordultimatewrestling" target="_blank" rel="noopener noreferrer">
+                    <img src="/Images/facebook.png" className="h-6 hover:scale-110 transition"/>
+                  </a>
+
+                  <a href="https://www.instagram.com/thetfordultimatewrestling/" target="_blank" rel="noopener noreferrer">
+                    <img src="/Images/instagram.png" className="h-6 hover:scale-110 transition"/>
+                  </a>
+
+                  <a href="https://www.youtube.com/@thetfordultimatewrestling" target="_blank" rel="noopener noreferrer">
+                    <img src="/Images/youtube.png" className="h-6 hover:scale-110 transition"/>
+                  </a>
+
+                  <a href="https://open.spotify.com/intl-fr/artist/6g5i1jqEKNi7zKCfABPfsB" target="_blank" rel="noopener noreferrer">
+                    <img src="/Images/spotify.png" className="h-6 hover:scale-110 transition"/>
+                  </a>
+
+                  <a href="https://independentwrestling.tv/promotion/thetford-ultimate-wrestling" target="_blank" rel="noopener noreferrer">
+                    <img src="/Images/iwtv.png" className="h-6 hover:scale-110 transition"/>
+                  </a>
+
                 </div>
+
               </div>
+
             </div>
           )}
+
         </nav>
 
         {/* ================= PAGE CONTENT ================= */}

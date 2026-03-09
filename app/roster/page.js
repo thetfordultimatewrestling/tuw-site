@@ -26,7 +26,7 @@ export default function Roster() {
       {/* ================= SITE CONTENT ================= */}
       <div className="relative z-10">
 
-        {/* NAVBAR */}
+       {/* NAVBAR */}
         <nav className="fixed top-0 w-full backdrop-blur-lg bg-black/60 border-b border-zinc-800 z-50">
           <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
@@ -43,13 +43,14 @@ export default function Roster() {
             <div className="hidden md:flex items-center space-x-8">
 
               <div className="flex space-x-8 text-sm tracking-wide">
-                <a href="/#events" className="hover:text-red-400 transition">Spectacles</a>
-                <a href="/#calendrier" className="hover:text-red-400 transition">Calendrier</a>
+                <a href="/events" className="hover:text-red-400 transition">Spectacles</a>
+                <a href="/calendrier" className="hover:text-red-400 transition">Calendrier</a>
                 <a href="/media" className="hover:text-red-400 transition">Media</a>
                 <a href="/roster" className="hover:text-red-400 transition">Roster</a>
                 <a href="/partenaires" className="hover:text-red-400 transition">Partenaires</a>
                 <a href="/apropos" className="hover:text-red-400 transition">À Propos</a>
-                <a href="/#contact" className="hover:text-red-400 transition">Contact</a>
+                <a href="/contact" className="hover:text-red-400 transition">Contact</a>
+                <a href="/recrutement" className="hover:text-red-400 transition">Recrutement</a>
               </div>
 
               {/* Social Media Icons */}
@@ -95,13 +96,14 @@ export default function Roster() {
 
               <div className="flex flex-col items-center space-y-6 py-8 text-lg">
 
-                <a href="/#events" onClick={() => setMenuOpen(false)}>Spectacles</a>
-                <a href="/#calendrier" onClick={() => setMenuOpen(false)}>Calendrier</a>
+                <a href="/events" onClick={() => setMenuOpen(false)}>Spectacles</a>
+                <a href="/calendrier" onClick={() => setMenuOpen(false)}>Calendrier</a>
                 <a href="/media" onClick={() => setMenuOpen(false)}>Media</a>
                 <a href="/roster" onClick={() => setMenuOpen(false)}>Roster</a>
                 <a href="/partenaires" onClick={() => setMenuOpen(false)}>Partenaires</a>
                 <a href="/apropos" onClick={() => setMenuOpen(false)}>À Propos</a>
-                <a href="/#contact" onClick={() => setMenuOpen(false)}>Contact</a>
+                <a href="/recrutement" onClick={() => setMenuOpen(false)}>Recrutement</a>
+                <a href="/contact" onClick={() => setMenuOpen(false)}>Contact</a>
 
                 {/* Mobile Socials */}
                 <div className="flex justify-center space-x-6 pt-4">

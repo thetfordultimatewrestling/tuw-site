@@ -156,7 +156,7 @@ export default function Recrutement() {
 
                 </div>
 
-        </section>   {/* <-- THIS WAS MISSING */}
+        </section>  
 
         {/* ================= FOOTER ================= */}
         <footer className="border-t border-zinc-800 py-8 text-center text-sm text-gray-400 backdrop-blur-xl bg-black/40">
