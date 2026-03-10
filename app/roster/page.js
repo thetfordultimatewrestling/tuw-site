@@ -5,7 +5,8 @@ import { useState } from "react";
 export default function Roster() {
 
   const [menuOpen, setMenuOpen] = useState(false);
-
+  const [activeCard, setActiveCard] = useState(null);
+  
   return (
     <div className="relative min-h-screen text-white overflow-x-hidden">
 
@@ -80,13 +81,13 @@ export default function Roster() {
 
             </div>
 
-            {/* Hamburger Button */}
-            <button
-              className="md:hidden text-white text-3xl"
-              onClick={() => setMenuOpen(!menuOpen)}
-            >
-              ☰
-            </button>
+            {/* Mobile Hamburger */}
+    <button
+      className="md:hidden text-white text-3xl"
+      onClick={() => setMenuOpen(!menuOpen)}
+    >
+      {menuOpen ? "✕" : "☰"}
+    </button>
 
           </div>
 
@@ -222,36 +223,54 @@ export default function Roster() {
                 { name: "Ziggy McGoth", image: "/Images/ziggy-mcgoth.png", bio: "Ziggy McGoth fait partie de la famille McGoth, une fratrie dysfonctionnelle de frères masqués connus pour leur style imprévisible et leur énergie débridée, alimentée par les boissons énergisantes. Favori des enfants, Ziggy offre toujours un spectacle haut en couleur dans le ring. Peu victorieux, il donne néanmoins toujours son 110 %, captivant le public à chaque apparition." },
 
               ].map((wrestler) => (
-                <div
-                  key={wrestler.name}
-                  className="relative group bg-black/60 border border-red-600/40 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl hover:scale-105 transition duration-300"
+               <div
+                 key={wrestler.name}
+                 onClick={() =>
+                   setActiveCard(activeCard === wrestler.name ? null : wrestler.name)
+                 }
+                 className="relative group bg-black/60 border border-red-600/40 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl hover:scale-105 transition duration-300 cursor-pointer" 
                 >
 
                   <img
                     src={wrestler.image}
                     alt={wrestler.name}
                     className="w-full h-96 object-contain transition duration-500 group-hover:scale-110"
-                  />
+                   />
 
-    {/* Hover Overlay */}
-    <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition duration-300 flex flex-col justify-center items-center p-6">
+    {/* Overlay (Hover on Desktop / Tap on Mobile) */}
+<div
+  className={`absolute inset-0 flex flex-col justify-end transition-all duration-500 ${
+    activeCard === wrestler.name
+      ? "opacity-100"
+      : "opacity-0 group-hover:opacity-100"
+  }`}
+>
 
-      <h3 className="text-xl font-bold text-red-400 mb-2">
-        {wrestler.name}
-      </h3>
+  {/* Gradient background */}
+  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent"></div>
 
-      <p className="text-gray-300 text-sm">
-        {wrestler.bio}
-      </p>
+  {/* Text panel */}
+  <div className="relative p-6 translate-y-10 group-hover:translate-y-0 transition-transform duration-500">
 
-    </div>
+    <h3 className="text-xl font-bold text-red-400 mb-2">
+      {wrestler.name}
+    </h3>
+
+    <p className="text-gray-300 text-sm leading-relaxed">
+      {wrestler.bio}
+    </p>
 
   </div>
-))}
+
+</div>
+
+                </div>
+              ))}
             </div>
 
-                     </div>
-          </section>
+          </div>
+        </section>
+
         {/* ================= FOOTER ================= */}
         <footer className="border-t border-zinc-800 py-8 text-center text-sm text-gray-400 backdrop-blur-xl bg-black/40">
           © 2001 - 2026 CLUB DE LUTTE TUW INC. TOUS DROITS RÉSERVÉS.

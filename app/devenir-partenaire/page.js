@@ -87,13 +87,13 @@ export default function DevenirPartenaire() {
 
             </div>
 
-            {/* Hamburger Button */}
-            <button
-              className="md:hidden text-white text-3xl"
-              onClick={() => setMenuOpen(!menuOpen)}
-            >
-              ☰
-            </button>
+            {/* Mobile Hamburger */}
+    <button
+      className="md:hidden text-white text-3xl"
+      onClick={() => setMenuOpen(!menuOpen)}
+    >
+      {menuOpen ? "✕" : "☰"}
+    </button>
 
           </div>
 
