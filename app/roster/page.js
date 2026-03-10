@@ -237,9 +237,9 @@ export default function Roster() {
                     className="w-full h-96 object-contain transition duration-500 group-hover:scale-110"
                    />
 
-    {/* Overlay (Hover on Desktop / Tap on Mobile) */}
+  {/* Overlay (Hover on Desktop / Tap on Mobile) */}
 <div
-  className={`absolute inset-0 flex flex-col justify-end transition-all duration-500 ${
+  className={`absolute inset-0 flex flex-col transition-all duration-500 ${
     activeCard === wrestler.name
       ? "opacity-100"
       : "opacity-0 group-hover:opacity-100"
@@ -247,12 +247,12 @@ export default function Roster() {
 >
 
   {/* Gradient background */}
-  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent"></div>
+  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/40"></div>
 
-  {/* Text panel */}
-  <div className="relative p-6 translate-y-10 group-hover:translate-y-0 transition-transform duration-500">
+  {/* Scrollable text container */}
+  <div className="relative p-6 overflow-y-auto h-full flex flex-col justify-end">
 
-    <h3 className="text-xl font-bold text-red-400 mb-2">
+    <h3 className="text-xl font-bold text-red-400 mb-3">
       {wrestler.name}
     </h3>
 
