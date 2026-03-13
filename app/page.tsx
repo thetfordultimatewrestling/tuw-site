@@ -45,7 +45,7 @@ export default function Home() {
         <a href="#calendrier" className="hover:text-red-400 transition">Calendrier</a>
         <a href="/media" className="hover:text-red-400 transition">Media</a>
         <a href="/roster" className="hover:text-red-400 transition">Roster</a>
-        <a href="/roster" className="hover:text-red-400 transition">Résultats</a>
+        <a href="/résultats" className="hover:text-red-400 transition">Résultats</a>
         <a href="/partenaires" className="hover:text-red-400 transition">Partenaires</a>
         <a href="/apropos" className="hover:text-red-400 transition">À Propos</a>
         <a href="/recrutement" className="hover:text-red-400 transition">Recrutement</a>
@@ -103,7 +103,7 @@ export default function Home() {
         Roster
       </a>
 
-      <a href="/partenaires" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
+      <a href="/résultats" onClick={() => setMenuOpen(false)} className="block text-lg hover:text-red-400">
         Résultats
       </a>
 
