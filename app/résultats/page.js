@@ -141,9 +141,9 @@ export default function Résultats() {
 
         {/* PAGE CONTENT */}
         <section className="pt-40 pb-24 px-6 text-center">
-          <div className="max-w-4xl mx-auto backdrop-blur-xl bg-zinc-900/60 p-10 rounded-3xl border border-zinc-800 shadow-2xl">
+           <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
 
-            <h1 className="text-5xl font-bold mb-7 tracking-wide">
+            <h1 className="text-2xl font mb-7 tracking-wide">
               Original Kickoff 2025 - 25 janvier 2025
               Studio Paul Hébert, Thetford Mines
             </h1>
@@ -155,41 +155,75 @@ export default function Résultats() {
             />
 
             <p className="text-gray-300 text-lg leading-relaxed mb-6">
-            On ouvre le spectacle avec Mike Marston qui nous annonce qu'il doit malheureusement remettre son titre TUW du à une blessure et sera absent pour une période indéterminée. Nous lui souhaitons prompt rétablissement! 
+On ouvre le spectacle avec Mike Marston qui nous annonce qu'il doit malheureusement remettre son titre TUW du à une blessure et sera absent pour une période indéterminée. Nous lui souhaitons prompt rétablissement!
+</p>
 
-            Chase Ironside qui devait à l'origine affronter Marston pour le championnat TUW annonce qu'il aura finalement une chance de devenir champion à March Madness puisqu'il est qualifié comme aspirant à un combat de championnat lors de cet événement. C'est alors que Tony Icon se pointe et nous apprend que Chase devra battre un adversaire redoutable ce soir afin de se qualifier au match pour le titre vacant de la TUW.  Nul autre que Karl Jepson! 
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Chase Ironside qui devait à l'origine affronter Marston pour le championnat TUW annonce qu'il aura finalement une chance de devenir champion à March Madness puisqu'il est qualifié comme aspirant à un combat de championnat lors de cet événement. C'est alors que Tony Icon se pointe et nous apprend que Chase devra battre un adversaire redoutable ce soir afin de se qualifier au match pour le titre vacant de la TUW. Nul autre que Karl Jepson!
+</p>
 
-            Chase Ironside bat Karl Jepson pour devenir officiellement aspirant au titre tel que mentionné plus tôt et ce à la grande déception de Tony Icon
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Chase Ironside bat Karl Jepson pour devenir officiellement aspirant au titre tel que mentionné plus tôt et ce à la grande déception de Tony Icon.
+</p>
 
-            Carloss Gonzales conserve le championnat UWD contre le géant de St-Casimir Matt Falco. 
-            
-            Un tout nouveau concept est présenté aux spectateurs.  Le 'Lucky 7 Scramble' 
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Carloss Gonzales conserve le championnat UWD contre le géant de St-Casimir Matt Falco.
+</p>
 
-            Sept lutteurs auront la chance de mettre la main sur un billet d'or afin d'être éligible à un combat spécial ou le gagnant remportera la somme de 5000$ . Les billets d'or peuvent être gagnés dans un combat, une épreuve ou même trouvé dans une cachette dans la salle. Bonne chance à tous! 
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Un tout nouveau concept est présenté aux spectateurs. Le "Lucky 7 Scramble".
+</p>
 
-            Sexxxy Eddy gagne sa place dans le 'Lucky 7 Scramble' en battant Jason Petitclerc 
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Sept lutteurs auront la chance de mettre la main sur un billet d'or afin d'être éligible à un combat spécial ou le gagnant remportera la somme de 5000$. Les billets d'or peuvent être gagnés dans un combat, une épreuve ou même trouvé dans une cachette dans la salle. Bonne chance à tous!
+</p>
 
-            Scott Matrix vient à bout de Mr.VIP Mitch Thompson malgré les interventions de Tony Icon aux abords du ring. 
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Sexxxy Eddy gagne sa place dans le "Lucky 7 Scramble" en battant Jason Petitclerc.
+</p>
 
-            Les 2 membres du Icon Club attaquent Scott après le combat mais Mr.Brown effectue un retour et vient à sa rescousse! Un uppercut pour Mitch! un uppercut pour Tony!  Les gens sont content de voir ça 
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Scott Matrix vient à bout de Mr.VIP Mitch Thompson malgré les interventions de Tony Icon aux abords du ring.
+</p>
 
-            Mr.Brown prend ensuite la parole pour prédire la fin imminente du Icon Club. À suivre...
-             
-            Alors que Scott Matrix est encore dans le ring. Une vidéo mystérieuse annonçant le retour d'un lutteur est diffusé à l'écran.  On en sais pas plus pour l'instant 
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Les 2 membres du Icon Club attaquent Scott après le combat mais Mr.Brown effectue un retour et vient à sa rescousse! Un uppercut pour Mitch! Un uppercut pour Tony! Les gens sont content de voir ça.
+</p>
 
-            Alors que le triple menace féminin s'apprêtait à commencer. Carlos s'amène au ring pour faire la cour aux jolies demoiselles dans l'arène.  Mais également pour offrir une chance à la gagnante d'avoir une 'date' avec lui ET une chance pour son titre UWD qu'il détient depuis plus d'un an! ...Intéressant
-            
-            Dreya Mitchell se sauve avec la victoire contre Kacey Diamond & Kristara dans un excellent match triple menace qui nous a bien démontré pourquoi ces 3 lutteuses font parti des meilleurs au Québec 
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Mr.Brown prend ensuite la parole pour prédire la fin imminente du Icon Club. À suivre...
+</p>
 
-            En backstage, Carloss s'empiffre de tout les tablettes de chocolat qu'il a pu trouver dans l'espoir de trouvé un billet d'or à l'intérieur.  Une fois endormi et si prêt du but. Carloss se fait volé le billet d'or caché dans la toute dernière tablette qui lui restait par une personne inconnu  
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Alors que Scott Matrix est encore dans le ring, une vidéo mystérieuse annonçant le retour d'un lutteur est diffusée à l'écran. On en sait pas plus pour l'instant.
+</p>
 
-            Muundo l'emporte contre Johnny Rush dans un 2 de 3 sans disqualification! 
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Alors que le triple menace féminin s'apprêtait à commencer, Carlos s'amène au ring pour faire la cour aux jolies demoiselles dans l'arène, mais également pour offrir une chance à la gagnante d'avoir une "date" avec lui ET une chance pour son titre UWD qu'il détient depuis plus d'un an! ...Intéressant.
+</p>
 
-            Le Racoon Jason Petitclerc frustré d'avoir perdu son match ce soir croise un Ziggy en pleine célébration d'avoir trouvé un billet d'or.   Jason ne perd pas de temp à l'attaquer et quitté la salle avec son billet en main  
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Dreya Mitchell se sauve avec la victoire contre Kacey Diamond & Kristara dans un excellent match triple menace qui nous a bien démontré pourquoi ces 3 lutteuses font partie des meilleures au Québec.
+</p>
 
-            Les invincibles conservent les Championnats par équipe contre Capitaine Pezz et Jake Madison. 
-            
-            Les deux équipes se sert la main à la fin du combat.  Nous pensions finir cette soirée sur une note positive mais TDT (Mathieu St-Jacques & Thomas Dubois) en ont décidé autrement en attaquant les 2 équipes ainsi que le staff et les arbitres de la TUW. C'était un véritable carnage dans l'arène. Les 2 vétérans se sont acharnés sur la jambe du pauvre Marko Estrada avec une chaise et se sont sauvés avec les ceintures par équipes.   Des débuts remarqués pour TDT à la TUW c'est le moin qu'ont puissent dire!             
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+En backstage, Carloss s'empiffre de toutes les tablettes de chocolat qu'il a pu trouver dans l'espoir de trouver un billet d'or à l'intérieur. Une fois endormi et si près du but, Carloss se fait voler le billet d'or caché dans la toute dernière tablette qui lui restait par une personne inconnue.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Muundo l'emporte contre Johnny Rush dans un 2 de 3 sans disqualification!
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Le Racoon Jason Petitclerc, frustré d'avoir perdu son match ce soir, croise un Ziggy en pleine célébration d'avoir trouvé un billet d'or. Jason ne perd pas de temps à l'attaquer et quitte la salle avec son billet en main.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Les Invincibles conservent les Championnats par équipe contre Capitaine Pezz et Jake Madison.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Les deux équipes se serrent la main à la fin du combat. Nous pensions finir cette soirée sur une note positive mais TDT (Mathieu St-Jacques & Thomas Dubois) en ont décidé autrement en attaquant les deux équipes ainsi que le staff et les arbitres de la TUW. C'était un véritable carnage dans l'arène. Les deux vétérans se sont acharnés sur la jambe du pauvre Marko Estrada avec une chaise et se sont sauvés avec les ceintures par équipes. Des débuts remarqués pour TDT à la TUW, c'est le moins qu'on puisse dire!
 </p>
 
           </div>
