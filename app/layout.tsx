@@ -1,6 +1,8 @@
-// app/layout.tsx
+"use client"; // make the layout a client component to allow <Script>
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -15,15 +17,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://thetfordultimatewrestling.com"),
-
   title: {
     default: "Thetford Ultimate Wrestling",
     template: "%s | TUW",
   },
-
   description:
     "Joignez-vous à la TUW pour des spectacles de lutte professionnelle, des portraits de lutteurs, du divertissement et des événements à Thetford Mines. Billets disponibles au https://lepointdevente.com/tuw",
-
   keywords: [
     "Lutte",
     "TUW",
@@ -34,11 +33,9 @@ export const metadata: Metadata = {
     "Lutte Québec",
     "Lutte indépendante",
   ],
-
   alternates: {
     canonical: "https://thetfordultimatewrestling.com",
   },
-
   robots: {
     index: true,
     follow: true,
@@ -50,13 +47,11 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
-
   openGraph: {
     title: "Thetford Ultimate Wrestling – Spectacles de lutte à Thetford Mines",
     description:
@@ -73,65 +68,62 @@ export const metadata: Metadata = {
     ],
     type: "website",
   },
-
-  additionalMetadata: [
-    // Google site verification
-    {
-      name: "google-site-verification",
-      content: "VwHdnzbH5X5WEIwLgq0ZaN1I5rn6Rvx-Em0ZYfWo23Y",
-    },
-    // Structured data JSON-LD
-    {
-      type: "application/ld+json",
-      content: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "SportsOrganization",
-        name: "Thetford Ultimate Wrestling",
-        url: "https://thetfordultimatewrestling.com",
-        logo: "https://thetfordultimatewrestling.com/logo.png",
-        sameAs: [
-          "https://www.facebook.com/thetfordultimatewrestling",
-          "https://www.instagram.com/thetfordultimatewrestling",
-        ],
-        event: {
-          "@type": "SportsEvent",
-          name: "Spectacles de lutte professionnelle TUW",
-          eventAttendanceMode:
-            "https://schema.org/OfflineEventAttendanceMode",
-          eventStatus: "https://schema.org/EventScheduled",
-          location: {
-            "@type": "Place",
-            name: "Différents lieux",
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: "Thetford Mines",
-              addressRegion: "QC",
-              addressCountry: "Canada",
-            },
-          },
-          offers: {
-            "@type": "Offer",
-            url: "https://lepointdevente.com/tuw",
-            availability: "https://schema.org/InStock",
-            price: "Varies",
-            priceCurrency: "CAD",
-          },
-          startDate: "2026-01-01",
-          endDate: "2026-12-31",
-        },
-      }),
-    },
-  ],
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body className="antialiased">{children}</body>
+      <head>
+        {/* Google site verification */}
+        <meta
+          name="google-site-verification"
+          content="VwHdnzbH5X5WEIwLgq0ZaN1I5rn6Rvx-Em0ZYfWo23Y"
+        />
+      </head>
+      <body className="antialiased">
+        {/* Structured JSON-LD for SEO */}
+        <Script id="structured-data" type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "SportsOrganization",
+            name: "Thetford Ultimate Wrestling",
+            url: "https://thetfordultimatewrestling.com",
+            logo: "https://thetfordultimatewrestling.com/logo.png",
+            sameAs: [
+              "https://www.facebook.com/thetfordultimatewrestling",
+              "https://www.instagram.com/thetfordultimatewrestling",
+            ],
+            event: {
+              "@type": "SportsEvent",
+              name: "Spectacles de lutte professionnelle TUW",
+              eventAttendanceMode:
+                "https://schema.org/OfflineEventAttendanceMode",
+              eventStatus: "https://schema.org/EventScheduled",
+              location: {
+                "@type": "Place",
+                name: "Différents lieux",
+                address: {
+                  "@type": "PostalAddress",
+                  addressLocality: "Thetford Mines",
+                  addressRegion: "QC",
+                  addressCountry: "Canada",
+                },
+              },
+              offers: {
+                "@type": "Offer",
+                url: "https://lepointdevente.com/tuw",
+                availability: "https://schema.org/InStock",
+                price: "Varies",
+                priceCurrency: "CAD",
+              },
+              startDate: "2026-01-01",
+              endDate: "2026-12-31",
+            },
+          })}
+        </Script>
+
+        {children}
+      </body>
     </html>
   );
 }
