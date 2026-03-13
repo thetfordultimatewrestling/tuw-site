@@ -140,6 +140,56 @@ export default function Résultats() {
         </nav>
 
         {/* PAGE CONTENT */}
+        
+        <section className="pt-40 pb-24 px-6 text-center">
+           <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
+
+            <h1 className="text-2xl font mb-7 tracking-wide">
+              Original Kickoff 2025 - 25 janvier 2025
+              Studio Paul Hébert, Thetford Mines
+            </h1>
+            
+            <img
+              src="/Images/resultats_fev2025.png"
+              alt="Résultats Prime Attraction 2025"
+              className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
+            />
+
+            <p className="text-gray-300 text-lg leading-relaxed mb-6">
+Jason Petitclerc l'emporte sur Ziggy.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Carloss & Dreya Mitchell gagnent contre Heavy Rox & Chester Doan.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Jonny Rush est couronné grand gagnant du tournoi de bras de fer et obtient un billet d'or pour le Lucky 7 Scramble match!
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Franky The Mobster obtient la victoire sur le géant Elrick.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Ryan Rogan l'emporte sur Kristara, Jonny Rush & SeXXXy Eddy dans un match d'aspirant au titre TUW.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Mr.Brown, Barabas & Scott Matrix l'emportent contre le "Icon Club" : DGenerate, Mitch Thompson & Tony Icon.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+TDT se sauve avec la victoire sur High Seas.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Une grande nouvelle est sortie durant la soirée. Rhino, ancienne vedette de la WWE, ECW, TNA et WCW, sera sur place le 7 juin prochain pour TUW Résilience 2!
+</p>
+          </div>
+        </section>
+
+        
         <section className="pt-40 pb-24 px-6 text-center">
            <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
 
