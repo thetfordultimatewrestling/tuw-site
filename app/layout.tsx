@@ -73,7 +73,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body className="antialiased">
+      <head>
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
         {/* Google site verification */}
         <meta
           name="google-site-verification"
@@ -123,9 +128,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             }),
           }}
         />
-
-        {children}
-      </body>
+      </head>
+      <body className="antialiased">{children}</body>
     </html>
   );
 }
