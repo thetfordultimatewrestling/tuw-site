@@ -145,8 +145,8 @@ export default function Résultats() {
            <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
 
             <h1 className="text-2xl font mb-7 tracking-wide">
-              Original Kickoff 2025 - 25 janvier 2025
-              Studio Paul Hébert, Thetford Mines
+              Prime Attraction 2025 - 22 février 2025
+              Centre Multifonctionnel, Saint-Ephrem
             </h1>
             
             <img
