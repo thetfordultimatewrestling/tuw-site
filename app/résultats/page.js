@@ -141,20 +141,285 @@ export default function Résultats() {
 
         {/* PAGE CONTENT */}
         
+        <section className="pt-40 pb-24 px-6 text-center">
+           <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
+
+            <h1 className="text-2xl font mb-7 tracking-wide">
+              Prime Attraction - 22 février 2026 - 
+              Centre Récréatif, Robertsonville
+            </h1>
+            
+            <img
+              src="/Images/resultats_fev2026.png"
+              alt="Résultats Prime Attraction 2026"
+              className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
+            />
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Quelle soirée… Trahisons, interventions et un tout nouveau pouvoir à la TUW. Voici l’essentiel.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Ouverture : Vidéo récap de l’alliance secrète entre Tony Icon et Marko Estrada dans le dos de Franky The Mobster. La tension est lancée.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Pezz vs Muundo : Pezz domine et se montre trop confiant… Muundo en profite ! Retour spectaculaire et victoire. Sa première en simple depuis plus d’un an !
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Ultimate Wrestling Division – Chaos : Leah Sparks prête à affronter Dreya Mitchell… mais Dreya refuse de lutter. Dani Leo (nez brisé) refuse aussi. Luna O’Clair remplace Dreya face à Leah. Bon combat… gâché par l’intervention de Dani. No Contest. Le directeur des opérations Francis annonce : Dani et Dreya ne sont pas payées. Elles devront lutter/défendre en avril. À suivre.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Titres par équipe TUW : Chaud Stoppers vs Icon Club. Tony expulsé pour tricherie. Carloss et Eddy semblent proches de gagner. Dreya sort avec un chandail du Icon Club et rejoint officiellement le clan. Mitch Thompson termine avec un 450 Splash. Le Icon Club conserve.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Franky The Mobster vs Scott Matrix : Scott remplace Tony, mais le Club ne l’aide pas. Franky le détruit rapidement. Après le match : attaque du Icon Club. Marko aide Scott puis le trahit avec un coup de chaise. Scott est OUT. Franky est blessé.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Défi de l’homme fort : Jonny Rush gagne au bras de fer. Ziggy McGoth intervient… poudre de protéine dans les yeux et coup au visage. Ça ne fait que commencer.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Aspirant #1 au titre TUW : Tyler Nox vs Mister Brown vs Fred Romeo vs Jake Madison. Gros combat ! Surprise : Jake Madison l’emporte ! Il sera en finale le 25 avril.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Finale – Titre TUW : Marko Estrada vs Buxx Belmar. La foule derrière Buxx ! Combat intense, jambe ciblée par Marko. Interventions, nouvel arbitre, leg drop du 3e câble… 1…2… Marko lève l’épaule ! La jambe de Buxx lâche. Soumission. Buxx tape. NOUVEAU CHAMPION TUW : MARKO ESTRADA
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Final choc : Le Icon Club sort célébrer… Marko attaque Tony Icon ! Le Icon Club est mort. Les 4 champions forment désormais LA CLASSE SUPÉRIEURE.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+On se voit le 25 avril. La TUW ne sera plus jamais la même.
+</p>
+        
+          </div>
+        </section>
+
+        
+                <section className="pt-40 pb-24 px-6 text-center">
+           <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
+
+            <h1 className="text-2xl font mb-7 tracking-wide">
+              Feast N'Beast 3 - 22 novembre 2025 - 
+              Centre Récréatif, Robertsonville
+            </h1>
+            
+            <img
+              src="/Images/resultats_dec2025.png"
+              alt="Résultats Feast N'Beast 3"
+              className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
+            />
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+La soirée débute backstage avec Mathis Myre, confiant de pouvoir détrôner Buxx Belmar. Il promet de ramener le titre en Ontario, jusqu’à ce que le Icon Club l’interrompe amicalement. Cadeau de livre, drapeau franco-ontarien : Mathis serait-il le mystérieux 6e homme du Wheel of 6 ?
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+On ouvre l’action avec le match par équipe : Les Invincibles vs Icon Club. Combat intense jusqu’au moment-choc. Alors que tout semble jouer contre les champions, Marko Estrada trahit Franky The Mobster ! Deux frog splashes sur son propre partenaire. L’Icon Club en profite : nouveaux champions par équipe.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Backstage, Muundo promet de tout rafler dans le Wheel of 6, mais Chester Doan vient le provoquer. Muundo jure de l’éliminer en premier.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Kristara affronte Dani Leo, qui insulte la foule de Thetford Mines. Dani domine, mais Kristara trouve l’ouverture et l’emporte.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Les Chaud Stoppers poursuivent leur momentum en battant Les Enfants de Chœur dans un match rapide et spectaculaire.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Scott Matrix, guidé maladroitement par l’Icon Club, profite d’un coup de ceinture de DGenerate derrière l’arbitre pour battre Jake Madison. Scott n'a pas vu la tricherie, mais écoute DGenerate et fait le tombé pour l'emporter.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Après l’intermission, Backstage, Buxx Belmar, acclamé par Thetford, promet de rester champion. Dans un duel serré pour le championnat TUW, il surprend Mathis d’un superkick en plein springboard, puis d’un second : toujours champion TUW.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Avant la finale, Pezz, Mister Brown et Fred Romeo se disputent violemment avant qu’une mêlée éclate, stoppée par la sécurité et Francis.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Le Wheel of 6 déroule ses entrées : Muundo, Fred, Chester, Pezz, Brown. Éliminations rapides, alliances brisées… puis le mystère du 6e homme explose. Musique du Icon Club, les lumières s’éteignent, se rallument : Marko Estrada apparaît en membre du Icon Club !
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Il met fin au momentum de Mister Brown et le bat : nouvel aspirant au titre TUW, Marko Estrada ! Le show se termine avec l’Icon Club célébrant alors que la foule hurle « VENDU ! ». Une fin explosive pour une soirée historique.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Merci à tous les fans — on se revoit en 2026 !
+</p>
+
+                  </div>
+        </section>
+        
+        
+        <section className="pt-40 pb-24 px-6 text-center">
+           <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
+
+            <h1 className="text-2xl font mb-7 tracking-wide">
+              Homecoming 2025 - 27 septembre 2025 - 
+              Centre Récréatif, Robertsonville
+            </h1>
+            
+            <img
+              src="/Images/resultats_sep2025.png"
+              alt="Résultats Homecoming 2025"
+              className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
+            />
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Le Centre Récréatif de Robertsonville a vibré samedi pour Homecoming 2025!
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+La soirée s’ouvre avec un hommage à Étienne « The T » Lessard et les 10 coups de cloche traditionnels.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Muundo défait Chester Doan.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Segment : En entrevue backstage, la championne Dreya Mitchell lance un avertissement avant le combat royal : peu importe le nombre de participantes, elle est championne pour une raison.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Malgré une domination quasi totale de Pezz, Eddy réussit à renverser la vapeur et repart avec la victoire!
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Segment : En coulisses, le Icon Club discute stratégie : tous doivent être sur la même longueur d’onde pour le main event. Tony a un plan!
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Blessé, Jonny Rush est remplacé par Adam Sky contre Evan Core. Mais tout bascule lorsque Rush et Shane Pinto interviennent, attaquant Evan par surprise. Victoire d’Evan par disqualification. Shane Pinto annonce le début d’une nouvelle ère à la TUW.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Combat Royal Féminin – 15 participantes pour le titre Ultimate Wrestling Division :
+Dreya et Kristara démarrent. Dani Leo se fait éliminer grâce à Kristara. Kassidy Renner, Riot Ricci, Sweet Cherrie, le Bitch Squad 2.0, Katrina Creed, Melanie Havok, Heavy Rox et SeXXXy Eddy enflamment la foule.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Entrée #13 : Vanessa Kraven. Ovation monstre, elle renverse tout sur son passage.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Entrées surprises : SeXXXy Eddy (#8), Ziggette McGoth (#14) et la mystérieuse El Vengador (#15) qui se révèle être Dani Leo. Elle se venge et élimine Kristara.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Final 4 : Havok, Creed, Kraven et Dreya. Creed élimine Havok, Dreya sort Creed. En finale, Dreya triche avec sa ceinture pour se débarrasser de Kraven. Toujours championne : Dreya Mitchell.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Finale : Icon Club vs Les Invincibles & Buxx Belmar. Franky The Mobster dit que si le Icon Club perd, Tony Icon doit se raser la tête. Tony tente d’annuler la clause, mais Francis officialise la stipulation.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Combat explosif : le chaos éclate, tous s’affrontent. En fin de match, Mitch Thompson surprend Marko Estrada avec un tombé rapide. Victoire Icon Club ! Tony garde ses cheveux pour l’instant.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Merci aux fans d’avoir fait de Homecoming 2025 un événement historique!
+</p>
+
+                  </div>
+        </section>
+
          <section className="pt-40 pb-24 px-6 text-center">
            <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
 
             <h1 className="text-2xl font mb-7 tracking-wide">
-              Final Round 2025 - 17 mai 2025 - 
-              Centre Multifonctionnel, Saint-Ephrem
+              Wild Ride II - 23 juillet 2025 - 
+              Festivités Western - Stade des Bâtisseurs, Saint-Victor
             </h1>
             
             <img
-              src="/Images/resultats_juin2025.png"
-              alt="Résultats Résilience 2"
+              src="/Images/resultats_juillet2025.png"
+              alt="Résultats Wild Ride II"
               className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
             />
 
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Ouverture officielle avec Melissa Venne et Samuel Poulin du festival, interrompue par Pezz, qui exige le respect dans sa ville natale. Il repousse Melissa, pousse Samuel au sol et annonce qu’il battra Buxx Belmar pour prendre le titre et mettre fin au festival. Buxx arrive au ring pour défendre les organisateurs.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+En coulisses, le Icon Club cherche DGenerate, manquant à l’appel pour son match contre PCO.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Jonny Rush affronte Jake Madison. Rush feint une blessure pour surprendre Jake, mais Madison revient fort et remporte la victoire.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Bjorg affronte Ziggy McGoth. Ziggy danse en ligne pour célébrer le festival, mais Bjorg le détruit en quelques secondes et exige un vrai combat.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Mister Brown répond à l’appel. Après un duel serré, Brown remporte la victoire.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Audrey passe en entrevue Dreya Mitchell qui affirme qu’elle repartira championne malgré le triple menace.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Championnat UWD : Dreya Mitchell affronte Heavy Rox et Leah Sparks. Le combat est serré, mais Dreya conserve son titre.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Audrey annonce que PCO est prêt, mais DGenerate est toujours absent. Mitch Thompson prend sa place. Tony Icon remplace Mitch dans le combat d’équipe.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+SeXXXy Eddy et Carloss Gonzales affrontent Tony Icon et Scott Matrix. Les tensions entre Icon et Matrix leur coûtent cher et la victoire revient à Eddy et Carloss.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Audrey rejoint PCO en coulisses. Peu importe qui il affronte, il affirme être là pour causer le carnage.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+PCO affronte Mitch Thompson dans un combat sans disqualification. Le combat est brutal des deux côtés, mais PCO l’emporte.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Muundo affronte Elrick dans un combat de titans. Elrick domine la majeure partie de l’affrontement, mais Muundo réussit finalement à l’emporter.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Buxx Belmar prend la parole. Il affirme qu’il ne reconnaît plus Pezz, mais qu’il sait dans quelle noirceur il est tombé.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Championnat TUW : Pezz affronte Buxx Belmar dans un combat intense. Buxx conserve son championnat.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Audrey est en coulisse avec les Good Brothers qui affirment être les nouveaux visages de la lutte au Québec et qu’ils sont ici pour gagner.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Combat principal : Les Invincibles affrontent les Good Brothers. Vingt minutes de guerre dans le ring et dans la foule. Les Invincibles conservent les titres par équipe.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+En entrevue finale, Les Invincibles déclarent que peu importe le prochain défi, le résultat sera le même.
+</p>
 
           </div>
         </section>
