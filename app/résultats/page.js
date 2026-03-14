@@ -825,6 +825,112 @@ Les deux équipes se serrent la main à la fin du combat. Nous pensions finir ce
 
           </div>
         </section>
+        
+        <section className="pt-40 pb-24 px-6 text-center">
+           <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
+
+            <h1 className="text-2xl font mb-7 tracking-wide">
+              Feast N' Beast 2 - 16 novembre 2024 - 
+              Cegep de Thetford Mines, Thetford Mines
+            </h1>
+            
+            <img
+              src="/Images/resultats_nov2024.png"
+              alt="Résultats Feast N' Beast 2"
+              className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
+            />
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Jake Madison & Capitaine Pezz l'emportent contre 'The Unit' suite à l'expulsion de Mckenrose qui tentait de tricher pour aider son équipe.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Rogen gagne contre Ziggy. Rogen a continué son assault sur le pauvre Ziggy après le son de la cloche, mais heureusement pour lui, Sally était là pour venir en aide à son nouvel ami !
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Carloss conserve le championnat UWD contre Jason Petitclerc dans un combat chaudement disputé.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Scott Matrix obtient la victoire contre Leon Saver. Le Icon Club s'est empressé d'attaquer Scott avec une chaise après le combat.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Dreya Mitchell se sauve avec la victoire dans un triple menace contre Mckenrose & Sally.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Chase Ironside est vainqueur du 'Wheel of 6' pour l'aspirant au championnat TUW contre FTM, DGenerate, Johnny Rush, SeXXXy Eddy & Muundo.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Merci à tous ! On se revoit en 2025.
+</p>
+
+          </div>
+        </section>
+        
+        <section className="pt-40 pb-24 px-6 text-center">
+           <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
+
+            <h1 className="text-2xl font mb-7 tracking-wide">
+              Helloween - 19 octobre 2024 - 
+              Cegep de Thetford Mines, Thetford Mines
+            </h1>
+            
+            <img
+              src="/Images/resultats_oct2024.png"
+              alt="Résultats Helloween 2024"
+              className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
+            />
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Pee-Wee & Kristara ont le dessus sur les Wonderboys dans un excellent combat d'ouverture.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Une vidéo à l'écran nous montre Tony Icon offrir une place à Franky The Mobster au sein du Icon Club avec de meilleurs avantages et plus d'argent. L'offre est refusée.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Le commissaire Tony Icon s'amène au ring pour signer le contrat officiel de 'The Amazing One' Scott Matrix à la TUW. Tony semblait nostalgique de l'époque où les deux étaient en équipe, mais il avait également de la rancune envers Scott d'avoir été absent aussi longtemps alors qu'il avait besoin de lui. Une altercation s'ensuit entre les deux et Scott Matrix prend le dessus au grand plaisir des fans.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Le Skreeper bat Frank Milano par soumission.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Sally surprend Rogen avec un petit paquet pour le compte de trois. Rogen s'en est pris à Sally après le son de la cloche, mais Ziggy McGoth est venu à sa rescousse sans succès face au nouveau venu qui ne laisse personne indifférent.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Nittz & Bjorg Haaken gagnent contre Jake Madison & Capitaine Pezz avec l'aide de la guerrière écossaise Mckenrose.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Carloss conserve le championnat UWD contre Shawn Mason.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Johnny Rush obtient la victoire contre Muundo.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Chase Ironside l'emporte contre Jeremy Prophet.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Dans un match handicap 3 contre 2 où les championnats par équipe et le championnat TUW étaient en jeu, Mike Marston et Franky The Mobster gagnent contre DGenerate, Leon Saver et l'homme masqué rose. Tony Icon est intervenu pendant que l'arbitre était dans les vapes, mais Scott Matrix était là pour rétablir l'ordre dans ce match. L'identité de l'homme masqué a été dévoilée pendant le match : nul autre que Mr.VIP Mitch Thompson.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Merci à tous nos fans pour cette soirée mémorable.
+</p>
+         </div>
+        </section>
+
 
         {/* FOOTER */}
         <footer className="border-t border-zinc-800 py-8 text-center text-sm text-gray-400 backdrop-blur-xl bg-black/40">
