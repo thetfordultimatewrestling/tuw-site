@@ -145,7 +145,103 @@ export default function Résultats() {
            <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
 
             <h1 className="text-2xl font mb-7 tracking-wide">
-              Ultimate Revolution II - 25 avril 2025
+              Final Round 2025 - 17 mai 2025 - 
+              Centre Multifonctionnel, Saint-Ephrem
+            </h1>
+            
+            <img
+              src="/Images/resultats_mai2025.png"
+              alt="Résultats Final Round 2025"
+              className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
+            />
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Alors que notre animateur maison, Ghislain, accueille les fans pour le début du spectacle, SeXXXy Eddy est poussé vers le ring par Fred Romeo — celui qui semble être le chef de l’organisation à qui Eddy doit beaucoup d’argent. Eddy est contraint d’annoncer qu’il doit quitter la TUW et céder sa place à Romeo.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Mais, au dernier moment, il décide plutôt de lancer un défi : un combat ce soir. S’il gagne, il n’aura plus de dettes et conservera sa place au sein de la TUW. Fred Romeo accepte et lui assène un coup au visage, histoire de lui donner un avant-goût de ce qui l’attend plus tard dans la soirée.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Carloss Gonzales espérait pouvoir régler le conflit qui l’oppose à Dreya Mitchell, refusant de se battre contre elle dès le son de la cloche, aveuglé par ses sentiments. Alors qu’il était sur le point d’être décompté à l’extérieur par l’officiel, il se décide enfin à affronter la championne. Malgré ses efforts, cela ne suffit pas pour décrocher la victoire. Dreya Mitchell conserve donc le championnat UWD.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Dans un combat à cinq pour déterminer l’aspirant numéro un au titre de la TUW, Chester Doan s’échappe avec la victoire de façon opportuniste face à Muundo, Scott Matrix, Nittz et Jonny Rush.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Après le combat, Tony Icon s’en prend à Scott Matrix et lui lance un ultimatum : s’il perd leur prochain affrontement, il devra rejoindre le Icon Club.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Mr. Brown l'emporte sur Mitch Thompson et ce malgré les interventions de Tony Icon, dans un combat solide qui a tenu la foule en haleine du début à la fin.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Jake Madison remporte le Street Fight contre Pezz dans un affrontement intense rempli de chaises, de kendo sticks, de portes et de chaos. L’intensité était à son comble, surtout lorsque le père de Jake Madison est intervenu pour frapper Pezz à la tête avec une guitare permettant à son fils d'obtenir la victoire.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Jason Petitclerc et Jeremy Prophet créent la surprise en l’emportant face à PCO et Franky The Mobster.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Fidèle à lui-même, PCO a une fois de plus impressionné la foule avec sa performance. Le Racoon Jason Petitclerc a obtenu le compte de trois sur Franky The Mobster, offrant ainsi la victoire à son équipe.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+SeXXXy Eddy peut enfin dormir sur ses deux oreilles après avoir vaincu Fred Roméo. Ce fut une tâche ardue de venir à bout de ce nouveau venu à la TUW, mais Eddy est désormais libre de ses dettes. Du moins, c’est ce qu’il croyait.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Fred Roméo affirme qu’il ne faut jamais faire confiance à un Italien. Eddy est peut-être encore membre de la TUW, mais il doit toujours de l’argent au véritable grand patron, qui n’est pas Fred Roméo.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Et alors qu’il quitte le ring, SeXXXy Eddy se fait kidnapper.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Affaire à suivre.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+En coulisses, on aperçoit un Tony Icon choqué, en colère contre le Icon Club (Mitch et DGenerate). Il affirme que le club est devenu trop « mou ».
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+DGenerate n’apprécie pas du tout cette remarque. Il veut prouver qu’il est un lutteur solide, à ne surtout pas sous-estimer. Il se dirige alors directement vers le ring pour lancer un défi à Rhino pour Résilience, le 7 juin prochain. Et il compte bien l’affronter en tant que champion TUW, après avoir battu Buxx Belmar ce soir.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Dirtman Buxx Belmar l’emporte sur DGenerate dans un excellent combat et conserve son championnat TUW.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Un affrontement intense qui confirme une fois de plus pourquoi Buxx est au sommet de la division.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+L'aspirant au titre Chester Doan vient féliciter son ami de longue date, Buxx Belmar et lui souhaiter bonne chance pour leur affrontement à TUW Résilience 2. Les deux hommes se serrent la main.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Chester tente ensuite d’attaquer Buxx dans le dos, mais ce dernier l’attendait de pied ferme avec un superkick, que Chester parvient à contrer.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Le 7 juin, leur amitié ne changera rien. Chester nous assure qu’il fera tout pour devenir le nouveau champion.
+</p>
+          </div>
+        </section>
+        
+        <section className="pt-40 pb-24 px-6 text-center">
+           <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
+
+            <h1 className="text-2xl font mb-7 tracking-wide">
+              Ultimate Revolution II - 25 avril 2025 - 
               Centre Multifonctionnel, Saint-Ephrem
             </h1>
             
@@ -227,7 +323,7 @@ Félicitations au nouveau champion.
            <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
 
             <h1 className="text-2xl font mb-7 tracking-wide">
-              March Madness IX - 22 mars 2025
+              March Madness IX - 22 mars 2025 - 
               Centre Multifonctionnel, Saint-Ephrem
             </h1>
             
@@ -308,7 +404,7 @@ Les Invincibles l'emportent contre TDT dans un solide combat non sanctionné par
            <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
 
             <h1 className="text-2xl font mb-7 tracking-wide">
-              Prime Attraction 2025 - 22 février 2025
+              Prime Attraction 2025 - 22 février 2025 - 
               Centre Multifonctionnel, Saint-Ephrem
             </h1>
             
@@ -356,7 +452,7 @@ Une grande nouvelle est sortie durant la soirée. Rhino, ancienne vedette de la 
            <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
 
             <h1 className="text-2xl font mb-7 tracking-wide">
-              Original Kickoff 2025 - 25 janvier 2025
+              Original Kickoff 2025 - 25 janvier 2025 - 
               Studio Paul Hébert, Thetford Mines
             </h1>
             
