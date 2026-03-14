@@ -440,6 +440,84 @@ En entrevue finale, Les Invincibles déclarent que peu importe le prochain défi
             />
 
 <p className="text-gray-300 text-lg leading-relaxed mb-6">
+Un événement familial mémorable, co-organisé par Chantal Vachon et Noémie Lessard, au profit de Leucan.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Jake Madison l’emporte sur Mr. VIP Mitch Thompson après que Noémie l’empêche de tricher avec une chaise et le gifle. Jake gagne proprement.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+En entrevue avec Shane Pinto, DGenerate promet un GORE à RHINO.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Dreya Mitchell conserve sa ceinture UWD contre Keven Gray, qui a accepté le défi lancé sur les réseaux plus tôt dans la semaine.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Carloss & Muundo battent Bjorg & Nitzz (Organisation H) et libèrent SeXXXy Eddy de sa dette envers Hash. Hash, furieux, se fait remettre à sa place par Carloss après le combat.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Pezz l’emporte sur le favori du public Ziggy McGoth dans un duel entre lumière et obscurité.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+En entrevue backstage, Chester Doan affirme que le titre TUW changera de mains ce soir.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Tony Icon bat Scott Matrix après une tricherie. Francis Brault, qui gardait l'œil sur le Icon Club, relance le match en No DQ. Malgré tout, Tony gagne et Scott est forcé de joindre le Icon Club.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Les Invincibles conservent leurs ceintures contre Jeremy Prophet & Jason Petitclerc et décrochent leur combat contre les Good Brothers le 23 juillet au FWSV.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+En entrevue backstage, Buxx Belmar assure qu’il reste champion ce soir.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Buxx tient parole en battant Chester Doan dans un combat intense.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Avant la finale, RHINO promet en entrevue backstage avec Shane Pinto : « Je vais briser DGenerate en deux avec un GORE. GORE. GORE ! »
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Main event : RHINO vs DGenerate. Le Icon Club, pourtant banni du ringside, intervient après qu’un arbitre soit mis KO. Mitch frappe Francis qui tente de les renvoyer backstage. Ils installent une porte pour piéger RHINO… mais RHINO explose : GORE à Tony, GORE à Mitch dans la porte. DGenerate place son propre GORE, mais RHINO se relève à 2. Il termine le combat avec un dernier GORE sur DGenerate, cette fois pour la victoire.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Merci à tous d'avoir été présents et d'avoir donné à Leucan aussi généreusement. Le montant sera annoncé plus tard cette semaine.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Ensemble, nous avons amassé un total de $9,000.00 pour Leucan! Merci à tous d'avoir donné autant!
+</p>
+
+          </div>
+        </section>
+
+        <section className="pt-40 pb-24 px-6 text-center">
+           <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
+
+            <h1 className="text-2xl font mb-7 tracking-wide">
+              Final Round 2025 - 17 mai 2025 - 
+              Centre Multifonctionnel, Saint-Ephrem
+            </h1>
+            
+            <img
+              src="/Images/resultats_mai2025.png"
+              alt="Résultats Final Round 2025"
+              className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
+            />
+
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
 Alors que notre animateur maison, Ghislain, accueille les fans pour le début du spectacle, SeXXXy Eddy est poussé vers le ring par Fred Romeo — celui qui semble être le chef de l’organisation à qui Eddy doit beaucoup d’argent. Eddy est contraint d’annoncer qu’il doit quitter la TUW et céder sa place à Romeo.
 </p>
 
@@ -517,10 +595,6 @@ Chester tente ensuite d’attaquer Buxx dans le dos, mais ce dernier l’attenda
 
 <p className="text-gray-300 text-lg leading-relaxed mb-6">
 Le 7 juin, leur amitié ne changera rien. Chester nous assure qu’il fera tout pour devenir le nouveau champion.
-</p>
-
-<p className="text-gray-300 text-lg leading-relaxed mb-6">
-Ensemble, nous avons amassé un total de $9,000.00 pour Leucan! Merci à tous d'avoir donné autant!
 </p>
 
           </div>
