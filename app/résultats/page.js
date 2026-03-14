@@ -145,6 +145,88 @@ export default function Résultats() {
            <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
 
             <h1 className="text-2xl font mb-7 tracking-wide">
+              Ultimate Revolution II - 25 avril 2025
+              Centre Multifonctionnel, Saint-Ephrem
+            </h1>
+            
+            <img
+              src="/Images/resultats_avr2025.png"
+              alt="Résultats Ultimate Revolution II"
+              className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
+            />
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Pee Wee s'amène au ring pour une célébration de sa récente conquête du championnat TUW. Il nargue Chase Ironside au passage en mentionnant qu'il est très confiant de conserver sa ceinture ce soir dans la grande finale.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Sugar Shane Pinto s'est entretenu en coulisse avec les champions par équipes IWTV Fresh Air : Junior Benito et Macrae Martin. Ils nous assurent qu'ils repartiront chez eux en tant que doubles champions par équipe après avoir battu les Invincibles. Rien de moins.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Les Invincibles (Marko Estrada et Franky The Mobster) conservent leurs championnats par équipe contre Fresh Air.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Scott Matrix s'adresse aux fans pour nous rappeler qu'il a gagné son droit d'affronter Tony Icon lors de March Madness le mois passé. Tony donne du fil à retordre à Scott depuis son retour à la TUW et il n'a pas fait exception cette fois en lui envoyant le colosse Bjorg comme adversaire. Scott devra patienter encore un peu avant d'avoir son match tant attendu.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Bjorg l'emporte sur Scott Matrix grâce à la distraction de Mckenrose. Tony en a profité pour porter un superkick à Matrix pendant que l'officiel avait le dos tourné.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Buxx Belmar a le dessus sur Tyler Nox, Mitch Thompson, Mr. Brown, Kristara et SeXXXy Eddy dans un solide combat d'échelles. Avec cette victoire, il obtient une chance au championnat TUW à n'importe quel moment de son choix.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Mr. Brown et Mitch Thompson ont passé la majeure partie du match à se battre entre eux. La rivalité entre ces deux-là ne semble pas être terminée.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+La direction de la TUW craignait que SeXXXy Eddy soit absent du match, lui qui s'est mis dans un sacré pétrin après le Lucky 7 Scramble en flambant son 5000 $ dans le temps de le dire. Il a finalement retrouvé son chemin au grand plaisir de tous.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Une grande annonce est diffusée à l'écran. Nul autre que PCO sera présent lors de Final Round, notre prochain spectacle le 17 mai.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Pezz gagne contre un Carloss visiblement encore ébranlé par sa défaite de March Madness IX et de la tournure des événements avec Dreya Mitchell.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Après le combat, Pezz s'adresse à la mère de Jake Madison. Ses paroles lui ont mérité une gifle au visage. Pezz a ensuite voulu s'en prendre à elle, mais heureusement Jake Madison est sorti de la foule pour défendre sa mère. S'en est suivi un chaos total impliquant la sécurité de la TUW, qui a dû travailler fort pour séparer les deux hommes.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Pezz a tout de même réussi à porter un DDT à Jake Madison qui n'était pas autorisé à performer suite à une commotion subie aux mains de Pezz à March Madness IX. Pezz a dû être expulsé de la salle pour la deuxième fois consécutive par la direction.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Pee Wee s'est retrouvé sans adversaire alors que Tony Icon est venu nous annoncer que Chase Ironside ne sera pas présent ce soir. On n'en sait pas plus sur cette situation pour le moment. Pee Wee croyait bien retourner en coulisse sans même avoir à lutter.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Sauf que Buxx Belmar l'accueille d'un bon coup de valise inattendu et ne perd pas de temps. Il encaisse sa valise remportée plus tôt dans la soirée dans un combat où les tombés comptent partout.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Buxx Belmar l'emporte sur Pee Wee et est couronné nouveau champion TUW dans un combat intense qui s'est déroulé partout dans la salle, même dans les toilettes.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Félicitations au nouveau champion.
+</p>
+
+          </div>
+        </section>
+
+        
+        <section className="pt-40 pb-24 px-6 text-center">
+           <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
+
+            <h1 className="text-2xl font mb-7 tracking-wide">
               March Madness IX - 22 mars 2025
               Centre Multifonctionnel, Saint-Ephrem
             </h1>
