@@ -141,7 +141,7 @@ export default function Résultats() {
 
         {/* PAGE CONTENT */}
         
-        <section className="pt-40 pb-24 px-6 text-center">
+         <section className="pt-40 pb-24 px-6 text-center">
            <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
 
             <h1 className="text-2xl font mb-7 tracking-wide">
@@ -150,8 +150,27 @@ export default function Résultats() {
             </h1>
             
             <img
-              src="/Images/resultats_mai2025.png"
-              alt="Résultats Final Round 2025"
+              src="/Images/resultats_juin2025.png"
+              alt="Résultats Résilience 2"
+              className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
+            />
+
+
+          </div>
+        </section>
+
+        
+        <section className="pt-40 pb-24 px-6 text-center">
+           <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
+
+            <h1 className="text-2xl font mb-7 tracking-wide">
+              Résilience 2 (Co-organisé par Noémie Lessard et Chantal Vachon) - 7 juin 2025 - 
+              Centre des Loisirs Desjardins, East Broughton
+            </h1>
+            
+            <img
+              src="/Images/resultats_juin2025.png"
+              alt="Résultats Résilience 2"
               className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
             />
 
@@ -234,6 +253,11 @@ Chester tente ensuite d’attaquer Buxx dans le dos, mais ce dernier l’attenda
 <p className="text-gray-300 text-lg leading-relaxed mb-6">
 Le 7 juin, leur amitié ne changera rien. Chester nous assure qu’il fera tout pour devenir le nouveau champion.
 </p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Ensemble, nous avons amassé un total de $9,000.00 pour Leucan! Merci à tous d'avoir donné autant!
+</p>
+
           </div>
         </section>
         
