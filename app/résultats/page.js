@@ -156,11 +156,11 @@ export default function Résultats() {
             />
 
 <p className="text-gray-300 text-lg leading-relaxed mb-6">
-01 Pee Wee bat Buxx Belmar avec quelques tactiques déloyales durant le combat. Ce qui en a surpris plus d'un.
+Pee Wee bat Buxx Belmar avec quelques tactiques déloyales durant le combat. Ce qui en a surpris plus d'un.
 </p>
 
 <p className="text-gray-300 text-lg leading-relaxed mb-6">
-02 Dreya Mitchell accompagnée de Carloss l'emporte sur Leon Saver.
+Dreya Mitchell accompagnée de Carloss l'emporte sur Leon Saver.
 </p>
 
 <p className="text-gray-300 text-lg leading-relaxed mb-6">
@@ -168,11 +168,11 @@ Le Icon Club a tenté d'intervenir dans le match. Cependant, ça n'a pas porté 
 </p>
 
 <p className="text-gray-300 text-lg leading-relaxed mb-6">
-03 SeXXXy Eddy est déclaré grand gagnant du Lucky 7 Scramble, où il remporte la grande somme de 5000 $. Il bat Jason Petitclerc, Jeremy Prophet, Chester Doan, Jonny Rush et Muundo.
+SeXXXy Eddy est déclaré grand gagnant du Lucky 7 Scramble, où il remporte la grande somme de 5000 $. Il bat Jason Petitclerc, Jeremy Prophet, Chester Doan, Jonny Rush et Muundo.
 </p>
 
 <p className="text-gray-300 text-lg leading-relaxed mb-6">
-04 Kristara a le dessus sur Mckenrose dans un combat qui a su démontrer que la TUW a une forte division féminine.
+Kristara a le dessus sur Mckenrose dans un combat qui a su démontrer que la TUW a une forte division féminine.
 </p>
 
 <p className="text-gray-300 text-lg leading-relaxed mb-6">
@@ -184,15 +184,15 @@ Elle nous rappelle qu'elle a gagné son droit de combattre pour ce championnat l
 </p>
 
 <p className="text-gray-300 text-lg leading-relaxed mb-6">
-05 Dreya Mitchell se sauve avec la victoire contre Carloss en quelques secondes seulement et devient la nouvelle championne Ultimate Wrestling Division. Pauvre Carloss.
+Dreya Mitchell se sauve avec la victoire contre Carloss en quelques secondes seulement et devient la nouvelle championne Ultimate Wrestling Division. Pauvre Carloss.
 </p>
 
 <p className="text-gray-300 text-lg leading-relaxed mb-6">
-06 Mr. Brown et Barabas gagnent contre Nitzz et Bjorg ainsi que le Icon Club (Mitch et DGenerate) pour devenir les aspirants numéro 1 aux titres par équipe de la TUW.
+Mr. Brown et Barabas gagnent contre Nitzz et Bjorg ainsi que le Icon Club (Mitch et DGenerate) pour devenir les aspirants numéro 1 aux titres par équipe de la TUW.
 </p>
 
 <p className="text-gray-300 text-lg leading-relaxed mb-6">
-07 Scott Matrix l'emporte sur Radikal Rage dans un combat où Tony Icon était l'arbitre spécial.
+Scott Matrix l'emporte sur Radikal Rage dans un combat où Tony Icon était l'arbitre spécial.
 </p>
 
 <p className="text-gray-300 text-lg leading-relaxed mb-6">
@@ -200,7 +200,7 @@ Grâce à cette victoire, Scott Matrix se mérite une chance de mettre la main a
 </p>
 
 <p className="text-gray-300 text-lg leading-relaxed mb-6">
-08 Le Capitaine Pezz et Jake Madison s'amènent au ring. On était tous impatients de savoir qui était l'équipe mystère qui allait affronter ce duo. Le Capitaine lui-même nous annonçait une surprise majeure.
+Le Capitaine Pezz et Jake Madison s'amènent au ring. On était tous impatients de savoir qui était l'équipe mystère qui allait affronter ce duo. Le Capitaine lui-même nous annonçait une surprise majeure.
 </p>
 
 <p className="text-gray-300 text-lg leading-relaxed mb-6">
@@ -212,11 +212,11 @@ La sécurité a dû intervenir pour sortir Pezz de la salle. Qu'est-ce qui a pu 
 </p>
 
 <p className="text-gray-300 text-lg leading-relaxed mb-6">
-09 Ensuite avait lieu le combat de championnat vacant de la TUW entre Chase Ironside et Ryan Rogan, qui ont été interrompus en fin de combat par Pee Wee. Il a attendu le moment parfait pour s'imposer au match et encaisser sa valise "Ultimate Cash In" pour finalement remporter le championnat TUW. Incroyable.
+Ensuite avait lieu le combat de championnat vacant de la TUW entre Chase Ironside et Ryan Rogan, qui ont été interrompus en fin de combat par Pee Wee. Il a attendu le moment parfait pour s'imposer au match et encaisser sa valise "Ultimate Cash In" pour finalement remporter le championnat TUW. Incroyable.
 </p>
 
 <p className="text-gray-300 text-lg leading-relaxed mb-6">
-10 Les Invincibles l'emportent contre TDT dans un solide combat non sanctionné par la TUW. Ce combat n'était pas pour les doux, c'est le moins qu'on puisse dire. Un candidat au combat de l'année.
+Les Invincibles l'emportent contre TDT dans un solide combat non sanctionné par la TUW. Ce combat n'était pas pour les doux, c'est le moins qu'on puisse dire. Un candidat au combat de l'année.
 </p>
           </div>
         </section>
