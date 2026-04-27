@@ -218,7 +218,7 @@ export default function Home() {
             </p>
 
             <p className="text-gray-400 mb-8 leading-relaxed">
-              Festivités Western de Saint-Victor - Stade des Batisseurs<br />
+              Aréna OTJ <br />
               138 Avenue du Domaine<br />
               Courcelles-St-Évariste, QC
             </p>
