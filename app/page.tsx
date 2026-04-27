@@ -168,76 +168,82 @@ export default function Home() {
           </div>
         </section>
         
-                {/* ================= EVENT SECTION ================= */}
-        <section id="events" className="py-24 max-w-5xl mx-auto px-6 text-center">
+{/* ================= EVENT SECTION ================= */}
+<section id="events" className="py-24 max-w-6xl mx-auto px-6 text-center">
 
-          <div className="bg-black/60 border border-red-600/40 backdrop-blur-md p-8 rounded-2xl shadow-xl">
+  <div className="grid md:grid-cols-2 gap-8">
 
-            <img
-              src="/Images/FWSV_Facebook_Event_Banner_v2.png"
-              alt="Wild Ride III Event Poster"
-              className="mx-auto rounded-2xl shadow-xl w-full max-w-2xl object-cover mb-8"
-            />
+    {/* ================= EVENT 1 ================= */}
+    <div className="bg-black/60 border border-red-600/40 backdrop-blur-md p-8 rounded-2xl shadow-xl">
 
-            <h2 className="text-4xl font-bold mb-6 tracking-wide">
-              Wild Ride III
-            </h2>
+      <img
+        src="/Images/FWSV_Facebook_Event_Banner_v2.png"
+        alt="Wild Ride III Event Poster"
+        className="mx-auto rounded-2xl shadow-xl w-full object-cover mb-8"
+      />
 
-            <p className="mb-2 text-lg">
-              22 Juillet, 2026 – 7:00 PM
-            </p>
+      <h2 className="text-4xl font-bold mb-6 tracking-wide">
+        Wild Ride III
+      </h2>
 
-            <p className="text-gray-400 mb-8 leading-relaxed">
-              Festivités Western de Saint-Victor - Stade des Batisseurs<br />
-              130 rue du Parc<br />
-              Saint-Victor, QC
-            </p>
+      <p className="mb-2 text-lg">
+        22 Juillet, 2026 – 7:00 PM
+      </p>
 
-            <a
-              href="https://festivalwestern.qc.ca/billetterie"
-              target="_blank"
-              className="inline-block bg-white text-black px-8 py-4 rounded-xl font-semibold hover:scale-105 transition shadow-xl"
-            >
-              Achetez Vos Billets
-            </a>
-            
-          <div className="bg-black/60 border border-red-600/40 backdrop-blur-md p-8 rounded-2xl shadow-xl">
+      <p className="text-gray-400 mb-8 leading-relaxed">
+        Festivités Western de Saint-Victor - Stade des Batisseurs<br />
+        130 rue du Parc<br />
+        Saint-Victor, QC
+      </p>
 
-            <img
-              src="/Images/Summertime_2026_FB_Banner.png"
-              alt="Summertime Event Poster"
-              className="mx-auto rounded-2xl shadow-xl w-full max-w-2xl object-cover mb-8"
-            />
+      <a
+        href="https://festivalwestern.qc.ca/billetterie"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block bg-white text-black px-8 py-4 rounded-xl font-semibold hover:scale-105 transition shadow-xl"
+      >
+        Achetez Vos Billets
+      </a>
 
-            <h2 className="text-4xl font-bold mb-6 tracking-wide">
-              Summertime + Showcase Coming Up
-            </h2>
+    </div>
 
-            <p className="mb-2 text-lg">
-              29 Août, 2026 – 7:00 PM
-            </p>
+    {/* ================= EVENT 2 ================= */}
+    <div className="bg-black/60 border border-red-600/40 backdrop-blur-md p-8 rounded-2xl shadow-xl">
 
-            <p className="text-gray-400 mb-8 leading-relaxed">
-              Aréna OTJ <br />
-              138 Avenue du Domaine<br />
-              Courcelles-St-Évariste, QC
-            </p>
+      <img
+        src="/Images/Summertime_2026_FB_Banner.png"
+        alt="Summertime Event Poster"
+        className="mx-auto rounded-2xl shadow-xl w-full object-cover mb-8"
+      />
 
-            <a
-              href="https://lepointdevente.com/tickets/tuwsummertimecomingup"
-              target="_blank"
-              className="inline-block bg-white text-black px-8 py-4 rounded-xl font-semibold hover:scale-105 transition shadow-xl"
-            >
-              Achetez Vos Billets
-            </a>
+      <h2 className="text-4xl font-bold mb-6 tracking-wide">
+        Summertime + Showcase Coming Up
+      </h2>
 
-          </div>
+      <p className="mb-2 text-lg">
+        29 Août, 2026 – 7:00 PM
+      </p>
 
+      <p className="text-gray-400 mb-8 leading-relaxed">
+        Aréna OTJ <br />
+        138 Avenue du Domaine<br />
+        Courcelles-St-Évariste, QC
+      </p>
 
-          </div>
+      <a
+        href="https://lepointdevente.com/tickets/tuwsummertimecomingup"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block bg-white text-black px-8 py-4 rounded-xl font-semibold hover:scale-105 transition shadow-xl"
+      >
+        Achetez Vos Billets
+      </a>
 
-        </section>
+    </div>
 
+  </div>
+
+</section>
 
         {/* ================= CALENDRIER ================= */}
         <section id="calendrier" className="py-24 px-6 text-center">
