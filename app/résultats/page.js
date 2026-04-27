@@ -141,6 +141,59 @@ export default function Résultats() {
 
         {/* PAGE CONTENT */}
         
+          <section className="pt-40 pb-24 px-6 text-center">
+           <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
+
+            <h1 className="text-2xl font mb-7 tracking-wide">
+              Ultimate Revolution III - 25 avril 2026 - 
+              Centre Récréatif, Robertsonville
+            </h1>
+            
+            <img
+              src="/Images/Photo-ResultatsUR2026.png"
+              alt="Résultats Ultimate Revolution III"
+              className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
+            />
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+La soirée s’ouvre avec Tony Icon, qui arrive sur le ring sous une réaction partagée du public. Micro en main, il prend un ton sérieux et livre un discours sincère : il s’excuse pour ses actions passées, admet avoir abusé de son pouvoir en tant que directeur général de la TUW, et promet de changer. Désormais, il affirme vouloir utiliser son autorité pour le bien de tous. Il ajoute que le véritable Icon Club, ce n’est pas un groupe fermé… mais bien chaque personne dans l’aréna qui contribue au succès de la TUW. Mais ce moment est brutalement interrompu. La Classe Supérieure fait son entrée. Marko Estrada prend la parole et rabaisse Tony, le traitant d’incompétent. Selon lui, la TUW ne doit pas son succès à Tony ni au public… mais bien à La Classe Supérieure. Il affirme que leur domination ne fait que commencer. Puis, Mitch Thompson prend le micro pour annoncer que Dreya Mitchell est absente ce soir. SURPRISE! Une musique retentit: Kacey Diamond est de retour! Ancienne membre du Icon Club, Kacey s'adresse directement à La Classe Supérieure. Elle rappelle qu'avant Dreya, il y avait Kacey. Elle affirme qu’elle mérite d’être dans ce clan. Ce soir, elle compte bien le prouver.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Match 1: Pezz vs Billy Stone - Le premier combat de la soirée débute avec intensité. Pezz se montre immédiatement agressif, non seulement envers son adversaire, mais aussi envers l’arbitre. Il repousse constamment les limites. De son côté, Billy Stone impressionne avec sa vitesse et son style aérien spectaculaire, prouvant pourquoi il est considéré comme une étoile au Saguenay. Alors que Billy semble avoir le contrôle du match… Pezz dépasse la ligne. Il pousse violemment l’arbitre. Disqualification de Pezz. Après le combat, Francis fait son entrée, furieux. Il annonce qu’il pourrait suspendre Pezz… mais décide plutôt de lui donner une dernière chance. Il révèle alors avoir contacté quelqu’un. Une vidéo apparaît à l’écran : Michel Plante! Il lance un défi officiel à Pezz pour le 22 juillet à Wild Ride III. Francis précise que Pezz affrontera ni plus ni moins que le lutteur #1 au Québec. La balle est maintenant dans son camp. Pezz, d’abord enthousiaste… devient incontrôlable. Il frappe Francis en plein visage.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Shane Pinto arrive pour présenter son protégé, Jonny Rush, censé offrir une démonstration impressionnante de bodybuilding. Mais personne ne vient. Sur l’écran géant : Jonny est ligoté sur une chaise! C’est Ziggy McGoth qui est derrière tout ça. Jonny supplie Shane de venir l’aider, mais Ziggy lui met une poubelle sur la tête pour le faire taire. Ziggy fait ensuite son entrée pour confronter Shane…qui préfère fuir. Shane déclare que s’il doit lutter, la TUW devra payer très cher.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Match 2 – Triple menace: Kacey Diamond vs Heavy Rox vs Dani Leo (Absente) - Le match devait inclure Dani Leo, mais celle-ci est absente. Elle a envoyé Audrey Moreau à sa place avec des instructions précises. Audrey reste à l’extérieur du ring, et doit suivre ce qui se passe. Le combat est intense et physique. Heavy Rox à le dessus, mais au moment crucial… Audrey monte sur le ring, téléphone à la main, suivant les directives de Dani. Cette distraction change tout. Kacey Diamond en profite pour voler la victoire. Une victoire stratégique qui renforce sa candidature auprès de La Classe Supérieure.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Match 3 – Ultimate Cash In Ladder Match: Franky The Mobster vs Fred Romeo vs Mitch Thompson vs DGenerate vs Muundo. Un chaos total s’installe dans ce combat à échelles. Les moments spectaculaires s’enchaînent : chutes brutales, prises risquées, et interventions multiples. Un élément clé ressort rapidement: Mitch Thompson et DGenerate travaillent ensemble pour empêcher Franky de gagner. Pourquoi? Parce que s’il décroche la mallette… il ira directement viser Marko Estrada ce soir même. Franky réussit malgré tout à se rapprocher de la victoire… MAIS KACEY DIAMOND INTERVIENT! Elle projette Franky de l'échelle à travers une porte, le sortant complètement de l’équation. Elle est prête à tout pour intégrer La Classe Supérieure. Le match continue. Muundo grimpe à son tour, tout près de la victoire…CHAIR SHOT! Fred Romeo lui lance une chaise en plein visage. Il monte rapidement l’échelle… décroche la mallette! Fred Romeo devient Mr. Ultimate Cash In 2026.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Match par équipe: TDT vs Les Chaud Stoppers. Après l’entracte, TDT affirme en entrevue qu’ils sont prêts à tout pour obtenir une opportunité aux titres par équipe. Le combat qui suit est brutal, intense et très disputé. Mais dans un moment inattendu… Tombé surprise à deux! SeXXXy Eddy et Carloss (Les Chaud Stoppers) volent la victoire sur Thomas Dubois. Ils deviennent aspirants #1 aux titres par équipe. Match prévu le 22 juillet à Wild Ride III
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Main Event – Championnat TUW: Marko Estrada (c) vs Jake Madison - L’atmosphère est électrique. Jake Madison bénéficie d’un soutien massif: famille, amis et fans sont tous présents pour le voir triompher. Le combat est serré, intense, digne d’un main event. Vers la fin… Interventions de Mitch Thompson et DGenerate. Mais cette fois… SeXXXy Eddy et Carloss interviennent pour égaliser les chances! Jake reprend le contrôle. Il porte sa prise de finition! 1...2...2.9 !!! Marko survit. Le public explose, croyant à la victoire. Mais Marko renverse la situation avec opportunisme…et conserve son titre. Segment final – Le défi lancé! Alors que Marko Estrada, Mitch Thompson et DGenerate célèbrent leur victoire, Tony Icon fait son retour. Il annonce avoir invité quelqu’un pour passer un message, et commettre une certaine action. Franky The Mobster arrive. Sur la scène, il signe un contrat avec Tony, déclarant que leur dette est maintenant réglée. Puis… Il fonce vers le ring! Mais Marko et son clan fuient immédiatement. Franky prend le micro. Il révèle la vérité: Ce qu’il vient de signer est un contrat de championnat TUW.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+22 juillet – Wild Ride III - Marko Estrada (c) vs Franky The Mobster. Franky promet que cette fois… Marko ne pourra pas fuir. Il devra faire face aux conséquences.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Conclusion: Ultimate Revolution 2026 se termine sur une note explosive: Le règne de Marko continue… mais est sérieusement menacé, Fred Romeo détient maintenant une opportunité en or, Pezz est plus dangereux que jamais, Kacey Diamond joue un jeu très risqué, et Wild Ride III s’annonce déjà comme un événement majeur
+</p>
+
+                  </div>
+        </section>
+        
         <section className="pt-40 pb-24 px-6 text-center">
            <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
 

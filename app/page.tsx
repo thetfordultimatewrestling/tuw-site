@@ -165,14 +165,6 @@ export default function Home() {
               LA PASSION, L'IMPLICATION, LE DÉPASSEMENT
             </p>
 
-            <a
-              href="https://lepointdevente.com/tuw"
-              target="_blank"
-              className="inline-block bg-red-600 px-10 py-5 rounded-2xl font-bold text-lg hover:bg-red-700 hover:scale-105 transition shadow-xl"
-            >
-              Billetterie
-            </a>
-
           </div>
         </section>
         
@@ -182,32 +174,65 @@ export default function Home() {
           <div className="bg-black/60 border border-red-600/40 backdrop-blur-md p-8 rounded-2xl shadow-xl">
 
             <img
-              src="/Images/Affiche-Officielle-UR2026.png"
-              alt="Ultimate Revolution III Event Poster"
+              src="/Images/FWSV_Facebook_Event_Banner_v2.png"
+              alt="Wild Ride III Event Poster"
               className="mx-auto rounded-2xl shadow-xl w-full max-w-2xl object-cover mb-8"
             />
 
             <h2 className="text-4xl font-bold mb-6 tracking-wide">
-              Ultimate Revolution III
+              Wild Ride III
             </h2>
 
             <p className="mb-2 text-lg">
-              April 25, 2026 – 7:00 PM
+              22 Juillet, 2026 – 7:00 PM
             </p>
 
             <p className="text-gray-400 mb-8 leading-relaxed">
-              Centre Récréatif de Robertsonville<br />
-              5885 Avenue du Collège<br />
-              Thetford Mines, QC
+              Festivités Western de Saint-Victor - Stade des Batisseurs<br />
+              130 rue du Parc<br />
+              Saint-Victor, QC
             </p>
 
             <a
-              href="https://lepointdevente.com/tickets/tuwultimaterevolution2026"
+              href="https://festivalwestern.qc.ca/billetterie"
               target="_blank"
               className="inline-block bg-white text-black px-8 py-4 rounded-xl font-semibold hover:scale-105 transition shadow-xl"
             >
               Achetez Vos Billets
             </a>
+            
+                      <div className="bg-black/60 border border-red-600/40 backdrop-blur-md p-8 rounded-2xl shadow-xl">
+
+            <img
+              src="/Images/Summertime_2026_FB_Banner.png"
+              alt="Summertime Event Poster"
+              className="mx-auto rounded-2xl shadow-xl w-full max-w-2xl object-cover mb-8"
+            />
+
+            <h2 className="text-4xl font-bold mb-6 tracking-wide">
+              Summertime + Showcase Coming Up
+            </h2>
+
+            <p className="mb-2 text-lg">
+              29 Août, 2026 – 7:00 PM
+            </p>
+
+            <p className="text-gray-400 mb-8 leading-relaxed">
+              Festivités Western de Saint-Victor - Stade des Batisseurs<br />
+              138 Avenue du Domaine<br />
+              Courcelles-St-Évariste, QC
+            </p>
+
+            <a
+              href="https://lepointdevente.com/tickets/tuwsummertimecomingup"
+              target="_blank"
+              className="inline-block bg-white text-black px-8 py-4 rounded-xl font-semibold hover:scale-105 transition shadow-xl"
+            >
+              Achetez Vos Billets
+            </a>
+
+          </div>
+
 
           </div>
 
