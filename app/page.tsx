@@ -201,7 +201,7 @@ export default function Home() {
               Achetez Vos Billets
             </a>
             
-                      <div className="bg-black/60 border border-red-600/40 backdrop-blur-md p-8 rounded-2xl shadow-xl">
+            
 
             <img
               src="/Images/Summertime_2026_FB_Banner.png"
