@@ -177,7 +177,7 @@ export default function Home() {
     <div className="bg-black/60 border border-red-600/40 backdrop-blur-md p-8 rounded-2xl shadow-xl">
 
       <img
-        src="/Images/FWSV_Facebook_Event_Banner_v2.png"
+        src="/Images/FWSV_WildRide_2026_Poster.png"
         alt="Wild Ride III Event Poster"
         className="mx-auto rounded-2xl shadow-xl w-full object-cover mb-8"
       />
