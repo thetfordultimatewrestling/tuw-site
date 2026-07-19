@@ -251,12 +251,12 @@ export default function Home() {
           <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
 
             <h2 className="text-4xl font-bold mb-12 tracking-wide">
-              Calendrier TUW 2026
+              Calendrier TUW 2026-2027
             </h2>
 
             <img
-              src="/Images/calendrier-2026.png"
-              alt="Calendrier TUW 2026"
+              src="/Images/Calendrier_TUW 2026_2027.png"
+              alt="Calendrier TUW 2026-2027"
               className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
             />
 
