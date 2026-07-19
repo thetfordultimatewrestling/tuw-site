@@ -256,7 +256,6 @@ export default function Home() {
 
             <img
               src="/Images/Calendrier_TUW 2026_2027.png"
-              alt="Calendrier TUW 2026-2027"
               className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
             />
 
