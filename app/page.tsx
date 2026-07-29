@@ -173,45 +173,11 @@ export default function Home() {
 
   <div className="grid md:grid-cols-2 gap-8">
 
-    {/* ================= EVENT 1 ================= */}
+    {/* ================= EVENT ================= */}
     <div className="bg-black/60 border border-red-600/40 backdrop-blur-md p-8 rounded-2xl shadow-xl">
 
       <img
-        src="/Images/FWSV_WildRide_2026_Poster.png"
-        alt="Wild Ride III Event Poster"
-        className="mx-auto rounded-2xl shadow-xl w-full object-cover mb-8"
-      />
-
-      <h2 className="text-4xl font-bold mb-6 tracking-wide">
-        Wild Ride III
-      </h2>
-
-      <p className="mb-2 text-lg">
-        22 Juillet, 2026 – 7:00 PM
-      </p>
-
-      <p className="text-gray-400 mb-8 leading-relaxed">
-        Festivités Western de Saint-Victor - Stade des Batisseurs<br />
-        130 rue du Parc<br />
-        Saint-Victor, QC
-      </p>
-
-      <a
-        href="https://festivalwestern.qc.ca/billetterie"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-block bg-white text-black px-8 py-4 rounded-xl font-semibold hover:scale-105 transition shadow-xl"
-      >
-        Achetez Vos Billets
-      </a>
-
-    </div>
-
-    {/* ================= EVENT 2 ================= */}
-    <div className="bg-black/60 border border-red-600/40 backdrop-blur-md p-8 rounded-2xl shadow-xl">
-
-      <img
-        src="/Images/Summertime_2026_FB_Banner.png"
+        src="/Images/Summertime_2026_Poster.png"
         alt="Summertime Event Poster"
         className="mx-auto rounded-2xl shadow-xl w-full object-cover mb-8"
       />
@@ -256,6 +222,7 @@ export default function Home() {
 
             <img
               src="/Images/Calendrier_TUW 2026_2027.png"
+              alt="Calendrier TUW 2026-2027"
               className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
             />
 

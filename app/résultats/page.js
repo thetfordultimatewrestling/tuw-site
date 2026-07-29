@@ -141,6 +141,21 @@ export default function Résultats() {
 
         {/* PAGE CONTENT */}
         
+                  <section className="pt-40 pb-24 px-6 text-center">
+           <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
+
+            <h1 className="text-2xl font mb-7 tracking-wide">
+              Wild Ride III - 22 juillet 2026 - 
+              Festivités Western - Stade des Bâtisseurs, Saint-Victor
+            </h1>
+            
+            <img
+              src="/Images/Résultats_WR3.png"
+              alt="Résultats Wild Ride III"
+              className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
+            />
+            
+                  </div>
           <section className="pt-40 pb-24 px-6 text-center">
            <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
 

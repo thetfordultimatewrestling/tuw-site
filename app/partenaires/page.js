@@ -178,6 +178,7 @@ export default function Partenaires() {
               "Canac",
               "Cinema-pigalle",
               "Desmarais",
+              "Économat_orange",
               "La-face-de-boeuf",
               "Pabst",
               "Pawpaw-Snack",
