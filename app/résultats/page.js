@@ -1081,4 +1081,3 @@ Merci à tous nos fans pour cette soirée mémorable.
 
       </div>
   );
-}
