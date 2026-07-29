@@ -156,6 +156,7 @@ export default function Résultats() {
             />
             
                   </div>
+          </section>
           <section className="pt-40 pb-24 px-6 text-center">
            <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
 
@@ -1080,4 +1081,6 @@ Merci à tous nos fans pour cette soirée mémorable.
         </footer>
 
       </div>
+    </div>
   );
+}
