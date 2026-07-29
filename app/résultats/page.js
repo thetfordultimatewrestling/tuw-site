@@ -1080,6 +1080,5 @@ Merci à tous nos fans pour cette soirée mémorable.
         </footer>
 
       </div>
-    </div>
   );
 }
