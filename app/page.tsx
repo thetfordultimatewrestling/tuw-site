@@ -169,26 +169,26 @@ export default function Home() {
         </section>
         
 {/* ================= EVENT SECTION ================= */}
-<section id="events" className="py-24 max-w-6xl mx-auto px-6 text-center">
-  <div className="flex justify-center">
-    <div className="bg-black/60 border border-red-600/40 backdrop-blur-md p-8 rounded-2xl shadow-xl max-w-lg w-full">
+<section id="events" className="py-24 px-6">
+  <div className="max-w-7xl mx-auto flex justify-center">
+    <div className="w-full max-w-3xl bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl text-center">
 
       <img
         src="/Images/Summertime_2026_Poster.png"
         alt="Summertime Event Poster"
-        className="mx-auto rounded-2xl shadow-xl w-full object-cover mb-8"
+        className="w-full max-w-2xl mx-auto rounded-2xl shadow-xl mb-8"
       />
 
-      <h2 className="text-4xl font-bold mb-6 tracking-wide">
+      <h2 className="text-5xl font-bold mb-6 tracking-wide">
         Summertime + Showcase Coming Up
       </h2>
 
-      <p className="mb-2 text-lg">
+      <p className="text-xl mb-2">
         29 Août, 2026 – 7:00 PM
       </p>
 
-      <p className="text-gray-400 mb-8 leading-relaxed">
-        Aréna OTJ <br />
+      <p className="text-gray-400 text-lg mb-8 leading-relaxed">
+        Aréna OTJ<br />
         138 Avenue du Domaine<br />
         Courcelles-St-Évariste, QC
       </p>
@@ -197,7 +197,7 @@ export default function Home() {
         href="https://lepointdevente.com/tickets/tuwsummertimecomingup"
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-block bg-white text-black px-8 py-4 rounded-xl font-semibold hover:scale-105 transition shadow-xl"
+        className="inline-block bg-white text-black px-10 py-4 rounded-xl font-semibold hover:scale-105 transition shadow-xl"
       >
         Achetez Vos Billets
       </a>
@@ -205,7 +205,6 @@ export default function Home() {
     </div>
   </div>
 </section>
-
         {/* ================= CALENDRIER ================= */}
         <section id="calendrier" className="py-24 px-6 text-center">
 
