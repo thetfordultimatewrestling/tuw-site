@@ -170,11 +170,8 @@ export default function Home() {
         
 {/* ================= EVENT SECTION ================= */}
 <section id="events" className="py-24 max-w-6xl mx-auto px-6 text-center">
-
-  <div className="grid md:grid-cols-2 gap-8">
-
-    {/* ================= EVENT ================= */}
-    <div className="bg-black/60 border border-red-600/40 backdrop-blur-md p-8 rounded-2xl shadow-xl">
+  <div className="flex justify-center">
+    <div className="bg-black/60 border border-red-600/40 backdrop-blur-md p-8 rounded-2xl shadow-xl max-w-lg w-full">
 
       <img
         src="/Images/Summertime_2026_Poster.png"
@@ -206,9 +203,7 @@ export default function Home() {
       </a>
 
     </div>
-
   </div>
-
 </section>
 
         {/* ================= CALENDRIER ================= */}
@@ -221,7 +216,7 @@ export default function Home() {
             </h2>
 
             <img
-              src="/Images/Calendrier_TUW 2026_2027.png"
+              src="/Images/Calendrier-TUW-2026_2027.png"
               alt="Calendrier TUW 2026-2027"
               className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
             />
