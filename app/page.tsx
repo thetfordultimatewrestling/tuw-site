@@ -172,6 +172,12 @@ export default function Home() {
 <section id="events" className="py-24 px-6">
   <div className="max-w-7xl mx-auto flex justify-center">
     <div className="w-full max-w-3xl bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl text-center">
+	
+	<img
+        src="/Images/SummerTime2026_Code_Promo_25.png"
+        alt="Summertime Event Promo"
+        className="w-full max-w-2xl mx-auto rounded-2xl shadow-xl mb-8"
+      />
 
       <img
         src="/Images/Summertime_2026_Poster.png"
