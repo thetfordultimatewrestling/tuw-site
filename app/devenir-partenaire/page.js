@@ -156,7 +156,7 @@ export default function DevenirPartenaire() {
           {/* Download Button under the heading */}
           <div className="text-center mb-20">
             <a
-              href="/Images/Document_de_partenaria_TUW.pdf"
+              href="/Images/Document_de_partenaria_TUW_2026.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-10 py-4 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-lg transition duration-300 shadow-lg hover:scale-105"
