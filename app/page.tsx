@@ -215,7 +215,7 @@ export default function Home() {
             </h2>
 
             <img
-              src="/Images/Calendrier-TUW-2026_2027.png"
+              src="/Images/Calendrier-TUW 2026_2027.png"
               alt="Calendrier TUW 2026-2027"
               className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
             />
