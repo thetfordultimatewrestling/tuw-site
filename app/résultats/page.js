@@ -194,8 +194,7 @@ Conclusion: Ultimate Revolution 2026 se termine sur une note explosive: Le règn
 </p>
 
                   </div>
-        </section>
-
+                  
                   <section className="pt-40 pb-24 px-6 text-center">
            <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
 
