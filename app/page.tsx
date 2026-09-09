@@ -174,27 +174,27 @@ export default function Home() {
     <div className="w-full max-w-3xl bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl text-center">
 	
       <img
-        src="/Images/Summertime_2026_Poster.png"
-        alt="Summertime Event Poster"
+        src="/Images/FNB4_Pointedevente.png"
+        alt="Feast N' Beast 4 Event Poster"
         className="w-full max-w-2xl mx-auto rounded-2xl shadow-xl mb-8"
       />
 
       <h2 className="text-5xl font-bold mb-6 tracking-wide">
-        Summertime + Showcase Coming Up
+        TUW Feast N' Beast 4
       </h2>
 
       <p className="text-xl mb-2">
-        29 Août, 2026 – 7:00 PM
+        14 novembre, 2026 – 7:00 PM
       </p>
 
       <p className="text-gray-400 text-lg mb-8 leading-relaxed">
-        Aréna OTJ<br />
-        138 Avenue du Domaine<br />
-        Courcelles-St-Évariste, QC
+        Centre Récréatif de Robertsonville<br />
+        5885 Avenue du Collège<br />
+        Thetford Mines, QC G6H 4E2
       </p>
 
       <a
-        href="https://lepointdevente.com/tickets/tuwsummertimecomingup"
+        href="https://lepointdevente.com/tickets/tuwfnb2026"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block bg-white text-black px-10 py-4 rounded-xl font-semibold hover:scale-105 transition shadow-xl"
