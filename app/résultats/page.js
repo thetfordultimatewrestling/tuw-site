@@ -140,7 +140,62 @@ export default function Résultats() {
         </nav>
 
         {/* PAGE CONTENT */}
-        
+                  <section className="pt-40 pb-24 px-6 text-center">
+           <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
+
+            <h1 className="text-2xl font mb-7 tracking-wide">
+              TUW Summer Time 2026 - 29 août 2026 - 
+              Aréna OTJ, Courcelles-Saint-Évariste
+            </h1>
+            
+            <img
+              src="/Images/Résultats_Summertime2026.png"
+              alt="Résultats TUW Summer Time 2026"
+              className="mx-auto rounded-2xl shadow-xl w-full max-w-4xl object-contain"
+            />
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Pour sa toute première édition à Courcelles-Saint-Évariste, TUW Summer Time 2026 aura été un véritable succès. Une soirée remplie d’action, de surprises et de moments forts devant une foule incroyable.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Match 1: La soirée s’est ouverte avec La Classe Supérieure, qui clamait haut et fort que Marko Estrada était imbattable. Michel Plante est alors venu remettre les pendules à l’heure, affirmant qu’un champion de son calibre ne devrait pas avoir besoin de se cacher derrière un clan. Michel a ensuite proposé un enjeu clair : le titre TUW n’est peut-être pas en jeu ce soir, mais s’il parvient à vaincre Marko, il mérite une chance au championnat dans un avenir rapproché. Marko a accepté le défi, l’enjeu et surtout l’affrontement en solo, sans La Classe Supérieure à ses côtés. Après un combat très serré, le champion a finalement eu le dernier mot.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Match 2: Les Chaud Stoppers ont ensuite défendu leurs titres par équipe contre The Unit, Bjorg et Nitzz, de retour à la TUW. The Unit est passé tout près de repartir avec les championnats, mais la cohésion entre SeXXXy Eddy et Carloss Gonzales a fait la différence. Les Chaud Stoppers conservent leurs titres.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Match 3: Dans un combat à 4 haut en couleur, Mathis Myre et Jonny Rush ont d’abord fait équipe pour contrôler une bonne partie de l’affrontement. L’alliance n’a toutefois pas tenu jusqu’à la fin. Jonny Rush profite de l’occasion et vole la victoire.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Match 4: Pour déterminer la prochaine aspirante #1 au titre UWD de Dreya Mitchell, le combat s'est fait sans Dani Leo. Après avoir vu comment elle a gagné contre Heavy Rox en Juillet, la direction a suspendu Dani. Heavy Rox et Kacey Diamond se sont livré une véritable guerre. Les coups ont résonné dans toute l’aréna, mais c’est finalement Kacey Diamond qui l’emporte. Après le combat, Rox prend le micro et félicite Kacey, l’encourageant à être celle qui mettra enfin fin au règne invaincu de Dreya Mitchell.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Match 5: La Classe Supérieure affrontait ensuite Keven & Evrett Gray. Les Gray ont imposé un rythme rapide dès le début, mais Mitch Thompson et DGenerate ont rapidement repris le contrôle. Malgré une erreur de DGenerate qui a failli leur coûter la victoire, La Classe Supérieure s’en sort de peine et de misère avec le compte de trois.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Main Event: Pickton contre Franky The Mobster. Deux géants dans le ring… et à l’extérieur. Une guerre de 30 minutes. Dans un combat sans disqualification où pratiquement tout ce qui pouvait servir d’arme a fini dans le ring, l’action a fait le tour de l’aréna. C’est finalement Franky The Mobster qui a eu le dernier mot, avec un chokeslam dévastateur sur Pickton directement sur une barricade au centre du ring.
+</p>
+
+				</div>
+        </section>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+22 juillet – Wild Ride III - Marko Estrada (c) vs Franky The Mobster. Franky promet que cette fois… Marko ne pourra pas fuir. Il devra faire face aux conséquences.
+</p>
+
+<p className="text-gray-300 text-lg leading-relaxed mb-6">
+Conclusion: Ultimate Revolution 2026 se termine sur une note explosive: Le règne de Marko continue… mais est sérieusement menacé, Fred Romeo détient maintenant une opportunité en or, Pezz est plus dangereux que jamais, Kacey Diamond joue un jeu très risqué, et Wild Ride III s’annonce déjà comme un événement majeur
+</p>
+
+                  </div>
+        </section>
+
                   <section className="pt-40 pb-24 px-6 text-center">
            <div className="max-w-6xl mx-auto bg-black/60 border border-red-600/40 backdrop-blur-md p-10 rounded-2xl shadow-xl">
 
