@@ -185,14 +185,6 @@ Main Event: Pickton contre Franky The Mobster. Deux géants dans le ring… et �
 				</div>
         </section>
 
-<p className="text-gray-300 text-lg leading-relaxed mb-6">
-22 juillet – Wild Ride III - Marko Estrada (c) vs Franky The Mobster. Franky promet que cette fois… Marko ne pourra pas fuir. Il devra faire face aux conséquences.
-</p>
-
-<p className="text-gray-300 text-lg leading-relaxed mb-6">
-Conclusion: Ultimate Revolution 2026 se termine sur une note explosive: Le règne de Marko continue… mais est sérieusement menacé, Fred Romeo détient maintenant une opportunité en or, Pezz est plus dangereux que jamais, Kacey Diamond joue un jeu très risqué, et Wild Ride III s’annonce déjà comme un événement majeur
-</p>
-
                   </div>
                   
                   <section className="pt-40 pb-24 px-6 text-center">
@@ -258,7 +250,7 @@ Main Event: Championnat TUW: Marko Estrada (c) vs Jake Madison - L’atmosphère
 </p>
 
 <p className="text-gray-300 text-lg leading-relaxed mb-6">
-Conclusion: Ultimate Revolution 2026 se termine sur une note explosive: Le règne de Marko continue… mais est sérieusement menacé, Fred Romeo détient maintenant une opportunité en or, Pezz est plus dangereux que jamais, Kacey Diamond joue un jeu très risqué, et Wild Ride III s’annonce déjà comme un événement majeur
+Conclusion: Ultimate Revolution 2026 se termine sur une note explosive: Le règne de Marko continue… mais est sérieusement menacé, Fred Romeo détient maintenant une opportunité en or, Pezz est plus dangereux que jamais, Kacey Diamond joue un jeu très risqué, et Wild Ride III s’annonce déjà comme un événement majeur.
 </p>
 
                   </div>
